@@ -1,0 +1,1093 @@
+{
+  "snapshot_date": "2026-06-15",
+  "fetched_at": "2026-06-15T04:17:24.975979Z",
+  "source": "api",
+  "guild_slug": "xieruisi",
+  "guild_name": "希尔锐斯",
+  "guild_id": "6421160c7836d519149fa8c9",
+  "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
+  "api_url": "https://www.titansdb.com/api/guild/6421160c7836d519149fa8c9",
+  "ok": true,
+  "members": [
+    {
+      "last_update": "2026-06-15 02:14:23",
+      "id": "5e4029d4068d3a11713667de",
+      "name": "天凉好个秋#33444",
+      "level": 81,
+      "isVip": false,
+      "banned": false,
+      "last_online": "2026-06-15 00:58:54",
+      "guild": {
+        "rank": "Guildmaster",
+        "joined": "2026-03-19 10:52:35"
+      },
+      "stats": {
+        "networth": 752538146086,
+        "investments": 302880638400,
+        "help": 1553,
+        "bounty": 1406,
+        "prestige": 16455,
+        "mastered": 411,
+        "masteredSF": 0,
+        "ascensions": 380,
+        "collection": 8977,
+        "total_crafted": 82288,
+        "total_sold": 213931,
+        "total_quests": 10376,
+        "total_chests": 2000
+      }
+    },
+    {
+      "last_update": "2026-06-15 03:18:38",
+      "id": "6805fc5573e08ceb9c99e7f7",
+      "name": "雾青丝#39731",
+      "level": 96,
+      "isVip": false,
+      "banned": false,
+      "last_online": "2026-06-15 01:02:10",
+      "guild": {
+        "rank": "Officer",
+        "joined": "2026-05-19 02:33:40"
+      },
+      "stats": {
+        "networth": 4156172825922,
+        "investments": 642709988400,
+        "help": 4753,
+        "bounty": 19816,
+        "prestige": 14985,
+        "mastered": 427,
+        "masteredSF": 0,
+        "ascensions": 609,
+        "collection": 12195,
+        "total_crafted": 601411,
+        "total_sold": 679172,
+        "total_quests": 8413,
+        "total_chests": 1364
+      }
+    },
+    {
+      "last_update": "2026-06-14 17:01:09",
+      "id": "5e626fea626bb71218241f71",
+      "name": "会计师#29722",
+      "level": 71,
+      "isVip": false,
+      "banned": false,
+      "last_online": "2026-05-21 04:17:18",
+      "guild": {
+        "rank": "Officer",
+        "joined": "2026-03-19 10:24:47"
+      },
+      "stats": {
+        "networth": 156217601795,
+        "investments": 251807374500,
+        "help": 3311,
+        "bounty": 1341,
+        "prestige": 48905,
+        "mastered": 68,
+        "masteredSF": 0,
+        "ascensions": 219,
+        "collection": 2169,
+        "total_crafted": 25019,
+        "total_sold": 48849,
+        "total_quests": 5679,
+        "total_chests": 892
+      }
+    },
+    {
+      "last_update": "2026-06-14 14:44:02",
+      "id": "67b46d46665600d22d6a5ab1",
+      "name": "清素笔调#12295",
+      "level": 64,
+      "isVip": false,
+      "banned": false,
+      "last_online": "2026-06-14 16:45:10",
+      "guild": {
+        "rank": "Officer",
+        "joined": "2026-05-13 13:25:07"
+      },
+      "stats": {
+        "networth": 20875450630,
+        "investments": 112167374500,
+        "help": 4576,
+        "bounty": 2781,
+        "prestige": 3075,
+        "mastered": 151,
+        "masteredSF": 0,
+        "ascensions": 43,
+        "collection": 932,
+        "total_crafted": 33239,
+        "total_sold": 42336,
+        "total_quests": 1460,
+        "total_chests": 33
+      }
+    },
+    {
+      "last_update": "2026-06-14 16:22:18",
+      "id": "69d0a72ea36fa02151a7136b",
+      "name": "四暮暮暮#36166",
+      "level": 58,
+      "isVip": true,
+      "banned": false,
+      "last_online": "2026-06-15 00:16:40",
+      "guild": {
+        "rank": "Officer",
+        "joined": "2026-05-19 13:12:55"
+      },
+      "stats": {
+        "networth": 8329413414,
+        "investments": 25158924500,
+        "help": 1089,
+        "bounty": 2029,
+        "prestige": 28585,
+        "mastered": 298,
+        "masteredSF": 18,
+        "ascensions": 94,
+        "collection": 3515,
+        "total_crafted": 27951,
+        "total_sold": 29870,
+        "total_quests": 2647,
+        "total_chests": 462
+      }
+    },
+    {
+      "last_update": "2026-06-14 19:48:02",
+      "id": "663ba9bf44dc9ac80776a27a",
+      "name": "MagicMirror#39146",
+      "level": 56,
+      "isVip": false,
+      "banned": false,
+      "last_online": "2026-06-15 03:19:47",
+      "guild": {
+        "rank": "Officer",
+        "joined": "2026-04-26 03:49:10"
+      },
+      "stats": {
+        "networth": 3974769000,
+        "investments": 7123913500,
+        "help": 3358,
+        "bounty": 1939,
+        "prestige": 35265,
+        "mastered": 243,
+        "masteredSF": 0,
+        "ascensions": 187,
+        "collection": 5600,
+        "total_crafted": 45242,
+        "total_sold": 50804,
+        "total_quests": 2898,
+        "total_chests": 203
+      }
+    },
+    {
+      "last_update": "2026-06-15 00:33:15",
+      "id": "692d91c0bf91ac66c00eccf3",
+      "name": "天才呀#40183",
+      "level": 64,
+      "isVip": true,
+      "banned": false,
+      "last_online": "2026-06-15 02:44:26",
+      "guild": {
+        "rank": "Officer",
+        "joined": "2026-05-18 15:24:57"
+      },
+      "stats": {
+        "networth": 17704385939,
+        "investments": 5121195100,
+        "help": 1676,
+        "bounty": 1518,
+        "prestige": 32475,
+        "mastered": 249,
+        "masteredSF": 5,
+        "ascensions": 169,
+        "collection": 4265,
+        "total_crafted": 56671,
+        "total_sold": 56861,
+        "total_quests": 2979,
+        "total_chests": 625
+      }
+    },
+    {
+      "last_update": "2026-06-14 15:41:51",
+      "id": "69b94d6f0e001ce3f8df7efa",
+      "name": "Klein#10782",
+      "level": 56,
+      "isVip": true,
+      "banned": false,
+      "last_online": "2026-06-15 00:54:27",
+      "guild": {
+        "rank": "Officer",
+        "joined": "2026-03-21 01:07:52"
+      },
+      "stats": {
+        "networth": 5093652930,
+        "investments": 531339700,
+        "help": 1964,
+        "bounty": 1509,
+        "prestige": 7585,
+        "mastered": 79,
+        "masteredSF": 5,
+        "ascensions": 245,
+        "collection": 1508,
+        "total_crafted": 13690,
+        "total_sold": 21701,
+        "total_quests": 1996,
+        "total_chests": 499
+      }
+    },
+    {
+      "last_update": "2026-06-14 21:36:08",
+      "id": "5f700930031a301329a11eee",
+      "name": "yiyi11494#13953",
+      "level": 76,
+      "isVip": false,
+      "banned": false,
+      "last_online": "2026-06-15 01:07:53",
+      "guild": {
+        "rank": "Member",
+        "joined": "2026-04-21 01:05:50"
+      },
+      "stats": {
+        "networth": 221263619133,
+        "investments": 26375038400,
+        "help": 4741,
+        "bounty": 23592,
+        "prestige": 57190,
+        "mastered": 562,
+        "masteredSF": 6,
+        "ascensions": 323,
+        "collection": 20207,
+        "total_crafted": 938281,
+        "total_sold": 683818,
+        "total_quests": 27773,
+        "total_chests": 3739
+      }
+    },
+    {
+      "last_update": "2026-06-15 01:27:02",
+      "id": "69ba35bc0e001ce3f8df8868",
+      "name": "时夜雨#67267",
+      "level": 52,
+      "isVip": false,
+      "banned": false,
+      "last_online": "2026-06-15 02:31:12",
+      "guild": {
+        "rank": "Member",
+        "joined": "2026-05-19 03:29:41"
+      },
+      "stats": {
+        "networth": 677798285,
+        "investments": 18905074500,
+        "help": 1430,
+        "bounty": 1049,
+        "prestige": 8235,
+        "mastered": 72,
+        "masteredSF": 2,
+        "ascensions": 69,
+        "collection": 893,
+        "total_crafted": 13883,
+        "total_sold": 17418,
+        "total_quests": 1453,
+        "total_chests": 288
+      }
+    },
+    {
+      "last_update": "2026-06-14 21:15:14",
+      "id": "5eb693952d9e80123ae02639",
+      "name": "Shan*_*FOX#42418",
+      "level": 49,
+      "isVip": true,
+      "banned": false,
+      "last_online": "2026-06-15 03:13:17",
+      "guild": {
+        "rank": "Member",
+        "joined": "2026-03-20 12:00:53"
+      },
+      "stats": {
+        "networth": 448422204,
+        "investments": 15826111000,
+        "help": 1097,
+        "bounty": 1667,
+        "prestige": 14540,
+        "mastered": 72,
+        "masteredSF": 1,
+        "ascensions": 228,
+        "collection": 1262,
+        "total_crafted": 12881,
+        "total_sold": 13165,
+        "total_quests": 1156,
+        "total_chests": 229
+      }
+    },
+    {
+      "last_update": "2026-06-14 15:06:22",
+      "id": "6306a4f0b67b1f12f03774c7",
+      "name": "5277#57894",
+      "level": 62,
+      "isVip": false,
+      "banned": false,
+      "last_online": "2026-06-14 14:21:57",
+      "guild": {
+        "rank": "Member",
+        "joined": "2026-05-16 04:54:55"
+      },
+      "stats": {
+        "networth": 6718066734,
+        "investments": 14488599500,
+        "help": 852,
+        "bounty": 33,
+        "prestige": 43875,
+        "mastered": 170,
+        "masteredSF": 1,
+        "ascensions": 218,
+        "collection": 1274,
+        "total_crafted": 26462,
+        "total_sold": 36758,
+        "total_quests": 3810,
+        "total_chests": 546
+      }
+    },
+    {
+      "last_update": "2026-06-14 13:36:49",
+      "id": "620b4995245f6e12f3cd1b53",
+      "name": "Penny L#39430",
+      "level": 58,
+      "isVip": false,
+      "banned": false,
+      "last_online": "2026-06-15 02:36:22",
+      "guild": {
+        "rank": "Member",
+        "joined": "2026-05-18 09:01:52"
+      },
+      "stats": {
+        "networth": 2118624764,
+        "investments": 8334919000,
+        "help": 2744,
+        "bounty": 2032,
+        "prestige": 46630,
+        "mastered": 213,
+        "masteredSF": 3,
+        "ascensions": 350,
+        "collection": 3763,
+        "total_crafted": 67243,
+        "total_sold": 66578,
+        "total_quests": 6008,
+        "total_chests": 414
+      }
+    },
+    {
+      "last_update": "2026-06-15 03:10:22",
+      "id": "5e6ef23469f6ee121b57912e",
+      "name": "Clodday#53519",
+      "level": 62,
+      "isVip": false,
+      "banned": false,
+      "last_online": "2026-06-14 23:58:55",
+      "guild": {
+        "rank": "Member",
+        "joined": "2026-04-24 00:21:36"
+      },
+      "stats": {
+        "networth": 12951087885,
+        "investments": 4836266200,
+        "help": 6105,
+        "bounty": 932,
+        "prestige": 87535,
+        "mastered": 241,
+        "masteredSF": 0,
+        "ascensions": 345,
+        "collection": 3442,
+        "total_crafted": 47274,
+        "total_sold": 43718,
+        "total_quests": 8337,
+        "total_chests": 807
+      }
+    },
+    {
+      "last_update": "2026-06-14 21:36:03",
+      "id": "62a069ea85c2db12dcaad220",
+      "name": "天打雷劈#91827",
+      "level": 56,
+      "isVip": false,
+      "banned": false,
+      "last_online": "2026-06-14 07:01:06",
+      "guild": {
+        "rank": "Member",
+        "joined": "2026-05-26 12:58:28"
+      },
+      "stats": {
+        "networth": 6159018999,
+        "investments": 4110574500,
+        "help": 631,
+        "bounty": 961,
+        "prestige": 11350,
+        "mastered": 153,
+        "masteredSF": 3,
+        "ascensions": 102,
+        "collection": 1496,
+        "total_crafted": 19695,
+        "total_sold": 23914,
+        "total_quests": 1279,
+        "total_chests": 233
+      }
+    },
+    {
+      "last_update": "2026-06-15 01:56:29",
+      "id": "69b7a790fa63a8a3ae71a7d2",
+      "name": "渔洲渡#24911",
+      "level": 61,
+      "isVip": true,
+      "banned": false,
+      "last_online": "2026-06-15 01:56:27",
+      "guild": {
+        "rank": "Member",
+        "joined": "2026-05-19 02:32:00"
+      },
+      "stats": {
+        "networth": 11119137874,
+        "investments": 3335815500,
+        "help": 1595,
+        "bounty": 1647,
+        "prestige": 26970,
+        "mastered": 262,
+        "masteredSF": 1,
+        "ascensions": 128,
+        "collection": 2742,
+        "total_crafted": 22589,
+        "total_sold": 32641,
+        "total_quests": 1984,
+        "total_chests": 557
+      }
+    },
+    {
+      "last_update": "2026-06-15 01:27:08",
+      "id": "659c3e2ee54e0360bb858e59",
+      "name": "潘小闲#78923",
+      "level": 63,
+      "isVip": true,
+      "banned": false,
+      "last_online": "2026-06-15 03:18:29",
+      "guild": {
+        "rank": "Member",
+        "joined": "2026-05-13 13:43:34"
+      },
+      "stats": {
+        "networth": 15874329788,
+        "investments": 2806102500,
+        "help": 850,
+        "bounty": 2143,
+        "prestige": 9290,
+        "mastered": 116,
+        "masteredSF": 3,
+        "ascensions": 45,
+        "collection": 1272,
+        "total_crafted": 41074,
+        "total_sold": 63909,
+        "total_quests": 2778,
+        "total_chests": 333
+      }
+    },
+    {
+      "last_update": "2026-06-14 15:27:33",
+      "id": "5e46e62406ba35116a40b71e",
+      "name": "赖赖小姐#66674",
+      "level": 63,
+      "isVip": false,
+      "banned": false,
+      "last_online": "2026-06-15 02:23:32",
+      "guild": {
+        "rank": "Member",
+        "joined": "2026-05-04 17:09:21"
+      },
+      "stats": {
+        "networth": 8751554172,
+        "investments": 2762974500,
+        "help": 4902,
+        "bounty": 2450,
+        "prestige": 48575,
+        "mastered": 301,
+        "masteredSF": 0,
+        "ascensions": 359,
+        "collection": 4180,
+        "total_crafted": 55449,
+        "total_sold": 73747,
+        "total_quests": 10237,
+        "total_chests": 1915
+      }
+    },
+    {
+      "last_update": "2026-06-15 02:21:04",
+      "id": "637c96695c732e60e22178b9",
+      "name": "MidgartFish#40032",
+      "level": 38,
+      "isVip": false,
+      "banned": false,
+      "last_online": "2026-06-14 14:04:28",
+      "guild": {
+        "rank": "Member",
+        "joined": "2026-05-18 13:45:04"
+      },
+      "stats": {
+        "networth": 74606519,
+        "investments": 19742700,
+        "help": 348,
+        "bounty": 19,
+        "prestige": 12735,
+        "mastered": 15,
+        "masteredSF": 0,
+        "ascensions": 1,
+        "collection": 252,
+        "total_crafted": 3903,
+        "total_sold": 4760,
+        "total_quests": 455,
+        "total_chests": 59
+      }
+    }
+  ],
+  "raw": {
+    "ok": true,
+    "credits_remaining": 20,
+    "guild": {
+      "last_update": "2026-06-15 03:19:51",
+      "id": "6421160c7836d519149fa8c9",
+      "name": "希尔锐斯",
+      "level": 158,
+      "population": 20,
+      "capacity": 20,
+      "networth": 1451263776100,
+      "rank": 2082,
+      "members": [
+        {
+          "last_update": "2026-06-15 02:14:23",
+          "id": "5e4029d4068d3a11713667de",
+          "name": "天凉好个秋#33444",
+          "level": 81,
+          "isVip": false,
+          "banned": false,
+          "last_online": "2026-06-15 00:58:54",
+          "guild": {
+            "rank": "Guildmaster",
+            "joined": "2026-03-19 10:52:35"
+          },
+          "stats": {
+            "networth": 752538146086,
+            "investments": 302880638400,
+            "help": 1553,
+            "bounty": 1406,
+            "prestige": 16455,
+            "mastered": 411,
+            "masteredSF": 0,
+            "ascensions": 380,
+            "collection": 8977,
+            "total_crafted": 82288,
+            "total_sold": 213931,
+            "total_quests": 10376,
+            "total_chests": 2000
+          }
+        },
+        {
+          "last_update": "2026-06-15 03:18:38",
+          "id": "6805fc5573e08ceb9c99e7f7",
+          "name": "雾青丝#39731",
+          "level": 96,
+          "isVip": false,
+          "banned": false,
+          "last_online": "2026-06-15 01:02:10",
+          "guild": {
+            "rank": "Officer",
+            "joined": "2026-05-19 02:33:40"
+          },
+          "stats": {
+            "networth": 4156172825922,
+            "investments": 642709988400,
+            "help": 4753,
+            "bounty": 19816,
+            "prestige": 14985,
+            "mastered": 427,
+            "masteredSF": 0,
+            "ascensions": 609,
+            "collection": 12195,
+            "total_crafted": 601411,
+            "total_sold": 679172,
+            "total_quests": 8413,
+            "total_chests": 1364
+          }
+        },
+        {
+          "last_update": "2026-06-14 17:01:09",
+          "id": "5e626fea626bb71218241f71",
+          "name": "会计师#29722",
+          "level": 71,
+          "isVip": false,
+          "banned": false,
+          "last_online": "2026-05-21 04:17:18",
+          "guild": {
+            "rank": "Officer",
+            "joined": "2026-03-19 10:24:47"
+          },
+          "stats": {
+            "networth": 156217601795,
+            "investments": 251807374500,
+            "help": 3311,
+            "bounty": 1341,
+            "prestige": 48905,
+            "mastered": 68,
+            "masteredSF": 0,
+            "ascensions": 219,
+            "collection": 2169,
+            "total_crafted": 25019,
+            "total_sold": 48849,
+            "total_quests": 5679,
+            "total_chests": 892
+          }
+        },
+        {
+          "last_update": "2026-06-14 14:44:02",
+          "id": "67b46d46665600d22d6a5ab1",
+          "name": "清素笔调#12295",
+          "level": 64,
+          "isVip": false,
+          "banned": false,
+          "last_online": "2026-06-14 16:45:10",
+          "guild": {
+            "rank": "Officer",
+            "joined": "2026-05-13 13:25:07"
+          },
+          "stats": {
+            "networth": 20875450630,
+            "investments": 112167374500,
+            "help": 4576,
+            "bounty": 2781,
+            "prestige": 3075,
+            "mastered": 151,
+            "masteredSF": 0,
+            "ascensions": 43,
+            "collection": 932,
+            "total_crafted": 33239,
+            "total_sold": 42336,
+            "total_quests": 1460,
+            "total_chests": 33
+          }
+        },
+        {
+          "last_update": "2026-06-14 16:22:18",
+          "id": "69d0a72ea36fa02151a7136b",
+          "name": "四暮暮暮#36166",
+          "level": 58,
+          "isVip": true,
+          "banned": false,
+          "last_online": "2026-06-15 00:16:40",
+          "guild": {
+            "rank": "Officer",
+            "joined": "2026-05-19 13:12:55"
+          },
+          "stats": {
+            "networth": 8329413414,
+            "investments": 25158924500,
+            "help": 1089,
+            "bounty": 2029,
+            "prestige": 28585,
+            "mastered": 298,
+            "masteredSF": 18,
+            "ascensions": 94,
+            "collection": 3515,
+            "total_crafted": 27951,
+            "total_sold": 29870,
+            "total_quests": 2647,
+            "total_chests": 462
+          }
+        },
+        {
+          "last_update": "2026-06-14 19:48:02",
+          "id": "663ba9bf44dc9ac80776a27a",
+          "name": "MagicMirror#39146",
+          "level": 56,
+          "isVip": false,
+          "banned": false,
+          "last_online": "2026-06-15 03:19:47",
+          "guild": {
+            "rank": "Officer",
+            "joined": "2026-04-26 03:49:10"
+          },
+          "stats": {
+            "networth": 3974769000,
+            "investments": 7123913500,
+            "help": 3358,
+            "bounty": 1939,
+            "prestige": 35265,
+            "mastered": 243,
+            "masteredSF": 0,
+            "ascensions": 187,
+            "collection": 5600,
+            "total_crafted": 45242,
+            "total_sold": 50804,
+            "total_quests": 2898,
+            "total_chests": 203
+          }
+        },
+        {
+          "last_update": "2026-06-15 00:33:15",
+          "id": "692d91c0bf91ac66c00eccf3",
+          "name": "天才呀#40183",
+          "level": 64,
+          "isVip": true,
+          "banned": false,
+          "last_online": "2026-06-15 02:44:26",
+          "guild": {
+            "rank": "Officer",
+            "joined": "2026-05-18 15:24:57"
+          },
+          "stats": {
+            "networth": 17704385939,
+            "investments": 5121195100,
+            "help": 1676,
+            "bounty": 1518,
+            "prestige": 32475,
+            "mastered": 249,
+            "masteredSF": 5,
+            "ascensions": 169,
+            "collection": 4265,
+            "total_crafted": 56671,
+            "total_sold": 56861,
+            "total_quests": 2979,
+            "total_chests": 625
+          }
+        },
+        {
+          "last_update": "2026-06-14 15:41:51",
+          "id": "69b94d6f0e001ce3f8df7efa",
+          "name": "Klein#10782",
+          "level": 56,
+          "isVip": true,
+          "banned": false,
+          "last_online": "2026-06-15 00:54:27",
+          "guild": {
+            "rank": "Officer",
+            "joined": "2026-03-21 01:07:52"
+          },
+          "stats": {
+            "networth": 5093652930,
+            "investments": 531339700,
+            "help": 1964,
+            "bounty": 1509,
+            "prestige": 7585,
+            "mastered": 79,
+            "masteredSF": 5,
+            "ascensions": 245,
+            "collection": 1508,
+            "total_crafted": 13690,
+            "total_sold": 21701,
+            "total_quests": 1996,
+            "total_chests": 499
+          }
+        },
+        {
+          "last_update": "2026-06-14 21:36:08",
+          "id": "5f700930031a301329a11eee",
+          "name": "yiyi11494#13953",
+          "level": 76,
+          "isVip": false,
+          "banned": false,
+          "last_online": "2026-06-15 01:07:53",
+          "guild": {
+            "rank": "Member",
+            "joined": "2026-04-21 01:05:50"
+          },
+          "stats": {
+            "networth": 221263619133,
+            "investments": 26375038400,
+            "help": 4741,
+            "bounty": 23592,
+            "prestige": 57190,
+            "mastered": 562,
+            "masteredSF": 6,
+            "ascensions": 323,
+            "collection": 20207,
+            "total_crafted": 938281,
+            "total_sold": 683818,
+            "total_quests": 27773,
+            "total_chests": 3739
+          }
+        },
+        {
+          "last_update": "2026-06-15 01:27:02",
+          "id": "69ba35bc0e001ce3f8df8868",
+          "name": "时夜雨#67267",
+          "level": 52,
+          "isVip": false,
+          "banned": false,
+          "last_online": "2026-06-15 02:31:12",
+          "guild": {
+            "rank": "Member",
+            "joined": "2026-05-19 03:29:41"
+          },
+          "stats": {
+            "networth": 677798285,
+            "investments": 18905074500,
+            "help": 1430,
+            "bounty": 1049,
+            "prestige": 8235,
+            "mastered": 72,
+            "masteredSF": 2,
+            "ascensions": 69,
+            "collection": 893,
+            "total_crafted": 13883,
+            "total_sold": 17418,
+            "total_quests": 1453,
+            "total_chests": 288
+          }
+        },
+        {
+          "last_update": "2026-06-14 21:15:14",
+          "id": "5eb693952d9e80123ae02639",
+          "name": "Shan*_*FOX#42418",
+          "level": 49,
+          "isVip": true,
+          "banned": false,
+          "last_online": "2026-06-15 03:13:17",
+          "guild": {
+            "rank": "Member",
+            "joined": "2026-03-20 12:00:53"
+          },
+          "stats": {
+            "networth": 448422204,
+            "investments": 15826111000,
+            "help": 1097,
+            "bounty": 1667,
+            "prestige": 14540,
+            "mastered": 72,
+            "masteredSF": 1,
+            "ascensions": 228,
+            "collection": 1262,
+            "total_crafted": 12881,
+            "total_sold": 13165,
+            "total_quests": 1156,
+            "total_chests": 229
+          }
+        },
+        {
+          "last_update": "2026-06-14 15:06:22",
+          "id": "6306a4f0b67b1f12f03774c7",
+          "name": "5277#57894",
+          "level": 62,
+          "isVip": false,
+          "banned": false,
+          "last_online": "2026-06-14 14:21:57",
+          "guild": {
+            "rank": "Member",
+            "joined": "2026-05-16 04:54:55"
+          },
+          "stats": {
+            "networth": 6718066734,
+            "investments": 14488599500,
+            "help": 852,
+            "bounty": 33,
+            "prestige": 43875,
+            "mastered": 170,
+            "masteredSF": 1,
+            "ascensions": 218,
+            "collection": 1274,
+            "total_crafted": 26462,
+            "total_sold": 36758,
+            "total_quests": 3810,
+            "total_chests": 546
+          }
+        },
+        {
+          "last_update": "2026-06-14 13:36:49",
+          "id": "620b4995245f6e12f3cd1b53",
+          "name": "Penny L#39430",
+          "level": 58,
+          "isVip": false,
+          "banned": false,
+          "last_online": "2026-06-15 02:36:22",
+          "guild": {
+            "rank": "Member",
+            "joined": "2026-05-18 09:01:52"
+          },
+          "stats": {
+            "networth": 2118624764,
+            "investments": 8334919000,
+            "help": 2744,
+            "bounty": 2032,
+            "prestige": 46630,
+            "mastered": 213,
+            "masteredSF": 3,
+            "ascensions": 350,
+            "collection": 3763,
+            "total_crafted": 67243,
+            "total_sold": 66578,
+            "total_quests": 6008,
+            "total_chests": 414
+          }
+        },
+        {
+          "last_update": "2026-06-15 03:10:22",
+          "id": "5e6ef23469f6ee121b57912e",
+          "name": "Clodday#53519",
+          "level": 62,
+          "isVip": false,
+          "banned": false,
+          "last_online": "2026-06-14 23:58:55",
+          "guild": {
+            "rank": "Member",
+            "joined": "2026-04-24 00:21:36"
+          },
+          "stats": {
+            "networth": 12951087885,
+            "investments": 4836266200,
+            "help": 6105,
+            "bounty": 932,
+            "prestige": 87535,
+            "mastered": 241,
+            "masteredSF": 0,
+            "ascensions": 345,
+            "collection": 3442,
+            "total_crafted": 47274,
+            "total_sold": 43718,
+            "total_quests": 8337,
+            "total_chests": 807
+          }
+        },
+        {
+          "last_update": "2026-06-14 21:36:03",
+          "id": "62a069ea85c2db12dcaad220",
+          "name": "天打雷劈#91827",
+          "level": 56,
+          "isVip": false,
+          "banned": false,
+          "last_online": "2026-06-14 07:01:06",
+          "guild": {
+            "rank": "Member",
+            "joined": "2026-05-26 12:58:28"
+          },
+          "stats": {
+            "networth": 6159018999,
+            "investments": 4110574500,
+            "help": 631,
+            "bounty": 961,
+            "prestige": 11350,
+            "mastered": 153,
+            "masteredSF": 3,
+            "ascensions": 102,
+            "collection": 1496,
+            "total_crafted": 19695,
+            "total_sold": 23914,
+            "total_quests": 1279,
+            "total_chests": 233
+          }
+        },
+        {
+          "last_update": "2026-06-15 01:56:29",
+          "id": "69b7a790fa63a8a3ae71a7d2",
+          "name": "渔洲渡#24911",
+          "level": 61,
+          "isVip": true,
+          "banned": false,
+          "last_online": "2026-06-15 01:56:27",
+          "guild": {
+            "rank": "Member",
+            "joined": "2026-05-19 02:32:00"
+          },
+          "stats": {
+            "networth": 11119137874,
+            "investments": 3335815500,
+            "help": 1595,
+            "bounty": 1647,
+            "prestige": 26970,
+            "mastered": 262,
+            "masteredSF": 1,
+            "ascensions": 128,
+            "collection": 2742,
+            "total_crafted": 22589,
+            "total_sold": 32641,
+            "total_quests": 1984,
+            "total_chests": 557
+          }
+        },
+        {
+          "last_update": "2026-06-15 01:27:08",
+          "id": "659c3e2ee54e0360bb858e59",
+          "name": "潘小闲#78923",
+          "level": 63,
+          "isVip": true,
+          "banned": false,
+          "last_online": "2026-06-15 03:18:29",
+          "guild": {
+            "rank": "Member",
+            "joined": "2026-05-13 13:43:34"
+          },
+          "stats": {
+            "networth": 15874329788,
+            "investments": 2806102500,
+            "help": 850,
+            "bounty": 2143,
+            "prestige": 9290,
+            "mastered": 116,
+            "masteredSF": 3,
+            "ascensions": 45,
+            "collection": 1272,
+            "total_crafted": 41074,
+            "total_sold": 63909,
+            "total_quests": 2778,
+            "total_chests": 333
+          }
+        },
+        {
+          "last_update": "2026-06-14 15:27:33",
+          "id": "5e46e62406ba35116a40b71e",
+          "name": "赖赖小姐#66674",
+          "level": 63,
+          "isVip": false,
+          "banned": false,
+          "last_online": "2026-06-15 02:23:32",
+          "guild": {
+            "rank": "Member",
+            "joined": "2026-05-04 17:09:21"
+          },
+          "stats": {
+            "networth": 8751554172,
+            "investments": 2762974500,
+            "help": 4902,
+            "bounty": 2450,
+            "prestige": 48575,
+            "mastered": 301,
+            "masteredSF": 0,
+            "ascensions": 359,
+            "collection": 4180,
+            "total_crafted": 55449,
+            "total_sold": 73747,
+            "total_quests": 10237,
+            "total_chests": 1915
+          }
+        },
+        {
+          "last_update": "2026-06-15 02:21:04",
+          "id": "637c96695c732e60e22178b9",
+          "name": "MidgartFish#40032",
+          "level": 38,
+          "isVip": false,
+          "banned": false,
+          "last_online": "2026-06-14 14:04:28",
+          "guild": {
+            "rank": "Member",
+            "joined": "2026-05-18 13:45:04"
+          },
+          "stats": {
+            "networth": 74606519,
+            "investments": 19742700,
+            "help": 348,
+            "bounty": 19,
+            "prestige": 12735,
+            "mastered": 15,
+            "masteredSF": 0,
+            "ascensions": 1,
+            "collection": 252,
+            "total_crafted": 3903,
+            "total_sold": 4760,
+            "total_quests": 455,
+            "total_chests": 59
+          }
+        }
+      ]
+    }
+  }
+}
