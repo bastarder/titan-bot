@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch one TitansDB guild snapshot into data/YYYY-MM-DD.json."""
+"""Fetch TitansDB guild snapshots into data/{guild_slug}/YYYY-MM-DD.json."""
 
 from __future__ import annotations
 
@@ -13,10 +13,10 @@ import urllib.request
 from pathlib import Path
 from typing import Any
 
+from guild_config import GuildConfig, load_guilds
 
-GUILD_ID = "60bb3bd6b7b3871333bbde3c"
-GUILD_URL = f"https://www.titansdb.com/guilds/{GUILD_ID}"
-API_URL = "https://www.titansdb.com/api/my_guild"
+
+API_URL_TEMPLATE = "https://www.titansdb.com/api/guild/{guild_id}"
 USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125 Safari/537.36"
@@ -35,10 +35,11 @@ def load_dotenv(path: Path) -> None:
         os.environ.setdefault(key.strip(), value.strip().strip("'\""))
 
 
-def request_json(api_key: str) -> tuple[int, Any]:
+def request_json(api_key: str, guild_id: str) -> tuple[int, Any]:
+    api_url = API_URL_TEMPLATE.format(guild_id=guild_id)
     query = urllib.parse.urlencode({"api_key": api_key})
     request = urllib.request.Request(
-        f"{API_URL}?{query}",
+        f"{api_url}?{query}",
         headers={
             "Accept": "application/json",
             "User-Agent": USER_AGENT,
@@ -67,12 +68,14 @@ def normalize_members(payload: Any) -> list[Any]:
     if not isinstance(payload, dict):
         return []
 
+    guild = payload.get("guild")
+    data = payload.get("data")
     candidates = [
         payload.get("members"),
         payload.get("players"),
-        payload.get("guild", {}).get("members") if isinstance(payload.get("guild"), dict) else None,
-        payload.get("data", {}).get("members") if isinstance(payload.get("data"), dict) else None,
-        payload.get("data", {}).get("players") if isinstance(payload.get("data"), dict) else None,
+        guild.get("members") if isinstance(guild, dict) else None,
+        data.get("members") if isinstance(data, dict) else None,
+        data.get("players") if isinstance(data, dict) else None,
     ]
     for candidate in candidates:
         if isinstance(candidate, list):
@@ -80,38 +83,39 @@ def normalize_members(payload: Any) -> list[Any]:
     return []
 
 
-def fetch_snapshot(api_key: str | None) -> dict[str, Any]:
+def fetch_snapshot(guild: GuildConfig, api_key: str | None) -> dict[str, Any]:
+    api_url = API_URL_TEMPLATE.format(guild_id=guild.guild_id)
+    base = {
+        "source": "api",
+        "guild_slug": guild.slug,
+        "guild_name": guild.name,
+        "guild_id": guild.guild_id,
+        "guild_url": guild.guild_url,
+        "api_url": api_url,
+    }
+
     if not api_key:
         return {
+            **base,
             "ok": False,
-            "source": "api",
-            "guild_id": GUILD_ID,
-            "guild_url": GUILD_URL,
-            "api_url": API_URL,
             "error": {
                 "error": "missing_api_key",
-                "reason": "Set TITANSDB_API_KEY in GitHub Actions repository secrets.",
+                "reason": "Set TITANSDB_API_KEY in GitHub Actions repository secrets or local .env.",
             },
         }
 
-    status, payload = request_json(api_key)
+    status, payload = request_json(api_key, guild.guild_id)
     if status != 200:
         return {
+            **base,
             "ok": False,
-            "source": "api",
-            "guild_id": GUILD_ID,
-            "guild_url": GUILD_URL,
-            "api_url": API_URL,
             "http_status": status,
             "error": payload,
         }
 
     return {
+        **base,
         "ok": True,
-        "source": "api",
-        "guild_id": GUILD_ID,
-        "guild_url": GUILD_URL,
-        "api_url": API_URL,
         "members": normalize_members(payload),
         "raw": payload,
     }
@@ -125,9 +129,48 @@ def read_existing_snapshot(path: Path) -> dict[str, Any] | None:
     return payload if isinstance(payload, dict) else None
 
 
+def write_snapshot(
+    *,
+    guild: GuildConfig,
+    output_dir: Path,
+    snapshot_date: str,
+    fetched_at: str,
+    api_key: str | None,
+    overwrite_success_with_error: bool,
+) -> int:
+    guild_output_dir = output_dir / guild.slug
+    guild_output_dir.mkdir(parents=True, exist_ok=True)
+    output_path = guild_output_dir / f"{snapshot_date}.json"
+
+    result = {
+        "snapshot_date": snapshot_date,
+        "fetched_at": fetched_at,
+        **fetch_snapshot(guild, api_key),
+    }
+
+    existing = read_existing_snapshot(output_path)
+    if (
+        result.get("ok") is False
+        and existing
+        and existing.get("ok") is True
+        and not overwrite_success_with_error
+    ):
+        print(
+            f"{output_path} already contains a successful snapshot; "
+            "keeping it instead of overwriting with the failed fetch result."
+        )
+        return 2
+
+    output_path.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(output_path)
+    return 0 if result.get("ok") else 2
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--output-dir", default="data", help="Directory for YYYY-MM-DD.json output")
+    parser.add_argument("--output-dir", default="data", help="Directory for guild snapshot output")
+    parser.add_argument("--config", default="config/guilds.json", help="Guild config JSON path")
+    parser.add_argument("--guild-slug", default=None, help="Fetch only one configured guild slug")
     parser.add_argument("--date", default=None, help="Override output date, format YYYY-MM-DD")
     parser.add_argument(
         "--overwrite-success-with-error",
@@ -139,34 +182,30 @@ def main() -> int:
     root = Path(__file__).resolve().parents[1]
     load_dotenv(root / ".env")
 
+    guilds = load_guilds((root / args.config).resolve())
+    if args.guild_slug:
+        guilds = [guild for guild in guilds if guild.slug == args.guild_slug]
+        if not guilds:
+            raise SystemExit(f"Unknown guild slug: {args.guild_slug}")
+
     snapshot_date = args.date or dt.datetime.now().astimezone().date().isoformat()
     fetched_at = dt.datetime.now(dt.timezone.utc).isoformat().replace("+00:00", "Z")
     output_dir = (root / args.output_dir).resolve()
-    output_dir.mkdir(parents=True, exist_ok=True)
-    output_path = output_dir / f"{snapshot_date}.json"
+    api_key = os.environ.get("TITANSDB_API_KEY", "").strip()
 
-    result = {
-        "snapshot_date": snapshot_date,
-        "fetched_at": fetched_at,
-        **fetch_snapshot(os.environ.get("TITANSDB_API_KEY", "").strip()),
-    }
-
-    existing = read_existing_snapshot(output_path)
-    if (
-        result.get("ok") is False
-        and existing
-        and existing.get("ok") is True
-        and not args.overwrite_success_with_error
-    ):
-        print(
-            f"{output_path} already contains a successful snapshot; "
-            "keeping it instead of overwriting with the failed fetch result."
+    exit_code = 0
+    for guild in guilds:
+        result = write_snapshot(
+            guild=guild,
+            output_dir=output_dir,
+            snapshot_date=snapshot_date,
+            fetched_at=fetched_at,
+            api_key=api_key,
+            overwrite_success_with_error=args.overwrite_success_with_error,
         )
-        return 2
+        exit_code = max(exit_code, result)
 
-    output_path.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(output_path)
-    return 0 if result.get("ok") else 2
+    return exit_code
 
 
 if __name__ == "__main__":
