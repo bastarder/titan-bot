@@ -1,0 +1,67 @@
+name: TitansDB guild daily snapshot
+
+on:
+  schedule:
+    # GitHub cron uses UTC. 01:00 UTC = 09:00 Asia/Shanghai.
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+    inputs:
+      snapshot_date:
+        description: "Optional YYYY-MM-DD date override. Empty means today."
+        required: false
+        type: string
+      readme_days:
+        description: "Number of recent days to show in README."
+        required: false
+        default: "30"
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: titansdb-guild-daily-snapshot
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fetch today's snapshot
+        env:
+          TITANSDB_API_KEY: ${{ secrets.TITANSDB_API_KEY }}
+          SNAPSHOT_DATE: ${{ github.event.inputs.snapshot_date }}
+        run: |
+          if [ -n "$SNAPSHOT_DATE" ]; then
+            python3 scripts/fetch_snapshot.py --output-dir data --date "$SNAPSHOT_DATE" || echo "Fetch failed; existing successful same-day data was kept when present."
+          else
+            python3 scripts/fetch_snapshot.py --output-dir data || echo "Fetch failed; existing successful same-day data was kept when present."
+          fi
+
+      - name: Commit snapshot data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/*.json
+          git diff --cached --quiet || git commit -m "Add TitansDB guild snapshot"
+
+      - name: Update README
+        env:
+          README_DAYS: ${{ github.event.inputs.readme_days || '30' }}
+        run: |
+          python3 scripts/build_readme.py --data-dir data --output README.md --days "$README_DAYS"
+
+      - name: Commit README
+        run: |
+          git add README.md
+          git diff --cached --quiet || git commit -m "Update TitansDB investment README"
+          git push
