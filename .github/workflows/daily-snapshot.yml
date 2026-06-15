@@ -42,26 +42,26 @@ jobs:
           SNAPSHOT_DATE: ${{ github.event.inputs.snapshot_date }}
         run: |
           if [ -n "$SNAPSHOT_DATE" ]; then
-            python3 scripts/fetch_snapshot.py --output-dir data --date "$SNAPSHOT_DATE" || echo "Fetch failed; existing successful same-day data was kept when present."
+            python3 scripts/fetch_snapshot.py --config config/guilds.json --output-dir data --date "$SNAPSHOT_DATE" || echo "Fetch failed; existing successful same-day data was kept when present."
           else
-            python3 scripts/fetch_snapshot.py --output-dir data || echo "Fetch failed; existing successful same-day data was kept when present."
+            python3 scripts/fetch_snapshot.py --config config/guilds.json --output-dir data || echo "Fetch failed; existing successful same-day data was kept when present."
           fi
 
       - name: Commit snapshot data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/*.json
+          git add data
           git diff --cached --quiet || git commit -m "Add TitansDB guild snapshot"
 
       - name: Update README
         env:
           README_DAYS: ${{ github.event.inputs.readme_days || '30' }}
         run: |
-          python3 scripts/build_readme.py --data-dir data --output README.md --days "$README_DAYS"
+          python3 scripts/build_readme.py --config config/guilds.json --data-dir data --reports-dir reports --output README.md --days "$README_DAYS"
 
-      - name: Commit README
+      - name: Commit reports
         run: |
-          git add README.md
+          git add README.md reports
           git diff --cached --quiet || git commit -m "Update TitansDB investment README"
           git push

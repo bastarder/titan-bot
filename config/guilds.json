@@ -1,0 +1,24 @@
+{
+  "guilds": [
+    {
+      "slug": "tangguopai",
+      "name": "糖果派",
+      "guild_id": "60bb3bd6b7b3871333bbde3c"
+    },
+    {
+      "slug": "hustle",
+      "name": "hustle",
+      "guild_id": "6776515e39261e91c1ab067a"
+    },
+    {
+      "slug": "haha-yixiao",
+      "name": "哈哈一笑",
+      "guild_id": "5e2dc5cb5334081178683bf5"
+    },
+    {
+      "slug": "xieruisi",
+      "name": "希尔锐斯",
+      "guild_id": "6421160c7836d519149fa8c9"
+    }
+  ]
+}
