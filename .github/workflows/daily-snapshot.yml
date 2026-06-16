@@ -2,8 +2,8 @@ name: TitansDB guild daily snapshot
 
 on:
   schedule:
-    # GitHub cron uses UTC. 01:00 UTC = 09:00 Asia/Shanghai.
-    - cron: "0 1 * * *"
+    # GitHub cron uses UTC. 02:17 UTC = 10:17 Asia/Shanghai.
+    - cron: "17 2 * * *"
   workflow_dispatch:
     inputs:
       snapshot_date:
