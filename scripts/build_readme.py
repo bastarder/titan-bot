@@ -330,6 +330,7 @@ def build_root_readme(output_path: Path, summaries: list[GuildSummary]) -> None:
         "",
         f"- README 更新时间：{updated_at}",
         f"- 已配置公会数量：{len(summaries)}",
+        "- 网页看板：启用 GitHub Pages 后访问仓库 Pages 地址，页面入口为 `index.html`。",
         "",
         "## 公会报告",
         "",
@@ -359,6 +360,8 @@ def build_root_readme(output_path: Path, summaries: list[GuildSummary]) -> None:
             "GitHub Actions 每天按 `.github/workflows/daily-snapshot.yml` 中的 cron 配置运行一次，当前默认是 UTC 01:00 / 北京时间 09:00。也可以在 GitHub Actions 页面通过 `Run workflow` 手动触发，并可选填写 `snapshot_date` 和 `readme_days`。",
             "",
             "公会列表在 `config/guilds.json` 中维护；数据按 `data/{guild_slug}/YYYY-MM-DD.json` 保存；每个公会的详细报告生成到 `reports/`。",
+            "",
+            "静态网页看板通过 `index.html` 读取 `data/pages-index.json`，再拉取清单中列出的每日 JSON 快照并在浏览器端汇总展示。`scripts/fetch_snapshot.py` 每次抓取完成后会自动刷新这个清单；也可以手动运行 `scripts/build_pages_index.py` 重新生成。",
             "",
         ]
     )

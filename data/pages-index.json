@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-06-16T08:05:35Z",
+  "guilds": [
+    {
+      "slug": "tangguopai",
+      "name": "糖果派",
+      "guild_id": "60bb3bd6b7b3871333bbde3c",
+      "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
+      "snapshots": [
+        {
+          "date": "2026-06-12",
+          "path": "data/tangguopai/2026-06-12.json",
+          "ok": true,
+          "fetched_at": "2026-06-12T09:27:25.077120Z"
+        },
+        {
+          "date": "2026-06-13",
+          "path": "data/tangguopai/2026-06-13.json",
+          "ok": true,
+          "fetched_at": "2026-06-13T01:11:56.968834Z"
+        },
+        {
+          "date": "2026-06-14",
+          "path": "data/tangguopai/2026-06-14.json",
+          "ok": true,
+          "fetched_at": "2026-06-14T01:12:04.587885Z"
+        },
+        {
+          "date": "2026-06-15",
+          "path": "data/tangguopai/2026-06-15.json",
+          "ok": true,
+          "fetched_at": "2026-06-15T04:17:24.975979Z"
+        },
+        {
+          "date": "2026-06-16",
+          "path": "data/tangguopai/2026-06-16.json",
+          "ok": true,
+          "fetched_at": "2026-06-16T02:58:13.460719Z"
+        }
+      ]
+    },
+    {
+      "slug": "hustle",
+      "name": "hustle",
+      "guild_id": "6776515e39261e91c1ab067a",
+      "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
+      "snapshots": [
+        {
+          "date": "2026-06-15",
+          "path": "data/hustle/2026-06-15.json",
+          "ok": true,
+          "fetched_at": "2026-06-15T04:17:24.975979Z"
+        },
+        {
+          "date": "2026-06-16",
+          "path": "data/hustle/2026-06-16.json",
+          "ok": true,
+          "fetched_at": "2026-06-16T02:58:13.460719Z"
+        }
+      ]
+    },
+    {
+      "slug": "haha-yixiao",
+      "name": "哈哈一笑",
+      "guild_id": "5e2dc5cb5334081178683bf5",
+      "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
+      "snapshots": [
+        {
+          "date": "2026-06-15",
+          "path": "data/haha-yixiao/2026-06-15.json",
+          "ok": true,
+          "fetched_at": "2026-06-15T04:17:24.975979Z"
+        },
+        {
+          "date": "2026-06-16",
+          "path": "data/haha-yixiao/2026-06-16.json",
+          "ok": true,
+          "fetched_at": "2026-06-16T02:58:13.460719Z"
+        }
+      ]
+    },
+    {
+      "slug": "xieruisi",
+      "name": "希尔锐斯",
+      "guild_id": "6421160c7836d519149fa8c9",
+      "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
+      "snapshots": [
+        {
+          "date": "2026-06-15",
+          "path": "data/xieruisi/2026-06-15.json",
+          "ok": true,
+          "fetched_at": "2026-06-15T04:17:24.975979Z"
+        },
+        {
+          "date": "2026-06-16",
+          "path": "data/xieruisi/2026-06-16.json",
+          "ok": true,
+          "fetched_at": "2026-06-16T02:58:13.460719Z"
+        }
+      ]
+    }
+  ]
+}
