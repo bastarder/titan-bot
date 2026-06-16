@@ -2,7 +2,7 @@ name: TitansDB guild daily snapshot
 
 on:
   schedule:
-    - cron: "17 13 * * *"
+    - cron: "18 9 * * *"
       timezone: "Asia/Shanghai"
   workflow_dispatch:
     inputs:
