@@ -13,6 +13,7 @@ import urllib.request
 from pathlib import Path
 from typing import Any
 
+from build_pages_index import build_index as build_pages_index
 from guild_config import GuildConfig, load_guilds
 
 
@@ -177,12 +178,23 @@ def main() -> int:
         action="store_true",
         help="Replace an existing successful same-day snapshot with an error snapshot.",
     )
+    parser.add_argument(
+        "--pages-index-output",
+        default=None,
+        help="Path for the GitHub Pages snapshot manifest. Defaults to {output-dir}/pages-index.json.",
+    )
+    parser.add_argument(
+        "--skip-pages-index",
+        action="store_true",
+        help="Do not refresh the GitHub Pages snapshot manifest after fetching.",
+    )
     args = parser.parse_args()
 
     root = Path(__file__).resolve().parents[1]
     load_dotenv(root / ".env")
 
-    guilds = load_guilds((root / args.config).resolve())
+    config_path = (root / args.config).resolve()
+    guilds = load_guilds(config_path)
     if args.guild_slug:
         guilds = [guild for guild in guilds if guild.slug == args.guild_slug]
         if not guilds:
@@ -204,6 +216,19 @@ def main() -> int:
             overwrite_success_with_error=args.overwrite_success_with_error,
         )
         exit_code = max(exit_code, result)
+
+    if not args.skip_pages_index:
+        pages_index_output = (
+            (root / args.pages_index_output).resolve()
+            if args.pages_index_output
+            else output_dir / "pages-index.json"
+        )
+        build_pages_index(
+            config_path=config_path,
+            data_dir=output_dir,
+            output_path=pages_index_output,
+            root=root.resolve(),
+        )
 
     return exit_code
 

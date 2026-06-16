@@ -1,0 +1,932 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TitansDB 公会投资看板</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f7f8fb;
+        --surface: #ffffff;
+        --surface-2: #eef2f7;
+        --text: #17202a;
+        --muted: #657181;
+        --line: #dce3ec;
+        --blue: #2364aa;
+        --green: #17805d;
+        --amber: #a35f00;
+        --red: #b42318;
+        --shadow: 0 8px 24px rgba(24, 38, 56, 0.08);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+          "Segoe UI", sans-serif;
+        line-height: 1.5;
+      }
+
+      a {
+        color: var(--blue);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .shell {
+        width: min(1280px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 28px 0 44px;
+      }
+
+      header {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: 20px;
+        align-items: end;
+        margin-bottom: 22px;
+      }
+
+      .title-block h1 {
+        margin: 0;
+        font-size: clamp(26px, 3vw, 42px);
+        line-height: 1.12;
+        letter-spacing: 0;
+      }
+
+      .title-block p {
+        margin: 10px 0 0;
+        color: var(--muted);
+        max-width: 760px;
+      }
+
+      .status {
+        display: inline-grid;
+        gap: 4px;
+        justify-items: end;
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      .status strong {
+        color: var(--text);
+        font-size: 14px;
+      }
+
+      .summary-grid,
+      .guild-card,
+      .panel {
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        box-shadow: var(--shadow);
+      }
+
+      .summary-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 0;
+        margin-bottom: 18px;
+        padding: 14px 16px;
+      }
+
+      .metric {
+        padding: 2px 16px;
+        border-right: 1px solid var(--line);
+      }
+
+      .metric:last-child {
+        border-right: 0;
+      }
+
+      .metric span {
+        display: block;
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      .metric strong {
+        display: block;
+        margin-top: 4px;
+        font-size: 24px;
+        line-height: 1.15;
+      }
+
+      .metric .delta,
+      .delta {
+        color: var(--green);
+        font-weight: 700;
+      }
+
+      .delta.negative {
+        color: var(--red);
+      }
+
+      .toolbar {
+        display: grid;
+        grid-template-columns: minmax(220px, 1fr) auto auto auto;
+        gap: 12px;
+        align-items: center;
+        margin: 18px 0;
+      }
+
+      input,
+      select,
+      button {
+        min-height: 40px;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: var(--surface);
+        color: var(--text);
+        font: inherit;
+      }
+
+      input,
+      select {
+        width: 100%;
+        padding: 0 12px;
+      }
+
+      button {
+        padding: 0 14px;
+        cursor: pointer;
+      }
+
+      button.active {
+        border-color: var(--blue);
+        background: #e8f1fb;
+        color: #123f73;
+        font-weight: 700;
+      }
+
+      .segmented {
+        display: flex;
+        gap: 6px;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+      }
+
+      .guild-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 12px;
+        margin-bottom: 18px;
+      }
+
+      .guild-card {
+        padding: 14px;
+        display: grid;
+        gap: 10px;
+        min-height: 190px;
+      }
+
+      .guild-card header {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        gap: 12px;
+        margin: 0;
+      }
+
+      .guild-card h2 {
+        margin: 0;
+        font-size: 17px;
+      }
+
+      .guild-card .sub {
+        color: var(--muted);
+        font-size: 12px;
+        word-break: break-all;
+      }
+
+      .guild-stats {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+      }
+
+      .guild-stats div {
+        background: var(--surface-2);
+        border-radius: 6px;
+        padding: 8px;
+      }
+
+      .guild-stats span {
+        display: block;
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      .guild-stats strong {
+        display: block;
+        margin-top: 2px;
+      }
+
+      .guild-ranking {
+        display: grid;
+        gap: 7px;
+        padding-top: 2px;
+      }
+
+      .guild-ranking-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 700;
+      }
+
+      .rank-list {
+        display: grid;
+        gap: 4px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .rank-row {
+        display: grid;
+        grid-template-columns: 24px minmax(0, 1fr) auto;
+        gap: 8px;
+        align-items: center;
+        min-height: 28px;
+        padding: 5px 7px;
+        border-radius: 6px;
+        background: var(--surface-2);
+      }
+
+      .rank-row.muted {
+        opacity: 0.45;
+      }
+
+      .rank-index {
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 700;
+      }
+
+      .rank-name {
+        min-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-size: 13px;
+        font-weight: 700;
+      }
+
+      .rank-value {
+        font-size: 12px;
+        white-space: nowrap;
+      }
+
+      .panel {
+        overflow: hidden;
+      }
+
+      .panel-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+        padding: 16px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .panel-head h2 {
+        margin: 0;
+        font-size: 18px;
+      }
+
+      .panel-head p {
+        margin: 3px 0 0;
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      .table-wrap {
+        overflow: auto;
+        max-height: 70vh;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+        min-width: 980px;
+        font-size: 13px;
+      }
+
+      th,
+      td {
+        padding: 10px 12px;
+        border-bottom: 1px solid var(--line);
+        text-align: right;
+        white-space: nowrap;
+      }
+
+      th {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        background: #f0f4f9;
+        color: #334155;
+        font-weight: 700;
+      }
+
+      th:first-child,
+      td:first-child {
+        position: sticky;
+        left: 0;
+        z-index: 2;
+        background: var(--surface);
+        text-align: left;
+        min-width: 210px;
+      }
+
+      th:first-child {
+        z-index: 3;
+        background: #f0f4f9;
+      }
+
+      .name {
+        font-weight: 700;
+      }
+
+      .meta {
+        display: block;
+        margin-top: 2px;
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 400;
+      }
+
+      .pill {
+        display: inline-flex;
+        align-items: center;
+        min-height: 24px;
+        padding: 0 8px;
+        border-radius: 999px;
+        background: #fff5db;
+        color: #7a4200;
+        font-size: 12px;
+        font-weight: 700;
+      }
+
+      .empty,
+      .error {
+        padding: 18px;
+        color: var(--muted);
+      }
+
+      .error {
+        color: var(--red);
+      }
+
+      footer {
+        margin-top: 18px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      @media (max-width: 980px) {
+        header,
+        .toolbar {
+          grid-template-columns: 1fr;
+        }
+
+        .status {
+          justify-items: start;
+        }
+
+        .summary-grid,
+        .guild-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .metric {
+          border-right: 0;
+        }
+
+        .metric:nth-child(odd) {
+          border-right: 1px solid var(--line);
+        }
+
+        .metric:nth-child(n + 3) {
+          padding-top: 12px;
+          border-top: 1px solid var(--line);
+        }
+
+        .segmented {
+          justify-content: start;
+        }
+      }
+
+      @media (max-width: 620px) {
+        .shell {
+          width: min(100% - 20px, 1280px);
+          padding-top: 18px;
+        }
+
+        .summary-grid {
+          margin-bottom: 12px;
+          padding: 10px 12px;
+        }
+
+        .metric {
+          padding: 0 10px;
+        }
+
+        .metric span {
+          font-size: 12px;
+        }
+
+        .metric strong {
+          font-size: 18px;
+        }
+
+        .metric .delta {
+          font-size: 12px;
+        }
+
+        .guild-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .panel-head {
+          display: block;
+        }
+
+        th,
+        td {
+          padding: 9px 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="shell">
+      <header style="display:none; ">
+        <div class="status" aria-live="polite">
+          <span>数据状态</span>
+          <strong id="statusText">加载中</strong>
+          <span id="generatedAt"></span>
+        </div>
+      </header>
+
+      <section class="summary-grid" id="summaryGrid" aria-label="总览"></section>
+
+      <section class="toolbar" aria-label="筛选">
+        <input id="searchInput" type="search" placeholder="搜索成员、公会、职位" />
+        <select id="guildSelect" aria-label="选择公会"></select>
+        <select id="rankLimitSelect" aria-label="卡片排名数量">
+          <option value="5">Top 5</option>
+          <option value="10" selected>Top 10</option>
+          <option value="20">Top 20</option>
+        </select>
+        <div class="segmented" aria-label="时间范围">
+          <button type="button" data-days="all" class="active">全部</button>
+          <button type="button" data-days="30">30 天</button>
+          <button type="button" data-days="7">7 天</button>
+        </div>
+      </section>
+
+      <section class="guild-grid" id="guildGrid" aria-label="公会概览"></section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <h2>成员投资明细</h2>
+            <p id="tableNote">最新日期在左侧，括号内为较上一快照变化。</p>
+          </div>
+          <span class="pill" id="rowCount">0 行</span>
+        </div>
+        <div class="table-wrap" id="tableWrap"></div>
+      </section>
+    </main>
+
+    <script>
+      const HUNDRED_MILLION = 100000000;
+      const state = {
+        manifest: null,
+        guildModels: [],
+        selectedGuild: "all",
+        selectedDays: "all",
+        rankLimit: 10,
+        query: "",
+      };
+
+      const els = {
+        statusText: document.querySelector("#statusText"),
+        generatedAt: document.querySelector("#generatedAt"),
+        summaryGrid: document.querySelector("#summaryGrid"),
+        guildGrid: document.querySelector("#guildGrid"),
+        guildSelect: document.querySelector("#guildSelect"),
+        rankLimitSelect: document.querySelector("#rankLimitSelect"),
+        searchInput: document.querySelector("#searchInput"),
+        tableWrap: document.querySelector("#tableWrap"),
+        rowCount: document.querySelector("#rowCount"),
+        tableNote: document.querySelector("#tableNote"),
+      };
+
+      function formatDateTime(value) {
+        if (!value) return "";
+        const date = new Date(value);
+        if (Number.isNaN(date.getTime())) return value;
+        return new Intl.DateTimeFormat("zh-CN", {
+          dateStyle: "medium",
+          timeStyle: "short",
+        }).format(date);
+      }
+
+      function formatYi(value) {
+        if (!Number.isFinite(value)) return "-";
+        return `${(value / HUNDRED_MILLION).toFixed(2)}亿`;
+      }
+
+      function formatDelta(value) {
+        if (!Number.isFinite(value)) return "";
+        const sign = value > 0 ? "+" : "";
+        return `${sign}${formatYi(value)}`;
+      }
+
+      function escapeHtml(value) {
+        return String(value ?? "").replace(/[&<>"']/g, (char) => {
+          const entities = {
+            "&": "&amp;",
+            "<": "&lt;",
+            ">": "&gt;",
+            '"': "&quot;",
+            "'": "&#39;",
+          };
+          return entities[char];
+        });
+      }
+
+      function getMembers(snapshot) {
+        if (Array.isArray(snapshot.members)) return snapshot.members;
+        const rawMembers = snapshot.raw?.guild?.members;
+        return Array.isArray(rawMembers) ? rawMembers : [];
+      }
+
+      function investmentOf(member) {
+        const value = member?.stats?.investments ?? member?.investments ?? 0;
+        const number = Number(value);
+        return Number.isFinite(number) ? number : 0;
+      }
+
+      function roleOf(member) {
+        return String(member?.guild?.rank ?? member?.rank ?? "");
+      }
+
+      function limitDates(dates) {
+        if (state.selectedDays === "all") return dates;
+        const count = Number(state.selectedDays);
+        return dates.slice(Math.max(0, dates.length - count));
+      }
+
+      function loadSnapshot(entry) {
+        return fetch(entry.path, { cache: "no-cache" })
+          .then((response) => {
+            if (!response.ok) throw new Error(`${entry.path}: ${response.status}`);
+            return response.json();
+          })
+          .then((payload) => ({ entry, payload }))
+          .catch((error) => ({ entry, error }));
+      }
+
+      function buildGuildModel(guild, loaded) {
+        const snapshots = loaded
+          .filter((item) => item.payload && item.payload.ok !== false)
+          .map((item) => ({
+            date: item.payload.snapshot_date || item.entry.date,
+            fetchedAt: item.payload.fetched_at,
+            payload: item.payload,
+          }))
+          .sort((a, b) => a.date.localeCompare(b.date));
+
+        const dates = snapshots.map((item) => item.date);
+        const members = new Map();
+
+        for (const snapshot of snapshots) {
+          for (const member of getMembers(snapshot.payload)) {
+            const id = String(member?.id || member?.name || "");
+            if (!id) continue;
+            if (!members.has(id)) {
+              members.set(id, {
+                id,
+                guildSlug: guild.slug,
+                guildName: guild.name,
+                name: String(member?.name || id),
+                level: member?.level || "",
+                role: roleOf(member),
+                byDate: new Map(),
+              });
+            }
+            const record = members.get(id);
+            record.name = String(member?.name || record.name);
+            record.level = member?.level || record.level;
+            record.role = roleOf(member) || record.role;
+            record.byDate.set(snapshot.date, investmentOf(member));
+          }
+        }
+
+        const latestDate = dates.at(-1) || "";
+        const earliestDate = dates[0] || "";
+        const rows = [...members.values()].sort(
+          (a, b) => (b.byDate.get(latestDate) || 0) - (a.byDate.get(latestDate) || 0),
+        );
+        const totals = dates.map((date) => ({
+          date,
+          value: rows.reduce((sum, member) => sum + (member.byDate.get(date) || 0), 0),
+        }));
+        const latestTotal = totals.at(-1)?.value || 0;
+        const earliestTotal = totals[0]?.value || 0;
+
+        return {
+          ...guild,
+          dates,
+          snapshots,
+          members: rows,
+          totals,
+          latestDate,
+          fetchedAt: snapshots.at(-1)?.fetchedAt || "",
+          latestMemberCount: rows.filter((member) => member.byDate.has(latestDate)).length,
+          latestTotal,
+          growth: latestTotal - earliestTotal,
+          failedCount: loaded.filter((item) => item.payload?.ok === false || item.error).length,
+        };
+      }
+
+      function metric(label, value, delta) {
+        const deltaMarkup =
+          delta === undefined
+            ? ""
+            : `<span class="delta ${delta < 0 ? "negative" : ""}">${formatDelta(delta)}</span>`;
+        return `<article class="metric"><span>${label}</span><strong>${value}</strong>${deltaMarkup}</article>`;
+      }
+
+      function intervalMemberStats(guild) {
+        const dates = limitDates(guild.dates);
+        return guild.members
+          .map((member) => {
+            const latestDate = [...dates].reverse().find((date) => member.byDate.has(date));
+            const earliestDate = dates.find((date) => member.byDate.has(date));
+            const latest = latestDate ? member.byDate.get(latestDate) : 0;
+            const earliest = earliestDate ? member.byDate.get(earliestDate) : latest;
+            return {
+              member,
+              latest,
+              growth: latest - earliest,
+            };
+          })
+          .sort((a, b) => b.growth - a.growth || b.latest - a.latest);
+      }
+
+      function renderGuildRanking(guild) {
+        const ranking = intervalMemberStats(guild).slice(0, state.rankLimit);
+        const dates = limitDates(guild.dates);
+        const rangeLabel = dates.length ? `${dates[0]} 至 ${dates.at(-1)}` : "暂无快照";
+        const rows = ranking.length
+          ? ranking
+              .map(
+                ({ member, growth }, index) => `
+                  <li class="rank-row ${growth === 0 ? "muted" : ""}" title="${escapeHtml(member.name)}">
+                    <span class="rank-index">${index + 1}</span>
+                    <span class="rank-name">${escapeHtml(member.name)}</span>
+                    <span class="rank-value delta">${growth === 0 ? "0.00亿" : formatDelta(growth) || "-"}</span>
+                  </li>
+                `,
+              )
+              .join("")
+          : `<li class="rank-row"><span class="rank-index">-</span><span class="rank-name">暂无数据</span><span class="rank-value">-</span></li>`;
+
+        return `
+          <div class="guild-ranking">
+            <div class="guild-ranking-title">
+              <span>区间新增投资 Top ${state.rankLimit}</span>
+              <span>${escapeHtml(rangeLabel)}</span>
+            </div>
+            <ol class="rank-list">${rows}</ol>
+          </div>
+        `;
+      }
+
+      function renderSummary() {
+        const models = state.guildModels;
+        const latestTotal = models.reduce((sum, model) => sum + model.latestTotal, 0);
+        const growth = models.reduce((sum, model) => sum + model.growth, 0);
+        const snapshotCount = models.reduce((sum, model) => sum + model.snapshots.length, 0);
+        const memberCount = models.reduce((sum, model) => sum + model.latestMemberCount, 0);
+        els.summaryGrid.innerHTML = [
+          metric("公会数量", models.length),
+          metric("有效快照", snapshotCount),
+          metric("最新总投资", formatYi(latestTotal), growth),
+          metric("最新成员记录", memberCount),
+        ].join("");
+      }
+
+      function renderGuildSelect() {
+        els.guildSelect.innerHTML = [
+          `<option value="all">全部公会</option>`,
+          ...state.guildModels.map(
+            (guild) => `<option value="${escapeHtml(guild.slug)}">${escapeHtml(guild.name)}</option>`,
+          ),
+        ].join("");
+        els.guildSelect.value = state.selectedGuild;
+      }
+
+      function renderGuildCards() {
+        els.guildGrid.innerHTML = state.guildModels
+          .map(
+            (guild) => `
+              <article class="guild-card">
+                <header>
+                  <div>
+                    <h2>${escapeHtml(guild.name)}</h2>
+                    <span class="sub">${escapeHtml(guild.guild_id)}</span>
+                  </div>
+                  <a href="${escapeHtml(guild.guild_url)}" target="_blank" rel="noreferrer">TitansDB</a>
+                </header>
+                <div class="guild-stats">
+                  <div><span>最新快照</span><strong>${escapeHtml(guild.latestDate || "-")}</strong></div>
+                  <div><span>成员数</span><strong>${guild.latestMemberCount}</strong></div>
+                  <div><span>总投资</span><strong>${formatYi(guild.latestTotal)}</strong></div>
+                  <div><span>总增长</span><strong class="delta ${guild.growth < 0 ? "negative" : ""}">${formatDelta(guild.growth) || "-"}</strong></div>
+                </div>
+                ${renderGuildRanking(guild)}
+              </article>
+            `,
+          )
+          .join("");
+      }
+
+      function getVisibleModels() {
+        if (state.selectedGuild === "all") return state.guildModels;
+        return state.guildModels.filter((guild) => guild.slug === state.selectedGuild);
+      }
+
+      function getRowsAndDates() {
+        const models = getVisibleModels();
+        const dateSet = new Set();
+        const rows = [];
+        for (const guild of models) {
+          const dates = limitDates(guild.dates);
+          dates.forEach((date) => dateSet.add(date));
+          for (const member of guild.members) rows.push({ guild, member, dates });
+        }
+        const dates = [...dateSet].sort().reverse();
+        return { rows, dates };
+      }
+
+      function renderTable() {
+        const { rows, dates } = getRowsAndDates();
+        const query = state.query.trim().toLowerCase();
+        const filtered = rows
+          .filter(({ member }) => {
+            if (!query) return true;
+            return [member.name, member.guildName, member.role, member.level]
+              .join(" ")
+              .toLowerCase()
+              .includes(query);
+          })
+          .map(({ member }) => {
+            const latestDate = dates.find((date) => member.byDate.has(date));
+            const earliestDate = [...dates].reverse().find((date) => member.byDate.has(date));
+            const latest = latestDate ? member.byDate.get(latestDate) : 0;
+            const earliest = earliestDate ? member.byDate.get(earliestDate) : latest;
+            return { member, latest, growth: latest - earliest };
+          })
+          .sort((a, b) => b.latest - a.latest);
+
+        els.rowCount.textContent = `${filtered.length} 行`;
+        els.tableNote.textContent = dates.length
+          ? `当前展示 ${dates.at(-1)} 至 ${dates[0]}，最新日期在左侧，括号内为较上一快照变化。`
+          : "暂无有效快照。";
+
+        if (!dates.length || !filtered.length) {
+          els.tableWrap.innerHTML = `<div class="empty">没有匹配的数据。</div>`;
+          return;
+        }
+
+        const header = [
+          "<th>成员</th>",
+          "<th>等级</th>",
+          "<th>职位</th>",
+          "<th>最新累计</th>",
+          "<th>区间增长</th>",
+          ...dates.map((date) => `<th>${escapeHtml(date)}</th>`),
+        ].join("");
+
+        const ascendingDates = [...dates].reverse();
+        const previousByDate = new Map(
+          ascendingDates.map((date, index) => [date, index > 0 ? ascendingDates[index - 1] : null]),
+        );
+        const body = filtered
+          .map(({ member, latest, growth }) => {
+            const dateCells = dates
+              .map((date) => {
+                if (!member.byDate.has(date)) return "<td>-</td>";
+                const value = member.byDate.get(date);
+                const previousDate = previousByDate.get(date);
+                const previous = previousDate ? member.byDate.get(previousDate) : undefined;
+                const change = previous === undefined ? 0 : value - previous;
+                const delta =
+                  previous === undefined || change === 0
+                    ? ""
+                    : ` <span class="delta ${change < 0 ? "negative" : ""}">(${formatDelta(change)})</span>`;
+                return `<td>${formatYi(value)}${delta}</td>`;
+              })
+              .join("");
+            return `
+              <tr>
+                <td>
+                  <span class="name">${escapeHtml(member.name)}</span>
+                  <span class="meta">${escapeHtml(member.guildName)}</span>
+                </td>
+                <td>${escapeHtml(member.level || "-")}</td>
+                <td>${escapeHtml(member.role || "-")}</td>
+                <td>${formatYi(latest)}</td>
+                <td><span class="delta ${growth < 0 ? "negative" : ""}">${formatDelta(growth) || "-"}</span></td>
+                ${dateCells}
+              </tr>
+            `;
+          })
+          .join("");
+
+        els.tableWrap.innerHTML = `<table><thead><tr>${header}</tr></thead><tbody>${body}</tbody></table>`;
+      }
+
+      function render() {
+        renderSummary();
+        renderGuildSelect();
+        renderGuildCards();
+        renderTable();
+      }
+
+      async function init() {
+        try {
+          const manifestResponse = await fetch("data/pages-index.json", { cache: "no-cache" });
+          if (!manifestResponse.ok) throw new Error(`data/pages-index.json: ${manifestResponse.status}`);
+          state.manifest = await manifestResponse.json();
+
+          const models = [];
+          for (const guild of state.manifest.guilds || []) {
+            const loaded = await Promise.all((guild.snapshots || []).map(loadSnapshot));
+            models.push(buildGuildModel(guild, loaded));
+          }
+          state.guildModels = models;
+
+          els.statusText.textContent = "已加载";
+          els.generatedAt.textContent = state.manifest.generated_at
+            ? `清单更新时间：${formatDateTime(state.manifest.generated_at)}`
+            : "";
+          render();
+        } catch (error) {
+          els.statusText.textContent = "加载失败";
+          els.summaryGrid.innerHTML = "";
+          els.guildGrid.innerHTML = "";
+          els.tableWrap.innerHTML = `<div class="error">${escapeHtml(error.message)}</div>`;
+        }
+      }
+
+      els.guildSelect.addEventListener("change", (event) => {
+        state.selectedGuild = event.target.value;
+        renderTable();
+      });
+
+      els.rankLimitSelect.addEventListener("change", (event) => {
+        state.rankLimit = Number(event.target.value) || 10;
+        renderGuildCards();
+      });
+
+      els.searchInput.addEventListener("input", (event) => {
+        state.query = event.target.value;
+        renderTable();
+      });
+
+      document.querySelectorAll("[data-days]").forEach((button) => {
+        button.addEventListener("click", () => {
+          state.selectedDays = button.dataset.days;
+          document.querySelectorAll("[data-days]").forEach((item) => item.classList.remove("active"));
+          button.classList.add("active");
+          renderGuildCards();
+          renderTable();
+        });
+      });
+
+      init();
+    </script>
+  </body>
+</html>
