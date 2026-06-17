@@ -48,6 +48,6 @@
 
 ## 自动更新
 
-GitHub Actions 每天按 `.github/workflows/daily-snapshot.yml` 中的 cron 配置运行一次，当前默认是 UTC 01:00 / 北京时间 09:00。也可以在 GitHub Actions 页面通过 `Run workflow` 手动触发，并可选填写 `snapshot_date` 和 `readme_days`。
+GitHub Actions 每天按 `.github/workflows/daily-snapshot.yml` 中的 cron 配置运行一次，当前配置是 Asia/Shanghai 09:18。也可以在 GitHub Actions 页面通过 `Run workflow` 手动触发，并可选填写 `snapshot_date` 和 `readme_days`。
 
 每次运行会先拉取 `哈哈一笑` 当天 JSON 到 `data/haha-yixiao/`，再重新生成本报告。同一天重复运行会更新同一个 `data/haha-yixiao/YYYY-MM-DD.json`；如果请求失败且当天已有成功快照，脚本会保留已有成功快照，避免被接口限制、网络错误或 key 问题覆盖。

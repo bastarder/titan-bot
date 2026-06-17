@@ -2,7 +2,7 @@
   "snapshot_date": "2026-06-14",
   "fetched_at": "2026-06-14T01:12:04.587885Z",
   "ok": true,
-  "source": "api",
+  "source": "manual-image",
   "guild_id": "60bb3bd6b7b3871333bbde3c",
   "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
   "api_url": "https://www.titansdb.com/api/my_guild",
@@ -49,7 +49,7 @@
       },
       "stats": {
         "networth": 2469086506577,
-        "investments": 3363027374500,
+        "investments": 3372827374500,
         "help": 10012,
         "bounty": 11622,
         "prestige": 239625,
@@ -105,7 +105,7 @@
       },
       "stats": {
         "networth": 656690761018,
-        "investments": 247393374500,
+        "investments": 250893374500,
         "help": 3177,
         "bounty": 3322,
         "prestige": 124685,
@@ -217,7 +217,7 @@
       },
       "stats": {
         "networth": 4155826038182,
-        "investments": 2597157374500,
+        "investments": 2637157374500,
         "help": 8643,
         "bounty": 9554,
         "prestige": 87170,
@@ -357,7 +357,7 @@
       },
       "stats": {
         "networth": 615786234087,
-        "investments": 632288674500,
+        "investments": 670488674500,
         "help": 6805,
         "bounty": 18403,
         "prestige": 189950,
@@ -1142,5 +1142,7 @@
         }
       ]
     }
-  }
+  },
+  "guild_slug": "tangguopai",
+  "guild_name": "糖果派"
 }

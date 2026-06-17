@@ -16,6 +16,11 @@ from guild_config import GuildConfig, load_guilds
 
 SNAPSHOT_RE = re.compile(r"^\d{4}-\d{2}-\d{2}\.json$")
 HUNDRED_MILLION = 100_000_000
+AUTO_UPDATE_TEXT = (
+    "GitHub Actions 每天按 `.github/workflows/daily-snapshot.yml` 中的 cron 配置运行一次，"
+    "当前配置是 Asia/Shanghai 09:18。也可以在 GitHub Actions 页面通过 `Run workflow` "
+    "手动触发，并可选填写 `snapshot_date` 和 `readme_days`。"
+)
 
 
 @dataclass
@@ -296,7 +301,7 @@ def build_guild_report(guild: GuildConfig, data_dir: Path, report_path: Path, da
             "",
             "## 自动更新",
             "",
-            "GitHub Actions 每天按 `.github/workflows/daily-snapshot.yml` 中的 cron 配置运行一次，当前默认是 UTC 01:00 / 北京时间 09:00。也可以在 GitHub Actions 页面通过 `Run workflow` 手动触发，并可选填写 `snapshot_date` 和 `readme_days`。",
+            AUTO_UPDATE_TEXT,
             "",
             f"每次运行会先拉取 `{guild.name}` 当天 JSON 到 `data/{guild.slug}/`，再重新生成本报告。同一天重复运行会更新同一个 `data/{guild.slug}/YYYY-MM-DD.json`；如果请求失败且当天已有成功快照，脚本会保留已有成功快照，避免被接口限制、网络错误或 key 问题覆盖。",
             "",
@@ -357,7 +362,7 @@ def build_root_readme(output_path: Path, summaries: list[GuildSummary]) -> None:
             "",
             "## 自动更新",
             "",
-            "GitHub Actions 每天按 `.github/workflows/daily-snapshot.yml` 中的 cron 配置运行一次，当前默认是 UTC 01:00 / 北京时间 09:00。也可以在 GitHub Actions 页面通过 `Run workflow` 手动触发，并可选填写 `snapshot_date` 和 `readme_days`。",
+            AUTO_UPDATE_TEXT,
             "",
             "公会列表在 `config/guilds.json` 中维护；数据按 `data/{guild_slug}/YYYY-MM-DD.json` 保存；每个公会的详细报告生成到 `reports/`。",
             "",
