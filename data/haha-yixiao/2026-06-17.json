@@ -1,6 +1,6 @@
 {
   "snapshot_date": "2026-06-17",
-  "fetched_at": "2026-06-17T05:41:53.665410Z",
+  "fetched_at": "2026-06-17T06:27:07.126342Z",
   "source": "api",
   "guild_slug": "haha-yixiao",
   "guild_name": "哈哈一笑",
@@ -16,7 +16,7 @@
       "level": 98,
       "isVip": true,
       "banned": false,
-      "last_online": "2026-06-17 05:38:17",
+      "last_online": "2026-06-17 05:59:45",
       "guild": {
         "rank": "Guildmaster",
         "joined": "2026-06-06 10:25:18"
@@ -191,7 +191,7 @@
       "level": 82,
       "isVip": true,
       "banned": false,
-      "last_online": "2026-06-17 05:23:11",
+      "last_online": "2026-06-17 05:43:25",
       "guild": {
         "rank": "Officer",
         "joined": "2025-12-24 23:52:28"
@@ -366,7 +366,7 @@
       "level": 197,
       "isVip": false,
       "banned": true,
-      "last_online": "2026-06-17 05:31:27",
+      "last_online": "2026-06-17 06:04:01",
       "guild": {
         "rank": "Member",
         "joined": "2026-06-10 13:11:14"
@@ -395,31 +395,31 @@
       }
     },
     {
-      "last_update": "2026-06-17 05:01:00",
+      "last_update": "2026-06-17 06:02:34",
       "id": "60209d217c9c741332f62e2f",
       "name": "曹彼得#54137",
       "level": 91,
       "isVip": true,
       "banned": true,
-      "last_online": "2026-06-17 05:00:50",
+      "last_online": "2026-06-17 06:04:05",
       "guild": {
         "rank": "Member",
         "joined": "2026-06-10 11:26:32"
       },
       "stats": {
-        "networth": 3278643158806,
+        "networth": 3281326864613,
         "investments": 1600297374500,
         "help": 12686,
         "bounty": 20833,
-        "prestige": 331205,
+        "prestige": 331455,
         "mastered": 1168,
         "masteredSF": 7,
         "ascensions": 2403,
         "collection": 93504,
-        "total_crafted": 850733,
-        "total_sold": 1189939,
+        "total_crafted": 850763,
+        "total_sold": 1190042,
         "total_quests": 23447,
-        "total_chests": 6791,
+        "total_chests": 6800,
         "best_hero_power": 531150
       },
       "events": {
@@ -541,7 +541,7 @@
       "level": 83,
       "isVip": true,
       "banned": false,
-      "last_online": "2026-06-17 04:29:07",
+      "last_online": "2026-06-17 05:42:25",
       "guild": {
         "rank": "Member",
         "joined": "2026-05-18 13:25:44"
@@ -611,7 +611,7 @@
       "level": 73,
       "isVip": false,
       "banned": false,
-      "last_online": "2026-06-17 05:03:25",
+      "last_online": "2026-06-17 05:54:53",
       "guild": {
         "rank": "Member",
         "joined": "2026-05-18 13:41:26"
@@ -646,7 +646,7 @@
       "level": 82,
       "isVip": true,
       "banned": false,
-      "last_online": "2026-06-17 05:09:14",
+      "last_online": "2026-06-17 06:19:38",
       "guild": {
         "rank": "Member",
         "joined": "2026-06-10 12:33:00"
@@ -712,9 +712,9 @@
   ],
   "raw": {
     "ok": true,
-    "credits_remaining": 22,
+    "credits_remaining": 18,
     "guild": {
-      "last_update": "2026-06-17 05:32:54",
+      "last_update": "2026-06-17 06:20:37",
       "id": "5e2dc5cb5334081178683bf5",
       "name": "哈哈一笑",
       "level": 300,
@@ -730,7 +730,7 @@
           "level": 98,
           "isVip": true,
           "banned": false,
-          "last_online": "2026-06-17 05:38:17",
+          "last_online": "2026-06-17 05:59:45",
           "guild": {
             "rank": "Guildmaster",
             "joined": "2026-06-06 10:25:18"
@@ -905,7 +905,7 @@
           "level": 82,
           "isVip": true,
           "banned": false,
-          "last_online": "2026-06-17 05:23:11",
+          "last_online": "2026-06-17 05:43:25",
           "guild": {
             "rank": "Officer",
             "joined": "2025-12-24 23:52:28"
@@ -1080,7 +1080,7 @@
           "level": 197,
           "isVip": false,
           "banned": true,
-          "last_online": "2026-06-17 05:31:27",
+          "last_online": "2026-06-17 06:04:01",
           "guild": {
             "rank": "Member",
             "joined": "2026-06-10 13:11:14"
@@ -1109,31 +1109,31 @@
           }
         },
         {
-          "last_update": "2026-06-17 05:01:00",
+          "last_update": "2026-06-17 06:02:34",
           "id": "60209d217c9c741332f62e2f",
           "name": "曹彼得#54137",
           "level": 91,
           "isVip": true,
           "banned": true,
-          "last_online": "2026-06-17 05:00:50",
+          "last_online": "2026-06-17 06:04:05",
           "guild": {
             "rank": "Member",
             "joined": "2026-06-10 11:26:32"
           },
           "stats": {
-            "networth": 3278643158806,
+            "networth": 3281326864613,
             "investments": 1600297374500,
             "help": 12686,
             "bounty": 20833,
-            "prestige": 331205,
+            "prestige": 331455,
             "mastered": 1168,
             "masteredSF": 7,
             "ascensions": 2403,
             "collection": 93504,
-            "total_crafted": 850733,
-            "total_sold": 1189939,
+            "total_crafted": 850763,
+            "total_sold": 1190042,
             "total_quests": 23447,
-            "total_chests": 6791,
+            "total_chests": 6800,
             "best_hero_power": 531150
           },
           "events": {
@@ -1255,7 +1255,7 @@
           "level": 83,
           "isVip": true,
           "banned": false,
-          "last_online": "2026-06-17 04:29:07",
+          "last_online": "2026-06-17 05:42:25",
           "guild": {
             "rank": "Member",
             "joined": "2026-05-18 13:25:44"
@@ -1325,7 +1325,7 @@
           "level": 73,
           "isVip": false,
           "banned": false,
-          "last_online": "2026-06-17 05:03:25",
+          "last_online": "2026-06-17 05:54:53",
           "guild": {
             "rank": "Member",
             "joined": "2026-05-18 13:41:26"
@@ -1360,7 +1360,7 @@
           "level": 82,
           "isVip": true,
           "banned": false,
-          "last_online": "2026-06-17 05:09:14",
+          "last_online": "2026-06-17 06:19:38",
           "guild": {
             "rank": "Member",
             "joined": "2026-06-10 12:33:00"

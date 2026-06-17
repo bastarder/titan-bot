@@ -1,6 +1,6 @@
 {
   "snapshot_date": "2026-06-17",
-  "fetched_at": "2026-06-17T05:41:53.665410Z",
+  "fetched_at": "2026-06-17T06:27:07.126342Z",
   "source": "api",
   "guild_slug": "tangguopai",
   "guild_name": "糖果派",
@@ -10,31 +10,31 @@
   "ok": true,
   "members": [
     {
-      "last_update": "2026-06-17 04:49:44",
+      "last_update": "2026-06-17 05:50:36",
       "id": "65bfbc85e755b271319edd5a",
       "name": "xiaonian#79853",
       "level": 197,
       "isVip": true,
       "banned": false,
-      "last_online": "2026-06-17 05:29:54",
+      "last_online": "2026-06-17 06:16:04",
       "guild": {
         "rank": "Guildmaster",
         "joined": "2026-06-12 06:24:06"
       },
       "stats": {
-        "networth": 15965812164406,
+        "networth": 15980328116105,
         "investments": 23360207374500,
         "help": 5546,
-        "bounty": 67236,
+        "bounty": 67260,
         "prestige": 32340,
         "mastered": 989,
         "masteredSF": 208,
         "ascensions": 1494,
         "collection": 76536,
-        "total_crafted": 1270740,
-        "total_sold": 1514931,
+        "total_crafted": 1270995,
+        "total_sold": 1515224,
         "total_quests": 31103,
-        "total_chests": 7125,
+        "total_chests": 7126,
         "best_hero_power": 884266
       },
       "events": {
@@ -45,31 +45,31 @@
       }
     },
     {
-      "last_update": "2026-06-17 05:15:45",
+      "last_update": "2026-06-17 06:17:03",
       "id": "64ecb52a96939c091be78a83",
       "name": "解富贵#83818",
       "level": 91,
       "isVip": true,
       "banned": false,
-      "last_online": "2026-06-17 05:15:38",
+      "last_online": "2026-06-17 06:17:03",
       "guild": {
         "rank": "Officer",
         "joined": "2026-05-28 06:04:15"
       },
       "stats": {
-        "networth": 2519609311280,
-        "investments": 3402827374500,
+        "networth": 2523859594749,
+        "investments": 3422827374500,
         "help": 10036,
-        "bounty": 11656,
+        "bounty": 11659,
         "prestige": 239925,
         "mastered": 1474,
-        "masteredSF": 50,
+        "masteredSF": 51,
         "ascensions": 1979,
-        "collection": 108909,
-        "total_crafted": 207181,
-        "total_sold": 294547,
+        "collection": 108946,
+        "total_crafted": 207294,
+        "total_sold": 294633,
         "total_quests": 25508,
-        "total_chests": 8313,
+        "total_chests": 8314,
         "best_hero_power": 652941
       },
       "events": {
@@ -80,29 +80,29 @@
       }
     },
     {
-      "last_update": "2026-06-17 05:19:41",
+      "last_update": "2026-06-17 06:21:32",
       "id": "693ed9b774a10413800247c2",
       "name": "究极机械鱼丸#85234",
       "level": 99,
       "isVip": true,
       "banned": false,
-      "last_online": "2026-06-17 05:25:47",
+      "last_online": "2026-06-17 06:21:30",
       "guild": {
         "rank": "Officer",
         "joined": "2026-03-03 15:41:34"
       },
       "stats": {
-        "networth": 7086065458926,
+        "networth": 7095725377134,
         "investments": 1762027374500,
         "help": 3080,
-        "bounty": 8756,
+        "bounty": 8761,
         "prestige": 21530,
-        "mastered": 623,
+        "mastered": 624,
         "masteredSF": 75,
         "ascensions": 746,
-        "collection": 24290,
-        "total_crafted": 441396,
-        "total_sold": 710168,
+        "collection": 24294,
+        "total_crafted": 441573,
+        "total_sold": 710590,
         "total_quests": 9878,
         "total_chests": 2399,
         "best_hero_power": 713894
@@ -156,7 +156,7 @@
       "level": 81,
       "isVip": true,
       "banned": false,
-      "last_online": "2026-06-17 04:12:59",
+      "last_online": "2026-06-17 05:43:28",
       "guild": {
         "rank": "Officer",
         "joined": "2025-09-11 04:28:30"
@@ -220,29 +220,29 @@
       }
     },
     {
-      "last_update": "2026-06-17 05:13:57",
+      "last_update": "2026-06-17 06:15:35",
       "id": "5e9a918cb965cc122a4b14fb",
       "name": "天下无敌君不见大王#34824",
       "level": 188,
       "isVip": true,
       "banned": true,
-      "last_online": "2026-06-17 05:28:40",
+      "last_online": "2026-06-17 06:15:30",
       "guild": {
         "rank": "Member",
         "joined": "2026-06-13 03:51:08"
       },
       "stats": {
-        "networth": 8766503601487,
+        "networth": 8771378869740,
         "investments": 3247957374500,
         "help": 7523,
-        "bounty": 7696,
+        "bounty": 7700,
         "prestige": 213410,
         "mastered": 982,
         "masteredSF": 43,
         "ascensions": 1112,
         "collection": 57580,
-        "total_crafted": 1474218,
-        "total_sold": 1195907,
+        "total_crafted": 1474399,
+        "total_sold": 1196213,
         "total_quests": 15842,
         "total_chests": 3787,
         "best_hero_power": 726367
@@ -255,29 +255,29 @@
       }
     },
     {
-      "last_update": "2026-06-17 04:50:23",
+      "last_update": "2026-06-17 05:52:57",
       "id": "5e27c3c263f9a111791ff51c",
       "name": "雕刻月光ic#59803",
       "level": 90,
       "isVip": true,
       "banned": false,
-      "last_online": "2026-06-17 04:50:21",
+      "last_online": "2026-06-17 06:20:35",
       "guild": {
         "rank": "Member",
         "joined": "2026-06-06 05:59:33"
       },
       "stats": {
-        "networth": 4266738733676,
+        "networth": 4268188416474,
         "investments": 2795157374500,
         "help": 8682,
-        "bounty": 9714,
+        "bounty": 9719,
         "prestige": 78230,
         "mastered": 699,
         "masteredSF": 22,
         "ascensions": 1136,
         "collection": 35853,
-        "total_crafted": 808192,
-        "total_sold": 508143,
+        "total_crafted": 810736,
+        "total_sold": 508277,
         "total_quests": 14131,
         "total_chests": 4993,
         "best_hero_power": 603896
@@ -360,13 +360,13 @@
       }
     },
     {
-      "last_update": "2026-06-17 04:54:40",
+      "last_update": "2026-06-17 05:55:24",
       "id": "67c7ba04bffc17ed626a01ce",
       "name": "酱板鱼#10664",
       "level": 90,
       "isVip": false,
       "banned": false,
-      "last_online": "2026-06-17 03:41:22",
+      "last_online": "2026-06-17 06:09:15",
       "guild": {
         "rank": "Member",
         "joined": "2025-05-09 14:48:18"
@@ -436,7 +436,7 @@
       "level": 81,
       "isVip": true,
       "banned": false,
-      "last_online": "2026-06-17 05:28:14",
+      "last_online": "2026-06-17 05:44:35",
       "guild": {
         "rank": "Member",
         "joined": "2026-04-21 19:54:40"
@@ -712,9 +712,9 @@
   ],
   "raw": {
     "ok": true,
-    "credits_remaining": 24,
+    "credits_remaining": 20,
     "guild": {
-      "last_update": "2026-06-17 05:34:17",
+      "last_update": "2026-06-17 06:20:52",
       "id": "60bb3bd6b7b3871333bbde3c",
       "name": "糖果派丶彼岸",
       "level": 176,
@@ -724,31 +724,31 @@
       "rank": 165,
       "members": [
         {
-          "last_update": "2026-06-17 04:49:44",
+          "last_update": "2026-06-17 05:50:36",
           "id": "65bfbc85e755b271319edd5a",
           "name": "xiaonian#79853",
           "level": 197,
           "isVip": true,
           "banned": false,
-          "last_online": "2026-06-17 05:29:54",
+          "last_online": "2026-06-17 06:16:04",
           "guild": {
             "rank": "Guildmaster",
             "joined": "2026-06-12 06:24:06"
           },
           "stats": {
-            "networth": 15965812164406,
+            "networth": 15980328116105,
             "investments": 23360207374500,
             "help": 5546,
-            "bounty": 67236,
+            "bounty": 67260,
             "prestige": 32340,
             "mastered": 989,
             "masteredSF": 208,
             "ascensions": 1494,
             "collection": 76536,
-            "total_crafted": 1270740,
-            "total_sold": 1514931,
+            "total_crafted": 1270995,
+            "total_sold": 1515224,
             "total_quests": 31103,
-            "total_chests": 7125,
+            "total_chests": 7126,
             "best_hero_power": 884266
           },
           "events": {
@@ -759,31 +759,31 @@
           }
         },
         {
-          "last_update": "2026-06-17 05:15:45",
+          "last_update": "2026-06-17 06:17:03",
           "id": "64ecb52a96939c091be78a83",
           "name": "解富贵#83818",
           "level": 91,
           "isVip": true,
           "banned": false,
-          "last_online": "2026-06-17 05:15:38",
+          "last_online": "2026-06-17 06:17:03",
           "guild": {
             "rank": "Officer",
             "joined": "2026-05-28 06:04:15"
           },
           "stats": {
-            "networth": 2519609311280,
-            "investments": 3402827374500,
+            "networth": 2523859594749,
+            "investments": 3422827374500,
             "help": 10036,
-            "bounty": 11656,
+            "bounty": 11659,
             "prestige": 239925,
             "mastered": 1474,
-            "masteredSF": 50,
+            "masteredSF": 51,
             "ascensions": 1979,
-            "collection": 108909,
-            "total_crafted": 207181,
-            "total_sold": 294547,
+            "collection": 108946,
+            "total_crafted": 207294,
+            "total_sold": 294633,
             "total_quests": 25508,
-            "total_chests": 8313,
+            "total_chests": 8314,
             "best_hero_power": 652941
           },
           "events": {
@@ -794,29 +794,29 @@
           }
         },
         {
-          "last_update": "2026-06-17 05:19:41",
+          "last_update": "2026-06-17 06:21:32",
           "id": "693ed9b774a10413800247c2",
           "name": "究极机械鱼丸#85234",
           "level": 99,
           "isVip": true,
           "banned": false,
-          "last_online": "2026-06-17 05:25:47",
+          "last_online": "2026-06-17 06:21:30",
           "guild": {
             "rank": "Officer",
             "joined": "2026-03-03 15:41:34"
           },
           "stats": {
-            "networth": 7086065458926,
+            "networth": 7095725377134,
             "investments": 1762027374500,
             "help": 3080,
-            "bounty": 8756,
+            "bounty": 8761,
             "prestige": 21530,
-            "mastered": 623,
+            "mastered": 624,
             "masteredSF": 75,
             "ascensions": 746,
-            "collection": 24290,
-            "total_crafted": 441396,
-            "total_sold": 710168,
+            "collection": 24294,
+            "total_crafted": 441573,
+            "total_sold": 710590,
             "total_quests": 9878,
             "total_chests": 2399,
             "best_hero_power": 713894
@@ -870,7 +870,7 @@
           "level": 81,
           "isVip": true,
           "banned": false,
-          "last_online": "2026-06-17 04:12:59",
+          "last_online": "2026-06-17 05:43:28",
           "guild": {
             "rank": "Officer",
             "joined": "2025-09-11 04:28:30"
@@ -934,29 +934,29 @@
           }
         },
         {
-          "last_update": "2026-06-17 05:13:57",
+          "last_update": "2026-06-17 06:15:35",
           "id": "5e9a918cb965cc122a4b14fb",
           "name": "天下无敌君不见大王#34824",
           "level": 188,
           "isVip": true,
           "banned": true,
-          "last_online": "2026-06-17 05:28:40",
+          "last_online": "2026-06-17 06:15:30",
           "guild": {
             "rank": "Member",
             "joined": "2026-06-13 03:51:08"
           },
           "stats": {
-            "networth": 8766503601487,
+            "networth": 8771378869740,
             "investments": 3247957374500,
             "help": 7523,
-            "bounty": 7696,
+            "bounty": 7700,
             "prestige": 213410,
             "mastered": 982,
             "masteredSF": 43,
             "ascensions": 1112,
             "collection": 57580,
-            "total_crafted": 1474218,
-            "total_sold": 1195907,
+            "total_crafted": 1474399,
+            "total_sold": 1196213,
             "total_quests": 15842,
             "total_chests": 3787,
             "best_hero_power": 726367
@@ -969,29 +969,29 @@
           }
         },
         {
-          "last_update": "2026-06-17 04:50:23",
+          "last_update": "2026-06-17 05:52:57",
           "id": "5e27c3c263f9a111791ff51c",
           "name": "雕刻月光ic#59803",
           "level": 90,
           "isVip": true,
           "banned": false,
-          "last_online": "2026-06-17 04:50:21",
+          "last_online": "2026-06-17 06:20:35",
           "guild": {
             "rank": "Member",
             "joined": "2026-06-06 05:59:33"
           },
           "stats": {
-            "networth": 4266738733676,
+            "networth": 4268188416474,
             "investments": 2795157374500,
             "help": 8682,
-            "bounty": 9714,
+            "bounty": 9719,
             "prestige": 78230,
             "mastered": 699,
             "masteredSF": 22,
             "ascensions": 1136,
             "collection": 35853,
-            "total_crafted": 808192,
-            "total_sold": 508143,
+            "total_crafted": 810736,
+            "total_sold": 508277,
             "total_quests": 14131,
             "total_chests": 4993,
             "best_hero_power": 603896
@@ -1074,13 +1074,13 @@
           }
         },
         {
-          "last_update": "2026-06-17 04:54:40",
+          "last_update": "2026-06-17 05:55:24",
           "id": "67c7ba04bffc17ed626a01ce",
           "name": "酱板鱼#10664",
           "level": 90,
           "isVip": false,
           "banned": false,
-          "last_online": "2026-06-17 03:41:22",
+          "last_online": "2026-06-17 06:09:15",
           "guild": {
             "rank": "Member",
             "joined": "2025-05-09 14:48:18"
@@ -1150,7 +1150,7 @@
           "level": 81,
           "isVip": true,
           "banned": false,
-          "last_online": "2026-06-17 05:28:14",
+          "last_online": "2026-06-17 05:44:35",
           "guild": {
             "rank": "Member",
             "joined": "2026-04-21 19:54:40"

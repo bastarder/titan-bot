@@ -1,6 +1,6 @@
 {
   "snapshot_date": "2026-06-17",
-  "fetched_at": "2026-06-17T05:41:53.665410Z",
+  "fetched_at": "2026-06-17T06:27:07.126342Z",
   "source": "api",
   "guild_slug": "xieruisi",
   "guild_name": "希尔锐斯",
@@ -366,7 +366,7 @@
       "level": 49,
       "isVip": true,
       "banned": false,
-      "last_online": "2026-06-17 03:13:28",
+      "last_online": "2026-06-17 06:13:31",
       "guild": {
         "rank": "Member",
         "joined": "2026-03-20 12:00:53"
@@ -747,9 +747,9 @@
   ],
   "raw": {
     "ok": true,
-    "credits_remaining": 21,
+    "credits_remaining": 17,
     "guild": {
-      "last_update": "2026-06-17 05:17:14",
+      "last_update": "2026-06-17 06:18:28",
       "id": "6421160c7836d519149fa8c9",
       "name": "希尔锐斯",
       "level": 158,
@@ -1115,7 +1115,7 @@
           "level": 49,
           "isVip": true,
           "banned": false,
-          "last_online": "2026-06-17 03:13:28",
+          "last_online": "2026-06-17 06:13:31",
           "guild": {
             "rank": "Member",
             "joined": "2026-03-20 12:00:53"
