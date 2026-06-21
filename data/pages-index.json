@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T01:09:19Z",
+  "generated_at": "2026-06-21T06:18:07Z",
   "guilds": [
     {
       "slug": "tangguopai",
@@ -65,7 +65,7 @@
           "date": "2026-06-21",
           "path": "data/tangguopai/2026-06-21.json",
           "ok": true,
-          "fetched_at": "2026-06-21T01:09:14.538971Z"
+          "fetched_at": "2026-06-21T06:18:03.345230Z"
         }
       ]
     },
@@ -121,7 +121,7 @@
           "date": "2026-06-21",
           "path": "data/hustle/2026-06-21.json",
           "ok": true,
-          "fetched_at": "2026-06-21T01:09:14.538971Z"
+          "fetched_at": "2026-06-21T06:18:03.345230Z"
         }
       ]
     },
@@ -177,7 +177,7 @@
           "date": "2026-06-21",
           "path": "data/haha-yixiao/2026-06-21.json",
           "ok": true,
-          "fetched_at": "2026-06-21T01:09:14.538971Z"
+          "fetched_at": "2026-06-21T06:18:03.345230Z"
         }
       ]
     },
@@ -233,7 +233,7 @@
           "date": "2026-06-21",
           "path": "data/xieruisi/2026-06-21.json",
           "ok": true,
-          "fetched_at": "2026-06-21T01:09:14.538971Z"
+          "fetched_at": "2026-06-21T06:18:03.345230Z"
         }
       ]
     }
