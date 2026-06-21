@@ -1,0 +1,1499 @@
+{
+  "snapshot_date": "2026-06-21",
+  "fetched_at": "2026-06-21T01:09:14.538971Z",
+  "source": "api",
+  "guild_slug": "xieruisi",
+  "guild_name": "希尔锐斯",
+  "guild_id": "6421160c7836d519149fa8c9",
+  "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
+  "api_url": "https://www.titansdb.com/api/guild/6421160c7836d519149fa8c9",
+  "ok": true,
+  "members": [
+    {
+      "last_update": "2026-06-20 02:36:02",
+      "id": "5e4029d4068d3a11713667de",
+      "name": "天凉好个秋#33444",
+      "level": 81,
+      "isVip": false,
+      "banned": false,
+      "last_online": "2026-06-19 05:22:49",
+      "guild": {
+        "rank": "Guildmaster",
+        "joined": "2026-03-19 10:52:35"
+      },
+      "stats": {
+        "networth": 755083585822,
+        "investments": 302880638400,
+        "help": 1596,
+        "bounty": 1452,
+        "prestige": 16805,
+        "mastered": 415,
+        "masteredSF": 0,
+        "ascensions": 380,
+        "collection": 9044,
+        "total_crafted": 84358,
+        "total_sold": 216099,
+        "total_quests": 10404,
+        "total_chests": 2000,
+        "best_hero_power": 117168
+      },
+      "events": {
+        "current_event_score": 2757,
+        "best_lcog_score": 8555,
+        "best_kc_score": 4318313,
+        "best_di_score": 353838
+      }
+    },
+    {
+      "last_update": "2026-06-20 13:53:40",
+      "id": "6805fc5573e08ceb9c99e7f7",
+      "name": "雾青丝#39731",
+      "level": 96,
+      "isVip": false,
+      "banned": false,
+      "last_online": "2026-06-17 13:59:47",
+      "guild": {
+        "rank": "Officer",
+        "joined": "2026-05-19 02:33:40"
+      },
+      "stats": {
+        "networth": 4163197255958,
+        "investments": 651059988400,
+        "help": 4755,
+        "bounty": 19827,
+        "prestige": 15025,
+        "mastered": 428,
+        "masteredSF": 0,
+        "ascensions": 609,
+        "collection": 12509,
+        "total_crafted": 601885,
+        "total_sold": 679574,
+        "total_quests": 8423,
+        "total_chests": 1364,
+        "best_hero_power": 567050
+      },
+      "events": {
+        "current_event_score": 3208,
+        "best_lcog_score": 24040,
+        "best_kc_score": 8057025,
+        "best_di_score": 1027898
+      }
+    },
+    {
+      "last_update": "2026-06-17 17:02:12",
+      "id": "5e626fea626bb71218241f71",
+      "name": "会计师#29722",
+      "level": 71,
+      "isVip": false,
+      "banned": false,
+      "last_online": "2026-05-21 04:17:18",
+      "guild": {
+        "rank": "Officer",
+        "joined": "2026-03-19 10:24:47"
+      },
+      "stats": {
+        "networth": 156217601795,
+        "investments": 251807374500,
+        "help": 3311,
+        "bounty": 1341,
+        "prestige": 48905,
+        "mastered": 68,
+        "masteredSF": 0,
+        "ascensions": 219,
+        "collection": 2169,
+        "total_crafted": 25019,
+        "total_sold": 48849,
+        "total_quests": 5679,
+        "total_chests": 892,
+        "best_hero_power": 410010
+      },
+      "events": {
+        "current_event_score": 0,
+        "best_lcog_score": 15751,
+        "best_kc_score": 3497928,
+        "best_di_score": 847630
+      }
+    },
+    {
+      "last_update": "2026-06-20 20:50:56",
+      "id": "67b46d46665600d22d6a5ab1",
+      "name": "清素笔调#12295",
+      "level": 64,
+      "isVip": false,
+      "banned": false,
+      "last_online": "2026-06-19 10:33:08",
+      "guild": {
+        "rank": "Officer",
+        "joined": "2026-05-13 13:25:07"
+      },
+      "stats": {
+        "networth": 20875450630,
+        "investments": 114217374500,
+        "help": 4577,
+        "bounty": 2781,
+        "prestige": 3075,
+        "mastered": 151,
+        "masteredSF": 0,
+        "ascensions": 43,
+        "collection": 932,
+        "total_crafted": 33239,
+        "total_sold": 42336,
+        "total_quests": 1460,
+        "total_chests": 33,
+        "best_hero_power": 2232
+      },
+      "events": {
+        "current_event_score": 0,
+        "best_lcog_score": 581,
+        "best_kc_score": 10894,
+        "best_di_score": 56375
+      }
+    },
+    {
+      "last_update": "2026-06-20 16:33:19",
+      "id": "69d0a72ea36fa02151a7136b",
+      "name": "四暮暮暮#36166",
+      "level": 59,
+      "isVip": true,
+      "banned": false,
+      "last_online": "2026-06-21 00:10:35",
+      "guild": {
+        "rank": "Officer",
+        "joined": "2026-05-19 13:12:55"
+      },
+      "stats": {
+        "networth": 12932254359,
+        "investments": 30303524500,
+        "help": 1166,
+        "bounty": 2148,
+        "prestige": 37285,
+        "mastered": 308,
+        "masteredSF": 18,
+        "ascensions": 94,
+        "collection": 3786,
+        "total_crafted": 29052,
+        "total_sold": 31992,
+        "total_quests": 2828,
+        "total_chests": 498,
+        "best_hero_power": 9770
+      },
+      "events": {
+        "current_event_score": 943,
+        "best_lcog_score": 1049,
+        "best_kc_score": 360318,
+        "best_di_score": 35119
+      }
+    },
+    {
+      "last_update": "2026-06-21 00:42:45",
+      "id": "692d91c0bf91ac66c00eccf3",
+      "name": "天才呀#40183",
+      "level": 66,
+      "isVip": false,
+      "banned": false,
+      "last_online": "2026-06-21 00:42:39",
+      "guild": {
+        "rank": "Officer",
+        "joined": "2026-05-18 15:24:57"
+      },
+      "stats": {
+        "networth": 28103097525,
+        "investments": 9262770100,
+        "help": 1818,
+        "bounty": 1820,
+        "prestige": 32995,
+        "mastered": 268,
+        "masteredSF": 8,
+        "ascensions": 169,
+        "collection": 5010,
+        "total_crafted": 88887,
+        "total_sold": 79908,
+        "total_quests": 3275,
+        "total_chests": 678,
+        "best_hero_power": 38006
+      },
+      "events": {
+        "current_event_score": 1815,
+        "best_lcog_score": 2065,
+        "best_kc_score": 230262,
+        "best_di_score": 86121
+      }
+    },
+    {
+      "last_update": "2026-06-20 15:51:37",
+      "id": "69b94d6f0e001ce3f8df7efa",
+      "name": "Klein#10782",
+      "level": 57,
+      "isVip": true,
+      "banned": false,
+      "last_online": "2026-06-20 23:46:31",
+      "guild": {
+        "rank": "Officer",
+        "joined": "2026-03-21 01:07:52"
+      },
+      "stats": {
+        "networth": 6417090992,
+        "investments": 8295174500,
+        "help": 2047,
+        "bounty": 1585,
+        "prestige": 8675,
+        "mastered": 89,
+        "masteredSF": 7,
+        "ascensions": 259,
+        "collection": 1695,
+        "total_crafted": 14530,
+        "total_sold": 23117,
+        "total_quests": 2108,
+        "total_chests": 538,
+        "best_hero_power": 16042
+      },
+      "events": {
+        "current_event_score": 1209,
+        "best_lcog_score": 1923,
+        "best_kc_score": 183914,
+        "best_di_score": 44166
+      }
+    },
+    {
+      "last_update": "2026-06-20 19:56:38",
+      "id": "663ba9bf44dc9ac80776a27a",
+      "name": "MagicMirror#39146",
+      "level": 56,
+      "isVip": false,
+      "banned": false,
+      "last_online": "2026-06-20 22:19:25",
+      "guild": {
+        "rank": "Officer",
+        "joined": "2026-04-26 03:49:10"
+      },
+      "stats": {
+        "networth": 4189133452,
+        "investments": 7797913500,
+        "help": 3435,
+        "bounty": 1958,
+        "prestige": 35535,
+        "mastered": 247,
+        "masteredSF": 0,
+        "ascensions": 187,
+        "collection": 5774,
+        "total_crafted": 45879,
+        "total_sold": 51189,
+        "total_quests": 2941,
+        "total_chests": 205,
+        "best_hero_power": 18332
+      },
+      "events": {
+        "current_event_score": 582,
+        "best_lcog_score": 603,
+        "best_kc_score": 351514,
+        "best_di_score": 62686
+      }
+    },
+    {
+      "last_update": "2026-06-20 21:51:13",
+      "id": "5f700930031a301329a11eee",
+      "name": "yiyi11494#13953",
+      "level": 76,
+      "isVip": false,
+      "banned": false,
+      "last_online": "2026-06-20 21:51:09",
+      "guild": {
+        "rank": "Member",
+        "joined": "2026-04-21 01:05:50"
+      },
+      "stats": {
+        "networth": 227716992439,
+        "investments": 30585038400,
+        "help": 4785,
+        "bounty": 24022,
+        "prestige": 57210,
+        "mastered": 566,
+        "masteredSF": 7,
+        "ascensions": 323,
+        "collection": 20575,
+        "total_crafted": 944534,
+        "total_sold": 686470,
+        "total_quests": 27875,
+        "total_chests": 3770,
+        "best_hero_power": 20009
+      },
+      "events": {
+        "current_event_score": 1022,
+        "best_lcog_score": 2698,
+        "best_kc_score": 2807214,
+        "best_di_score": 239420
+      }
+    },
+    {
+      "last_update": "2026-06-20 07:34:37",
+      "id": "69ba35bc0e001ce3f8df8868",
+      "name": "时夜雨#67267",
+      "level": 52,
+      "isVip": false,
+      "banned": false,
+      "last_online": "2026-06-20 16:30:27",
+      "guild": {
+        "rank": "Member",
+        "joined": "2026-05-19 03:29:41"
+      },
+      "stats": {
+        "networth": 706611633,
+        "investments": 22283074500,
+        "help": 1484,
+        "bounty": 1075,
+        "prestige": 8505,
+        "mastered": 72,
+        "masteredSF": 2,
+        "ascensions": 72,
+        "collection": 938,
+        "total_crafted": 14193,
+        "total_sold": 17710,
+        "total_quests": 1498,
+        "total_chests": 298,
+        "best_hero_power": 6704
+      },
+      "events": {
+        "current_event_score": 783,
+        "best_lcog_score": 783,
+        "best_kc_score": 95298,
+        "best_di_score": 45087
+      }
+    },
+    {
+      "last_update": "2026-06-20 09:23:40",
+      "id": "5eb693952d9e80123ae02639",
+      "name": "Shan*_*FOX#42418",
+      "level": 49,
+      "isVip": true,
+      "banned": false,
+      "last_online": "2026-06-20 19:28:38",
+      "guild": {
+        "rank": "Member",
+        "joined": "2026-03-20 12:00:53"
+      },
+      "stats": {
+        "networth": 468597479,
+        "investments": 18220611000,
+        "help": 1123,
+        "bounty": 1688,
+        "prestige": 16060,
+        "mastered": 73,
+        "masteredSF": 1,
+        "ascensions": 228,
+        "collection": 1298,
+        "total_crafted": 12992,
+        "total_sold": 13375,
+        "total_quests": 1184,
+        "total_chests": 238,
+        "best_hero_power": 14488
+      },
+      "events": {
+        "current_event_score": 1621,
+        "best_lcog_score": 1621,
+        "best_kc_score": 127546,
+        "best_di_score": 68545
+      }
+    },
+    {
+      "last_update": "2026-06-20 08:34:53",
+      "id": "6306a4f0b67b1f12f03774c7",
+      "name": "5277#57894",
+      "level": 62,
+      "isVip": false,
+      "banned": false,
+      "last_online": "2026-06-20 13:44:31",
+      "guild": {
+        "rank": "Member",
+        "joined": "2026-05-16 04:54:55"
+      },
+      "stats": {
+        "networth": 6741447774,
+        "investments": 14488599500,
+        "help": 853,
+        "bounty": 33,
+        "prestige": 43875,
+        "mastered": 170,
+        "masteredSF": 1,
+        "ascensions": 218,
+        "collection": 1293,
+        "total_crafted": 26495,
+        "total_sold": 36812,
+        "total_quests": 3822,
+        "total_chests": 546,
+        "best_hero_power": 24104
+      },
+      "events": {
+        "current_event_score": 0,
+        "best_lcog_score": 1271,
+        "best_kc_score": 330024,
+        "best_di_score": 41833
+      }
+    },
+    {
+      "last_update": "2026-06-20 13:46:58",
+      "id": "620b4995245f6e12f3cd1b53",
+      "name": "Penny L#39430",
+      "level": 58,
+      "isVip": false,
+      "banned": false,
+      "last_online": "2026-06-20 17:52:42",
+      "guild": {
+        "rank": "Member",
+        "joined": "2026-05-18 09:01:52"
+      },
+      "stats": {
+        "networth": 2180539815,
+        "investments": 11610844000,
+        "help": 2816,
+        "bounty": 2120,
+        "prestige": 48870,
+        "mastered": 214,
+        "masteredSF": 4,
+        "ascensions": 353,
+        "collection": 3829,
+        "total_crafted": 68812,
+        "total_sold": 68108,
+        "total_quests": 6130,
+        "total_chests": 438,
+        "best_hero_power": 9019
+      },
+      "events": {
+        "current_event_score": 590,
+        "best_lcog_score": 943,
+        "best_kc_score": 91484,
+        "best_di_score": 52356
+      }
+    },
+    {
+      "last_update": "2026-06-20 08:04:09",
+      "id": "69b7a790fa63a8a3ae71a7d2",
+      "name": "渔洲渡#24911",
+      "level": 61,
+      "isVip": false,
+      "banned": false,
+      "last_online": "2026-06-20 13:26:56",
+      "guild": {
+        "rank": "Member",
+        "joined": "2026-05-19 02:32:00"
+      },
+      "stats": {
+        "networth": 13231566564,
+        "investments": 5622049500,
+        "help": 1658,
+        "bounty": 1647,
+        "prestige": 28620,
+        "mastered": 273,
+        "masteredSF": 1,
+        "ascensions": 145,
+        "collection": 2869,
+        "total_crafted": 23425,
+        "total_sold": 33802,
+        "total_quests": 2067,
+        "total_chests": 575,
+        "best_hero_power": 26210
+      },
+      "events": {
+        "current_event_score": 838,
+        "best_lcog_score": 2316,
+        "best_kc_score": 341222,
+        "best_di_score": 78612
+      }
+    },
+    {
+      "last_update": "2026-06-20 15:18:17",
+      "id": "5e6ef23469f6ee121b57912e",
+      "name": "Clodday#53519",
+      "level": 62,
+      "isVip": false,
+      "banned": false,
+      "last_online": "2026-06-20 08:49:05",
+      "guild": {
+        "rank": "Member",
+        "joined": "2026-04-24 00:21:36"
+      },
+      "stats": {
+        "networth": 13197236215,
+        "investments": 4843266200,
+        "help": 6142,
+        "bounty": 938,
+        "prestige": 87595,
+        "mastered": 242,
+        "masteredSF": 0,
+        "ascensions": 345,
+        "collection": 3477,
+        "total_crafted": 47452,
+        "total_sold": 43985,
+        "total_quests": 8368,
+        "total_chests": 807,
+        "best_hero_power": 25068
+      },
+      "events": {
+        "current_event_score": 1248,
+        "best_lcog_score": 2797,
+        "best_kc_score": 500003,
+        "best_di_score": 138460
+      }
+    },
+    {
+      "last_update": "2026-06-20 19:25:05",
+      "id": "62a069ea85c2db12dcaad220",
+      "name": "天打雷劈#91827",
+      "level": 56,
+      "isVip": false,
+      "banned": false,
+      "last_online": "2026-06-18 04:00:56",
+      "guild": {
+        "rank": "Member",
+        "joined": "2026-05-26 12:58:28"
+      },
+      "stats": {
+        "networth": 6467547764,
+        "investments": 4110574500,
+        "help": 654,
+        "bounty": 968,
+        "prestige": 11450,
+        "mastered": 156,
+        "masteredSF": 3,
+        "ascensions": 102,
+        "collection": 1539,
+        "total_crafted": 19911,
+        "total_sold": 24147,
+        "total_quests": 1311,
+        "total_chests": 242,
+        "best_hero_power": 8898
+      },
+      "events": {
+        "current_event_score": 140,
+        "best_lcog_score": 1033,
+        "best_kc_score": 107157,
+        "best_di_score": 41072
+      }
+    },
+    {
+      "last_update": "2026-06-20 07:34:42",
+      "id": "659c3e2ee54e0360bb858e59",
+      "name": "潘小闲#78923",
+      "level": 68,
+      "isVip": true,
+      "banned": false,
+      "last_online": "2026-06-20 23:51:08",
+      "guild": {
+        "rank": "Member",
+        "joined": "2026-05-13 13:43:34"
+      },
+      "stats": {
+        "networth": 53485527827,
+        "investments": 3345912500,
+        "help": 942,
+        "bounty": 2400,
+        "prestige": 12440,
+        "mastered": 140,
+        "masteredSF": 3,
+        "ascensions": 45,
+        "collection": 1575,
+        "total_crafted": 50204,
+        "total_sold": 83421,
+        "total_quests": 3329,
+        "total_chests": 388,
+        "best_hero_power": 13439
+      },
+      "events": {
+        "current_event_score": 737,
+        "best_lcog_score": 737,
+        "best_kc_score": 146645,
+        "best_di_score": 25117
+      }
+    },
+    {
+      "last_update": "2026-06-20 21:35:48",
+      "id": "5e46e62406ba35116a40b71e",
+      "name": "赖赖小姐#66674",
+      "level": 63,
+      "isVip": false,
+      "banned": false,
+      "last_online": "2026-06-20 23:58:59",
+      "guild": {
+        "rank": "Member",
+        "joined": "2026-05-04 17:09:21"
+      },
+      "stats": {
+        "networth": 8847878746,
+        "investments": 3090774500,
+        "help": 4944,
+        "bounty": 2458,
+        "prestige": 49195,
+        "mastered": 302,
+        "masteredSF": 0,
+        "ascensions": 362,
+        "collection": 4249,
+        "total_crafted": 55561,
+        "total_sold": 73976,
+        "total_quests": 10275,
+        "total_chests": 1922,
+        "best_hero_power": 24089
+      },
+      "events": {
+        "current_event_score": 1232,
+        "best_lcog_score": 4833,
+        "best_kc_score": 281401,
+        "best_di_score": 92764
+      }
+    },
+    {
+      "last_update": "2026-06-20 15:22:58",
+      "id": "629324d34a110612f39273ac",
+      "name": "关耀#91347",
+      "level": 60,
+      "isVip": false,
+      "banned": false,
+      "last_online": "2026-06-20 15:27:40",
+      "guild": {
+        "rank": "Member",
+        "joined": "2026-06-14 15:52:20"
+      },
+      "stats": {
+        "networth": 5856931581,
+        "investments": 1750809200,
+        "help": 2686,
+        "bounty": 1567,
+        "prestige": 26450,
+        "mastered": 245,
+        "masteredSF": 0,
+        "ascensions": 37,
+        "collection": 3119,
+        "total_crafted": 40268,
+        "total_sold": 45893,
+        "total_quests": 5655,
+        "total_chests": 760,
+        "best_hero_power": 73051
+      },
+      "events": {
+        "current_event_score": 23,
+        "best_lcog_score": 2011,
+        "best_kc_score": 546251,
+        "best_di_score": 100519
+      }
+    },
+    {
+      "last_update": "2026-06-20 15:22:58",
+      "id": "629324d34a110612f39273ac",
+      "name": "关耀#91347",
+      "level": 60,
+      "isVip": false,
+      "banned": false,
+      "last_online": "2026-06-20 15:27:40",
+      "guild": {
+        "rank": "Member",
+        "joined": "2026-06-14 15:52:20"
+      },
+      "stats": {
+        "networth": 5856931581,
+        "investments": 1750809200,
+        "help": 2686,
+        "bounty": 1567,
+        "prestige": 26450,
+        "mastered": 245,
+        "masteredSF": 0,
+        "ascensions": 37,
+        "collection": 3119,
+        "total_crafted": 40268,
+        "total_sold": 45893,
+        "total_quests": 5655,
+        "total_chests": 760,
+        "best_hero_power": 73051
+      },
+      "events": {
+        "current_event_score": 1139,
+        "best_lcog_score": 2011,
+        "best_kc_score": 546251,
+        "best_di_score": 100519
+      }
+    },
+    {
+      "last_update": "2026-06-20 08:30:27",
+      "id": "637c96695c732e60e22178b9",
+      "name": "MidgartFish#40032",
+      "level": 39,
+      "isVip": false,
+      "banned": false,
+      "last_online": "2026-06-21 00:03:39",
+      "guild": {
+        "rank": "Member",
+        "joined": "2026-05-18 13:45:04"
+      },
+      "stats": {
+        "networth": 76561799,
+        "investments": 19742700,
+        "help": 369,
+        "bounty": 19,
+        "prestige": 12785,
+        "mastered": 18,
+        "masteredSF": 0,
+        "ascensions": 1,
+        "collection": 262,
+        "total_crafted": 4034,
+        "total_sold": 4936,
+        "total_quests": 484,
+        "total_chests": 64,
+        "best_hero_power": 3925
+      },
+      "events": {
+        "current_event_score": 625,
+        "best_lcog_score": 625,
+        "best_kc_score": 6613,
+        "best_di_score": 15527
+      }
+    }
+  ],
+  "raw": {
+    "ok": true,
+    "credits_remaining": 21,
+    "guild": {
+      "last_update": "2026-06-21 00:10:55",
+      "id": "6421160c7836d519149fa8c9",
+      "name": "希尔锐斯",
+      "level": 160,
+      "population": 20,
+      "capacity": 20,
+      "networth": 1496861454900,
+      "rank": 2067,
+      "members": [
+        {
+          "last_update": "2026-06-20 02:36:02",
+          "id": "5e4029d4068d3a11713667de",
+          "name": "天凉好个秋#33444",
+          "level": 81,
+          "isVip": false,
+          "banned": false,
+          "last_online": "2026-06-19 05:22:49",
+          "guild": {
+            "rank": "Guildmaster",
+            "joined": "2026-03-19 10:52:35"
+          },
+          "stats": {
+            "networth": 755083585822,
+            "investments": 302880638400,
+            "help": 1596,
+            "bounty": 1452,
+            "prestige": 16805,
+            "mastered": 415,
+            "masteredSF": 0,
+            "ascensions": 380,
+            "collection": 9044,
+            "total_crafted": 84358,
+            "total_sold": 216099,
+            "total_quests": 10404,
+            "total_chests": 2000,
+            "best_hero_power": 117168
+          },
+          "events": {
+            "current_event_score": 2757,
+            "best_lcog_score": 8555,
+            "best_kc_score": 4318313,
+            "best_di_score": 353838
+          }
+        },
+        {
+          "last_update": "2026-06-20 13:53:40",
+          "id": "6805fc5573e08ceb9c99e7f7",
+          "name": "雾青丝#39731",
+          "level": 96,
+          "isVip": false,
+          "banned": false,
+          "last_online": "2026-06-17 13:59:47",
+          "guild": {
+            "rank": "Officer",
+            "joined": "2026-05-19 02:33:40"
+          },
+          "stats": {
+            "networth": 4163197255958,
+            "investments": 651059988400,
+            "help": 4755,
+            "bounty": 19827,
+            "prestige": 15025,
+            "mastered": 428,
+            "masteredSF": 0,
+            "ascensions": 609,
+            "collection": 12509,
+            "total_crafted": 601885,
+            "total_sold": 679574,
+            "total_quests": 8423,
+            "total_chests": 1364,
+            "best_hero_power": 567050
+          },
+          "events": {
+            "current_event_score": 3208,
+            "best_lcog_score": 24040,
+            "best_kc_score": 8057025,
+            "best_di_score": 1027898
+          }
+        },
+        {
+          "last_update": "2026-06-17 17:02:12",
+          "id": "5e626fea626bb71218241f71",
+          "name": "会计师#29722",
+          "level": 71,
+          "isVip": false,
+          "banned": false,
+          "last_online": "2026-05-21 04:17:18",
+          "guild": {
+            "rank": "Officer",
+            "joined": "2026-03-19 10:24:47"
+          },
+          "stats": {
+            "networth": 156217601795,
+            "investments": 251807374500,
+            "help": 3311,
+            "bounty": 1341,
+            "prestige": 48905,
+            "mastered": 68,
+            "masteredSF": 0,
+            "ascensions": 219,
+            "collection": 2169,
+            "total_crafted": 25019,
+            "total_sold": 48849,
+            "total_quests": 5679,
+            "total_chests": 892,
+            "best_hero_power": 410010
+          },
+          "events": {
+            "current_event_score": 0,
+            "best_lcog_score": 15751,
+            "best_kc_score": 3497928,
+            "best_di_score": 847630
+          }
+        },
+        {
+          "last_update": "2026-06-20 20:50:56",
+          "id": "67b46d46665600d22d6a5ab1",
+          "name": "清素笔调#12295",
+          "level": 64,
+          "isVip": false,
+          "banned": false,
+          "last_online": "2026-06-19 10:33:08",
+          "guild": {
+            "rank": "Officer",
+            "joined": "2026-05-13 13:25:07"
+          },
+          "stats": {
+            "networth": 20875450630,
+            "investments": 114217374500,
+            "help": 4577,
+            "bounty": 2781,
+            "prestige": 3075,
+            "mastered": 151,
+            "masteredSF": 0,
+            "ascensions": 43,
+            "collection": 932,
+            "total_crafted": 33239,
+            "total_sold": 42336,
+            "total_quests": 1460,
+            "total_chests": 33,
+            "best_hero_power": 2232
+          },
+          "events": {
+            "current_event_score": 0,
+            "best_lcog_score": 581,
+            "best_kc_score": 10894,
+            "best_di_score": 56375
+          }
+        },
+        {
+          "last_update": "2026-06-20 16:33:19",
+          "id": "69d0a72ea36fa02151a7136b",
+          "name": "四暮暮暮#36166",
+          "level": 59,
+          "isVip": true,
+          "banned": false,
+          "last_online": "2026-06-21 00:10:35",
+          "guild": {
+            "rank": "Officer",
+            "joined": "2026-05-19 13:12:55"
+          },
+          "stats": {
+            "networth": 12932254359,
+            "investments": 30303524500,
+            "help": 1166,
+            "bounty": 2148,
+            "prestige": 37285,
+            "mastered": 308,
+            "masteredSF": 18,
+            "ascensions": 94,
+            "collection": 3786,
+            "total_crafted": 29052,
+            "total_sold": 31992,
+            "total_quests": 2828,
+            "total_chests": 498,
+            "best_hero_power": 9770
+          },
+          "events": {
+            "current_event_score": 943,
+            "best_lcog_score": 1049,
+            "best_kc_score": 360318,
+            "best_di_score": 35119
+          }
+        },
+        {
+          "last_update": "2026-06-21 00:42:45",
+          "id": "692d91c0bf91ac66c00eccf3",
+          "name": "天才呀#40183",
+          "level": 66,
+          "isVip": false,
+          "banned": false,
+          "last_online": "2026-06-21 00:42:39",
+          "guild": {
+            "rank": "Officer",
+            "joined": "2026-05-18 15:24:57"
+          },
+          "stats": {
+            "networth": 28103097525,
+            "investments": 9262770100,
+            "help": 1818,
+            "bounty": 1820,
+            "prestige": 32995,
+            "mastered": 268,
+            "masteredSF": 8,
+            "ascensions": 169,
+            "collection": 5010,
+            "total_crafted": 88887,
+            "total_sold": 79908,
+            "total_quests": 3275,
+            "total_chests": 678,
+            "best_hero_power": 38006
+          },
+          "events": {
+            "current_event_score": 1815,
+            "best_lcog_score": 2065,
+            "best_kc_score": 230262,
+            "best_di_score": 86121
+          }
+        },
+        {
+          "last_update": "2026-06-20 15:51:37",
+          "id": "69b94d6f0e001ce3f8df7efa",
+          "name": "Klein#10782",
+          "level": 57,
+          "isVip": true,
+          "banned": false,
+          "last_online": "2026-06-20 23:46:31",
+          "guild": {
+            "rank": "Officer",
+            "joined": "2026-03-21 01:07:52"
+          },
+          "stats": {
+            "networth": 6417090992,
+            "investments": 8295174500,
+            "help": 2047,
+            "bounty": 1585,
+            "prestige": 8675,
+            "mastered": 89,
+            "masteredSF": 7,
+            "ascensions": 259,
+            "collection": 1695,
+            "total_crafted": 14530,
+            "total_sold": 23117,
+            "total_quests": 2108,
+            "total_chests": 538,
+            "best_hero_power": 16042
+          },
+          "events": {
+            "current_event_score": 1209,
+            "best_lcog_score": 1923,
+            "best_kc_score": 183914,
+            "best_di_score": 44166
+          }
+        },
+        {
+          "last_update": "2026-06-20 19:56:38",
+          "id": "663ba9bf44dc9ac80776a27a",
+          "name": "MagicMirror#39146",
+          "level": 56,
+          "isVip": false,
+          "banned": false,
+          "last_online": "2026-06-20 22:19:25",
+          "guild": {
+            "rank": "Officer",
+            "joined": "2026-04-26 03:49:10"
+          },
+          "stats": {
+            "networth": 4189133452,
+            "investments": 7797913500,
+            "help": 3435,
+            "bounty": 1958,
+            "prestige": 35535,
+            "mastered": 247,
+            "masteredSF": 0,
+            "ascensions": 187,
+            "collection": 5774,
+            "total_crafted": 45879,
+            "total_sold": 51189,
+            "total_quests": 2941,
+            "total_chests": 205,
+            "best_hero_power": 18332
+          },
+          "events": {
+            "current_event_score": 582,
+            "best_lcog_score": 603,
+            "best_kc_score": 351514,
+            "best_di_score": 62686
+          }
+        },
+        {
+          "last_update": "2026-06-20 21:51:13",
+          "id": "5f700930031a301329a11eee",
+          "name": "yiyi11494#13953",
+          "level": 76,
+          "isVip": false,
+          "banned": false,
+          "last_online": "2026-06-20 21:51:09",
+          "guild": {
+            "rank": "Member",
+            "joined": "2026-04-21 01:05:50"
+          },
+          "stats": {
+            "networth": 227716992439,
+            "investments": 30585038400,
+            "help": 4785,
+            "bounty": 24022,
+            "prestige": 57210,
+            "mastered": 566,
+            "masteredSF": 7,
+            "ascensions": 323,
+            "collection": 20575,
+            "total_crafted": 944534,
+            "total_sold": 686470,
+            "total_quests": 27875,
+            "total_chests": 3770,
+            "best_hero_power": 20009
+          },
+          "events": {
+            "current_event_score": 1022,
+            "best_lcog_score": 2698,
+            "best_kc_score": 2807214,
+            "best_di_score": 239420
+          }
+        },
+        {
+          "last_update": "2026-06-20 07:34:37",
+          "id": "69ba35bc0e001ce3f8df8868",
+          "name": "时夜雨#67267",
+          "level": 52,
+          "isVip": false,
+          "banned": false,
+          "last_online": "2026-06-20 16:30:27",
+          "guild": {
+            "rank": "Member",
+            "joined": "2026-05-19 03:29:41"
+          },
+          "stats": {
+            "networth": 706611633,
+            "investments": 22283074500,
+            "help": 1484,
+            "bounty": 1075,
+            "prestige": 8505,
+            "mastered": 72,
+            "masteredSF": 2,
+            "ascensions": 72,
+            "collection": 938,
+            "total_crafted": 14193,
+            "total_sold": 17710,
+            "total_quests": 1498,
+            "total_chests": 298,
+            "best_hero_power": 6704
+          },
+          "events": {
+            "current_event_score": 783,
+            "best_lcog_score": 783,
+            "best_kc_score": 95298,
+            "best_di_score": 45087
+          }
+        },
+        {
+          "last_update": "2026-06-20 09:23:40",
+          "id": "5eb693952d9e80123ae02639",
+          "name": "Shan*_*FOX#42418",
+          "level": 49,
+          "isVip": true,
+          "banned": false,
+          "last_online": "2026-06-20 19:28:38",
+          "guild": {
+            "rank": "Member",
+            "joined": "2026-03-20 12:00:53"
+          },
+          "stats": {
+            "networth": 468597479,
+            "investments": 18220611000,
+            "help": 1123,
+            "bounty": 1688,
+            "prestige": 16060,
+            "mastered": 73,
+            "masteredSF": 1,
+            "ascensions": 228,
+            "collection": 1298,
+            "total_crafted": 12992,
+            "total_sold": 13375,
+            "total_quests": 1184,
+            "total_chests": 238,
+            "best_hero_power": 14488
+          },
+          "events": {
+            "current_event_score": 1621,
+            "best_lcog_score": 1621,
+            "best_kc_score": 127546,
+            "best_di_score": 68545
+          }
+        },
+        {
+          "last_update": "2026-06-20 08:34:53",
+          "id": "6306a4f0b67b1f12f03774c7",
+          "name": "5277#57894",
+          "level": 62,
+          "isVip": false,
+          "banned": false,
+          "last_online": "2026-06-20 13:44:31",
+          "guild": {
+            "rank": "Member",
+            "joined": "2026-05-16 04:54:55"
+          },
+          "stats": {
+            "networth": 6741447774,
+            "investments": 14488599500,
+            "help": 853,
+            "bounty": 33,
+            "prestige": 43875,
+            "mastered": 170,
+            "masteredSF": 1,
+            "ascensions": 218,
+            "collection": 1293,
+            "total_crafted": 26495,
+            "total_sold": 36812,
+            "total_quests": 3822,
+            "total_chests": 546,
+            "best_hero_power": 24104
+          },
+          "events": {
+            "current_event_score": 0,
+            "best_lcog_score": 1271,
+            "best_kc_score": 330024,
+            "best_di_score": 41833
+          }
+        },
+        {
+          "last_update": "2026-06-20 13:46:58",
+          "id": "620b4995245f6e12f3cd1b53",
+          "name": "Penny L#39430",
+          "level": 58,
+          "isVip": false,
+          "banned": false,
+          "last_online": "2026-06-20 17:52:42",
+          "guild": {
+            "rank": "Member",
+            "joined": "2026-05-18 09:01:52"
+          },
+          "stats": {
+            "networth": 2180539815,
+            "investments": 11610844000,
+            "help": 2816,
+            "bounty": 2120,
+            "prestige": 48870,
+            "mastered": 214,
+            "masteredSF": 4,
+            "ascensions": 353,
+            "collection": 3829,
+            "total_crafted": 68812,
+            "total_sold": 68108,
+            "total_quests": 6130,
+            "total_chests": 438,
+            "best_hero_power": 9019
+          },
+          "events": {
+            "current_event_score": 590,
+            "best_lcog_score": 943,
+            "best_kc_score": 91484,
+            "best_di_score": 52356
+          }
+        },
+        {
+          "last_update": "2026-06-20 08:04:09",
+          "id": "69b7a790fa63a8a3ae71a7d2",
+          "name": "渔洲渡#24911",
+          "level": 61,
+          "isVip": false,
+          "banned": false,
+          "last_online": "2026-06-20 13:26:56",
+          "guild": {
+            "rank": "Member",
+            "joined": "2026-05-19 02:32:00"
+          },
+          "stats": {
+            "networth": 13231566564,
+            "investments": 5622049500,
+            "help": 1658,
+            "bounty": 1647,
+            "prestige": 28620,
+            "mastered": 273,
+            "masteredSF": 1,
+            "ascensions": 145,
+            "collection": 2869,
+            "total_crafted": 23425,
+            "total_sold": 33802,
+            "total_quests": 2067,
+            "total_chests": 575,
+            "best_hero_power": 26210
+          },
+          "events": {
+            "current_event_score": 838,
+            "best_lcog_score": 2316,
+            "best_kc_score": 341222,
+            "best_di_score": 78612
+          }
+        },
+        {
+          "last_update": "2026-06-20 15:18:17",
+          "id": "5e6ef23469f6ee121b57912e",
+          "name": "Clodday#53519",
+          "level": 62,
+          "isVip": false,
+          "banned": false,
+          "last_online": "2026-06-20 08:49:05",
+          "guild": {
+            "rank": "Member",
+            "joined": "2026-04-24 00:21:36"
+          },
+          "stats": {
+            "networth": 13197236215,
+            "investments": 4843266200,
+            "help": 6142,
+            "bounty": 938,
+            "prestige": 87595,
+            "mastered": 242,
+            "masteredSF": 0,
+            "ascensions": 345,
+            "collection": 3477,
+            "total_crafted": 47452,
+            "total_sold": 43985,
+            "total_quests": 8368,
+            "total_chests": 807,
+            "best_hero_power": 25068
+          },
+          "events": {
+            "current_event_score": 1248,
+            "best_lcog_score": 2797,
+            "best_kc_score": 500003,
+            "best_di_score": 138460
+          }
+        },
+        {
+          "last_update": "2026-06-20 19:25:05",
+          "id": "62a069ea85c2db12dcaad220",
+          "name": "天打雷劈#91827",
+          "level": 56,
+          "isVip": false,
+          "banned": false,
+          "last_online": "2026-06-18 04:00:56",
+          "guild": {
+            "rank": "Member",
+            "joined": "2026-05-26 12:58:28"
+          },
+          "stats": {
+            "networth": 6467547764,
+            "investments": 4110574500,
+            "help": 654,
+            "bounty": 968,
+            "prestige": 11450,
+            "mastered": 156,
+            "masteredSF": 3,
+            "ascensions": 102,
+            "collection": 1539,
+            "total_crafted": 19911,
+            "total_sold": 24147,
+            "total_quests": 1311,
+            "total_chests": 242,
+            "best_hero_power": 8898
+          },
+          "events": {
+            "current_event_score": 140,
+            "best_lcog_score": 1033,
+            "best_kc_score": 107157,
+            "best_di_score": 41072
+          }
+        },
+        {
+          "last_update": "2026-06-20 07:34:42",
+          "id": "659c3e2ee54e0360bb858e59",
+          "name": "潘小闲#78923",
+          "level": 68,
+          "isVip": true,
+          "banned": false,
+          "last_online": "2026-06-20 23:51:08",
+          "guild": {
+            "rank": "Member",
+            "joined": "2026-05-13 13:43:34"
+          },
+          "stats": {
+            "networth": 53485527827,
+            "investments": 3345912500,
+            "help": 942,
+            "bounty": 2400,
+            "prestige": 12440,
+            "mastered": 140,
+            "masteredSF": 3,
+            "ascensions": 45,
+            "collection": 1575,
+            "total_crafted": 50204,
+            "total_sold": 83421,
+            "total_quests": 3329,
+            "total_chests": 388,
+            "best_hero_power": 13439
+          },
+          "events": {
+            "current_event_score": 737,
+            "best_lcog_score": 737,
+            "best_kc_score": 146645,
+            "best_di_score": 25117
+          }
+        },
+        {
+          "last_update": "2026-06-20 21:35:48",
+          "id": "5e46e62406ba35116a40b71e",
+          "name": "赖赖小姐#66674",
+          "level": 63,
+          "isVip": false,
+          "banned": false,
+          "last_online": "2026-06-20 23:58:59",
+          "guild": {
+            "rank": "Member",
+            "joined": "2026-05-04 17:09:21"
+          },
+          "stats": {
+            "networth": 8847878746,
+            "investments": 3090774500,
+            "help": 4944,
+            "bounty": 2458,
+            "prestige": 49195,
+            "mastered": 302,
+            "masteredSF": 0,
+            "ascensions": 362,
+            "collection": 4249,
+            "total_crafted": 55561,
+            "total_sold": 73976,
+            "total_quests": 10275,
+            "total_chests": 1922,
+            "best_hero_power": 24089
+          },
+          "events": {
+            "current_event_score": 1232,
+            "best_lcog_score": 4833,
+            "best_kc_score": 281401,
+            "best_di_score": 92764
+          }
+        },
+        {
+          "last_update": "2026-06-20 15:22:58",
+          "id": "629324d34a110612f39273ac",
+          "name": "关耀#91347",
+          "level": 60,
+          "isVip": false,
+          "banned": false,
+          "last_online": "2026-06-20 15:27:40",
+          "guild": {
+            "rank": "Member",
+            "joined": "2026-06-14 15:52:20"
+          },
+          "stats": {
+            "networth": 5856931581,
+            "investments": 1750809200,
+            "help": 2686,
+            "bounty": 1567,
+            "prestige": 26450,
+            "mastered": 245,
+            "masteredSF": 0,
+            "ascensions": 37,
+            "collection": 3119,
+            "total_crafted": 40268,
+            "total_sold": 45893,
+            "total_quests": 5655,
+            "total_chests": 760,
+            "best_hero_power": 73051
+          },
+          "events": {
+            "current_event_score": 23,
+            "best_lcog_score": 2011,
+            "best_kc_score": 546251,
+            "best_di_score": 100519
+          }
+        },
+        {
+          "last_update": "2026-06-20 15:22:58",
+          "id": "629324d34a110612f39273ac",
+          "name": "关耀#91347",
+          "level": 60,
+          "isVip": false,
+          "banned": false,
+          "last_online": "2026-06-20 15:27:40",
+          "guild": {
+            "rank": "Member",
+            "joined": "2026-06-14 15:52:20"
+          },
+          "stats": {
+            "networth": 5856931581,
+            "investments": 1750809200,
+            "help": 2686,
+            "bounty": 1567,
+            "prestige": 26450,
+            "mastered": 245,
+            "masteredSF": 0,
+            "ascensions": 37,
+            "collection": 3119,
+            "total_crafted": 40268,
+            "total_sold": 45893,
+            "total_quests": 5655,
+            "total_chests": 760,
+            "best_hero_power": 73051
+          },
+          "events": {
+            "current_event_score": 1139,
+            "best_lcog_score": 2011,
+            "best_kc_score": 546251,
+            "best_di_score": 100519
+          }
+        },
+        {
+          "last_update": "2026-06-20 08:30:27",
+          "id": "637c96695c732e60e22178b9",
+          "name": "MidgartFish#40032",
+          "level": 39,
+          "isVip": false,
+          "banned": false,
+          "last_online": "2026-06-21 00:03:39",
+          "guild": {
+            "rank": "Member",
+            "joined": "2026-05-18 13:45:04"
+          },
+          "stats": {
+            "networth": 76561799,
+            "investments": 19742700,
+            "help": 369,
+            "bounty": 19,
+            "prestige": 12785,
+            "mastered": 18,
+            "masteredSF": 0,
+            "ascensions": 1,
+            "collection": 262,
+            "total_crafted": 4034,
+            "total_sold": 4936,
+            "total_quests": 484,
+            "total_chests": 64,
+            "best_hero_power": 3925
+          },
+          "events": {
+            "current_event_score": 625,
+            "best_lcog_score": 625,
+            "best_kc_score": 6613,
+            "best_di_score": 15527
+          }
+        }
+      ]
+    }
+  }
+}

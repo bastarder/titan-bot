@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T05:43:36Z",
+  "generated_at": "2026-06-21T01:09:19Z",
   "guilds": [
     {
       "slug": "tangguopai",
@@ -60,6 +60,12 @@
           "path": "data/tangguopai/2026-06-20.json",
           "ok": true,
           "fetched_at": "2026-06-20T05:43:32.053709Z"
+        },
+        {
+          "date": "2026-06-21",
+          "path": "data/tangguopai/2026-06-21.json",
+          "ok": true,
+          "fetched_at": "2026-06-21T01:09:14.538971Z"
         }
       ]
     },
@@ -110,6 +116,12 @@
           "path": "data/hustle/2026-06-20.json",
           "ok": true,
           "fetched_at": "2026-06-20T05:43:32.053709Z"
+        },
+        {
+          "date": "2026-06-21",
+          "path": "data/hustle/2026-06-21.json",
+          "ok": true,
+          "fetched_at": "2026-06-21T01:09:14.538971Z"
         }
       ]
     },
@@ -160,6 +172,12 @@
           "path": "data/haha-yixiao/2026-06-20.json",
           "ok": true,
           "fetched_at": "2026-06-20T05:43:32.053709Z"
+        },
+        {
+          "date": "2026-06-21",
+          "path": "data/haha-yixiao/2026-06-21.json",
+          "ok": true,
+          "fetched_at": "2026-06-21T01:09:14.538971Z"
         }
       ]
     },
@@ -210,6 +228,12 @@
           "path": "data/xieruisi/2026-06-20.json",
           "ok": true,
           "fetched_at": "2026-06-20T05:43:32.053709Z"
+        },
+        {
+          "date": "2026-06-21",
+          "path": "data/xieruisi/2026-06-21.json",
+          "ok": true,
+          "fetched_at": "2026-06-21T01:09:14.538971Z"
         }
       ]
     }
