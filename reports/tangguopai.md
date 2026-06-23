@@ -4,7 +4,7 @@
 
 - 公会页面：https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c
 - Guild ID：`60bb3bd6b7b3871333bbde3c`
-- README 更新时间：2026-06-23T01:09:18Z
+- README 更新时间：2026-06-23T05:14:36Z
 - 有效快照数量：12 / 最近 30 天
 - 最新快照日期：2026-06-23
 - 最新成员数：20
