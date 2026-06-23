@@ -1,6 +1,6 @@
 {
   "snapshot_date": "2026-06-23",
-  "fetched_at": "2026-06-23T01:09:12.634667Z",
+  "fetched_at": "2026-06-23T05:14:32.038199Z",
   "source": "api",
   "guild_slug": "xieruisi",
   "guild_name": "希尔锐斯",
@@ -10,13 +10,13 @@
   "ok": true,
   "members": [
     {
-      "last_update": "2026-06-22 20:44:59",
+      "last_update": "2026-06-23 02:46:13",
       "id": "5e4029d4068d3a11713667de",
       "name": "天凉好个秋#33444",
       "level": 81,
       "isVip": false,
       "banned": false,
-      "last_online": "2026-06-22 11:38:01",
+      "last_online": "2026-06-23 02:56:28",
       "guild": {
         "rank": "Guildmaster",
         "joined": "2026-03-19 10:52:35"
@@ -156,7 +156,7 @@
       "level": 60,
       "isVip": true,
       "banned": false,
-      "last_online": "2026-06-22 22:39:32",
+      "last_online": "2026-06-23 01:57:04",
       "guild": {
         "rank": "Officer",
         "joined": "2026-05-19 13:12:55"
@@ -191,7 +191,7 @@
       "level": 67,
       "isVip": true,
       "banned": false,
-      "last_online": "2026-06-22 22:43:24",
+      "last_online": "2026-06-23 02:39:01",
       "guild": {
         "rank": "Officer",
         "joined": "2026-05-18 15:24:57"
@@ -255,30 +255,30 @@
       }
     },
     {
-      "last_update": "2026-06-22 07:59:59",
+      "last_update": "2026-06-23 02:01:07",
       "id": "663ba9bf44dc9ac80776a27a",
       "name": "MagicMirror#39146",
       "level": 56,
       "isVip": false,
       "banned": false,
-      "last_online": "2026-06-22 22:42:04",
+      "last_online": "2026-06-23 04:08:43",
       "guild": {
         "rank": "Officer",
         "joined": "2026-04-26 03:49:10"
       },
       "stats": {
-        "networth": 4361388172,
+        "networth": 4396562537,
         "investments": 7801913500,
-        "help": 3451,
+        "help": 3468,
         "bounty": 1961,
         "prestige": 35535,
-        "mastered": 250,
+        "mastered": 251,
         "masteredSF": 0,
         "ascensions": 187,
-        "collection": 5896,
-        "total_crafted": 46012,
-        "total_sold": 51321,
-        "total_quests": 2946,
+        "collection": 5920,
+        "total_crafted": 46156,
+        "total_sold": 51399,
+        "total_quests": 2960,
         "total_chests": 205,
         "best_hero_power": 18332
       },
@@ -296,7 +296,7 @@
       "level": 76,
       "isVip": false,
       "banned": false,
-      "last_online": "2026-06-22 07:41:32",
+      "last_online": "2026-06-23 03:04:05",
       "guild": {
         "rank": "Member",
         "joined": "2026-04-21 01:05:50"
@@ -331,7 +331,7 @@
       "level": 52,
       "isVip": false,
       "banned": false,
-      "last_online": "2026-06-22 14:07:02",
+      "last_online": "2026-06-23 04:23:45",
       "guild": {
         "rank": "Member",
         "joined": "2026-05-19 03:29:41"
@@ -366,7 +366,7 @@
       "level": 62,
       "isVip": false,
       "banned": false,
-      "last_online": "2026-06-22 15:28:46",
+      "last_online": "2026-06-23 00:45:42",
       "guild": {
         "rank": "Member",
         "joined": "2026-05-16 04:54:55"
@@ -436,7 +436,7 @@
       "level": 59,
       "isVip": false,
       "banned": false,
-      "last_online": "2026-06-22 17:22:11",
+      "last_online": "2026-06-23 02:57:25",
       "guild": {
         "rank": "Member",
         "joined": "2026-05-18 09:01:52"
@@ -471,7 +471,7 @@
       "level": 62,
       "isVip": false,
       "banned": false,
-      "last_online": "2026-06-22 14:06:47",
+      "last_online": "2026-06-23 01:03:40",
       "guild": {
         "rank": "Member",
         "joined": "2026-05-19 02:32:00"
@@ -506,7 +506,7 @@
       "level": 62,
       "isVip": false,
       "banned": false,
-      "last_online": "2026-06-22 13:00:20",
+      "last_online": "2026-06-23 03:16:33",
       "guild": {
         "rank": "Member",
         "joined": "2026-04-24 00:21:36"
@@ -535,30 +535,30 @@
       }
     },
     {
-      "last_update": "2026-06-22 07:32:33",
+      "last_update": "2026-06-23 01:34:13",
       "id": "62a069ea85c2db12dcaad220",
       "name": "天打雷劈#91827",
       "level": 56,
       "isVip": false,
       "banned": false,
-      "last_online": "2026-06-22 07:32:29",
+      "last_online": "2026-06-22 07:44:45",
       "guild": {
         "rank": "Member",
         "joined": "2026-05-26 12:58:28"
       },
       "stats": {
-        "networth": 6569410979,
+        "networth": 6724505229,
         "investments": 4110574500,
         "help": 657,
-        "bounty": 973,
+        "bounty": 975,
         "prestige": 11750,
         "mastered": 156,
         "masteredSF": 3,
         "ascensions": 102,
         "collection": 1539,
-        "total_crafted": 19963,
-        "total_sold": 24274,
-        "total_quests": 1321,
+        "total_crafted": 19992,
+        "total_sold": 24334,
+        "total_quests": 1323,
         "total_chests": 242,
         "best_hero_power": 9321
       },
@@ -605,31 +605,31 @@
       }
     },
     {
-      "last_update": "2026-06-22 09:37:02",
+      "last_update": "2026-06-23 03:38:21",
       "id": "5e46e62406ba35116a40b71e",
       "name": "赖赖小姐#66674",
       "level": 63,
       "isVip": false,
       "banned": false,
-      "last_online": "2026-06-22 22:07:11",
+      "last_online": "2026-06-23 01:59:52",
       "guild": {
         "rank": "Member",
         "joined": "2026-05-04 17:09:21"
       },
       "stats": {
-        "networth": 8984550949,
-        "investments": 3090774500,
-        "help": 4953,
-        "bounty": 2476,
+        "networth": 9012152331,
+        "investments": 3164274500,
+        "help": 4960,
+        "bounty": 2481,
         "prestige": 49445,
         "mastered": 304,
         "masteredSF": 0,
         "ascensions": 365,
         "collection": 4368,
-        "total_crafted": 55729,
-        "total_sold": 74274,
-        "total_quests": 10305,
-        "total_chests": 1932,
+        "total_crafted": 55781,
+        "total_sold": 74352,
+        "total_quests": 10317,
+        "total_chests": 1936,
         "best_hero_power": 24089
       },
       "events": {
@@ -747,25 +747,25 @@
   ],
   "raw": {
     "ok": true,
-    "credits_remaining": 21,
+    "credits_remaining": 17,
     "guild": {
-      "last_update": "2026-06-23 00:15:04",
+      "last_update": "2026-06-23 04:24:24",
       "id": "6421160c7836d519149fa8c9",
       "name": "希尔锐斯",
       "level": 160,
       "population": 20,
       "capacity": 20,
       "networth": 1504307529000,
-      "rank": 2072,
+      "rank": 2073,
       "members": [
         {
-          "last_update": "2026-06-22 20:44:59",
+          "last_update": "2026-06-23 02:46:13",
           "id": "5e4029d4068d3a11713667de",
           "name": "天凉好个秋#33444",
           "level": 81,
           "isVip": false,
           "banned": false,
-          "last_online": "2026-06-22 11:38:01",
+          "last_online": "2026-06-23 02:56:28",
           "guild": {
             "rank": "Guildmaster",
             "joined": "2026-03-19 10:52:35"
@@ -905,7 +905,7 @@
           "level": 60,
           "isVip": true,
           "banned": false,
-          "last_online": "2026-06-22 22:39:32",
+          "last_online": "2026-06-23 01:57:04",
           "guild": {
             "rank": "Officer",
             "joined": "2026-05-19 13:12:55"
@@ -940,7 +940,7 @@
           "level": 67,
           "isVip": true,
           "banned": false,
-          "last_online": "2026-06-22 22:43:24",
+          "last_online": "2026-06-23 02:39:01",
           "guild": {
             "rank": "Officer",
             "joined": "2026-05-18 15:24:57"
@@ -1004,30 +1004,30 @@
           }
         },
         {
-          "last_update": "2026-06-22 07:59:59",
+          "last_update": "2026-06-23 02:01:07",
           "id": "663ba9bf44dc9ac80776a27a",
           "name": "MagicMirror#39146",
           "level": 56,
           "isVip": false,
           "banned": false,
-          "last_online": "2026-06-22 22:42:04",
+          "last_online": "2026-06-23 04:08:43",
           "guild": {
             "rank": "Officer",
             "joined": "2026-04-26 03:49:10"
           },
           "stats": {
-            "networth": 4361388172,
+            "networth": 4396562537,
             "investments": 7801913500,
-            "help": 3451,
+            "help": 3468,
             "bounty": 1961,
             "prestige": 35535,
-            "mastered": 250,
+            "mastered": 251,
             "masteredSF": 0,
             "ascensions": 187,
-            "collection": 5896,
-            "total_crafted": 46012,
-            "total_sold": 51321,
-            "total_quests": 2946,
+            "collection": 5920,
+            "total_crafted": 46156,
+            "total_sold": 51399,
+            "total_quests": 2960,
             "total_chests": 205,
             "best_hero_power": 18332
           },
@@ -1045,7 +1045,7 @@
           "level": 76,
           "isVip": false,
           "banned": false,
-          "last_online": "2026-06-22 07:41:32",
+          "last_online": "2026-06-23 03:04:05",
           "guild": {
             "rank": "Member",
             "joined": "2026-04-21 01:05:50"
@@ -1080,7 +1080,7 @@
           "level": 52,
           "isVip": false,
           "banned": false,
-          "last_online": "2026-06-22 14:07:02",
+          "last_online": "2026-06-23 04:23:45",
           "guild": {
             "rank": "Member",
             "joined": "2026-05-19 03:29:41"
@@ -1115,7 +1115,7 @@
           "level": 62,
           "isVip": false,
           "banned": false,
-          "last_online": "2026-06-22 15:28:46",
+          "last_online": "2026-06-23 00:45:42",
           "guild": {
             "rank": "Member",
             "joined": "2026-05-16 04:54:55"
@@ -1185,7 +1185,7 @@
           "level": 59,
           "isVip": false,
           "banned": false,
-          "last_online": "2026-06-22 17:22:11",
+          "last_online": "2026-06-23 02:57:25",
           "guild": {
             "rank": "Member",
             "joined": "2026-05-18 09:01:52"
@@ -1220,7 +1220,7 @@
           "level": 62,
           "isVip": false,
           "banned": false,
-          "last_online": "2026-06-22 14:06:47",
+          "last_online": "2026-06-23 01:03:40",
           "guild": {
             "rank": "Member",
             "joined": "2026-05-19 02:32:00"
@@ -1255,7 +1255,7 @@
           "level": 62,
           "isVip": false,
           "banned": false,
-          "last_online": "2026-06-22 13:00:20",
+          "last_online": "2026-06-23 03:16:33",
           "guild": {
             "rank": "Member",
             "joined": "2026-04-24 00:21:36"
@@ -1284,30 +1284,30 @@
           }
         },
         {
-          "last_update": "2026-06-22 07:32:33",
+          "last_update": "2026-06-23 01:34:13",
           "id": "62a069ea85c2db12dcaad220",
           "name": "天打雷劈#91827",
           "level": 56,
           "isVip": false,
           "banned": false,
-          "last_online": "2026-06-22 07:32:29",
+          "last_online": "2026-06-22 07:44:45",
           "guild": {
             "rank": "Member",
             "joined": "2026-05-26 12:58:28"
           },
           "stats": {
-            "networth": 6569410979,
+            "networth": 6724505229,
             "investments": 4110574500,
             "help": 657,
-            "bounty": 973,
+            "bounty": 975,
             "prestige": 11750,
             "mastered": 156,
             "masteredSF": 3,
             "ascensions": 102,
             "collection": 1539,
-            "total_crafted": 19963,
-            "total_sold": 24274,
-            "total_quests": 1321,
+            "total_crafted": 19992,
+            "total_sold": 24334,
+            "total_quests": 1323,
             "total_chests": 242,
             "best_hero_power": 9321
           },
@@ -1354,31 +1354,31 @@
           }
         },
         {
-          "last_update": "2026-06-22 09:37:02",
+          "last_update": "2026-06-23 03:38:21",
           "id": "5e46e62406ba35116a40b71e",
           "name": "赖赖小姐#66674",
           "level": 63,
           "isVip": false,
           "banned": false,
-          "last_online": "2026-06-22 22:07:11",
+          "last_online": "2026-06-23 01:59:52",
           "guild": {
             "rank": "Member",
             "joined": "2026-05-04 17:09:21"
           },
           "stats": {
-            "networth": 8984550949,
-            "investments": 3090774500,
-            "help": 4953,
-            "bounty": 2476,
+            "networth": 9012152331,
+            "investments": 3164274500,
+            "help": 4960,
+            "bounty": 2481,
             "prestige": 49445,
             "mastered": 304,
             "masteredSF": 0,
             "ascensions": 365,
             "collection": 4368,
-            "total_crafted": 55729,
-            "total_sold": 74274,
-            "total_quests": 10305,
-            "total_chests": 1932,
+            "total_crafted": 55781,
+            "total_sold": 74352,
+            "total_quests": 10317,
+            "total_chests": 1936,
             "best_hero_power": 24089
           },
           "events": {
