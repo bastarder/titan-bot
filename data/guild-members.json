@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-24T02:57:02Z",
+  "generated_at": "2026-06-24T05:11:26Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
@@ -8,7 +8,7 @@
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
       "snapshot_date": "2026-06-24",
-      "fetched_at": "2026-06-24T02:56:57.644321Z",
+      "fetched_at": "2026-06-24T05:11:21.527572Z",
       "members": [
         {
           "id": "67d5bb413385dfdc68a03fa5",
@@ -35,6 +35,10 @@
           "name": "究极机械鱼丸#85234"
         },
         {
+          "id": "67e2998e18c00179336d7415",
+          "name": "菜刀川美美#15892"
+        },
+        {
           "id": "677732571964e09d3c221361",
           "name": "雷霆嘎巴无情哈拉少#40989"
         },
@@ -45,10 +49,6 @@
         {
           "id": "629c804447e76812eed5d508",
           "name": "swang0726#35346"
-        },
-        {
-          "id": "67e2998e18c00179336d7415",
-          "name": "菜刀川美美#15892"
         },
         {
           "id": "67c7ba04bffc17ed626a01ce",
@@ -94,7 +94,7 @@
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
       "snapshot_date": "2026-06-24",
-      "fetched_at": "2026-06-24T02:56:57.644321Z",
+      "fetched_at": "2026-06-24T05:11:21.527572Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -184,7 +184,7 @@
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
       "snapshot_date": "2026-06-24",
-      "fetched_at": "2026-06-24T02:56:57.644321Z",
+      "fetched_at": "2026-06-24T05:11:21.527572Z",
       "members": [
         {
           "id": "69038d9816197a414e81e75d",
@@ -265,6 +265,10 @@
         {
           "id": "631860b44d16a713016b8c7e",
           "name": "果汁郎CC冻#16219"
+        },
+        {
+          "id": "5e355499f7e96e1181c44943",
+          "name": "小溪没有水#89992"
         }
       ]
     },
@@ -274,7 +278,7 @@
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
       "snapshot_date": "2026-06-24",
-      "fetched_at": "2026-06-24T02:56:57.644321Z",
+      "fetched_at": "2026-06-24T05:11:21.527572Z",
       "members": [
         {
           "id": "5e4029d4068d3a11713667de",
@@ -351,10 +355,6 @@
         {
           "id": "629324d34a110612f39273ac",
           "name": "关耀#91347"
-        },
-        {
-          "id": "69f383232b1e1194e8f5757f",
-          "name": "迷途小白熊#60277"
         },
         {
           "id": "637c96695c732e60e22178b9",
