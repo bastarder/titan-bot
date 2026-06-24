@@ -1,0 +1,366 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-24T02:38:40Z",
+  "guilds": {
+    "tangguopai": {
+      "slug": "tangguopai",
+      "name": "糖果派",
+      "guild_id": "60bb3bd6b7b3871333bbde3c",
+      "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
+      "snapshot_date": "2026-06-24",
+      "fetched_at": "2026-06-24T01:09:12.028919Z",
+      "members": [
+        {
+          "id": "67d5bb413385dfdc68a03fa5",
+          "name": "海绵胖了吗#95679"
+        },
+        {
+          "id": "65bfbc85e755b271319edd5a",
+          "name": "xiaonian#79853"
+        },
+        {
+          "id": "64ecb52a96939c091be78a83",
+          "name": "解富贵#83818"
+        },
+        {
+          "id": "5e9a918cb965cc122a4b14fb",
+          "name": "天下无敌君不见大王#34824"
+        },
+        {
+          "id": "5e27c3c263f9a111791ff51c",
+          "name": "雕刻月光ic#59803"
+        },
+        {
+          "id": "693ed9b774a10413800247c2",
+          "name": "究极机械鱼丸#85234"
+        },
+        {
+          "id": "677732571964e09d3c221361",
+          "name": "雷霆嘎巴无情哈拉少#40989"
+        },
+        {
+          "id": "60721f7328eb17132dd77566",
+          "name": "Yeona#16224"
+        },
+        {
+          "id": "629c804447e76812eed5d508",
+          "name": "swang0726#35346"
+        },
+        {
+          "id": "67e2998e18c00179336d7415",
+          "name": "菜刀川美美#15892"
+        },
+        {
+          "id": "67c7ba04bffc17ed626a01ce",
+          "name": "酱板鱼#10664"
+        },
+        {
+          "id": "5e91f5b901f480122bbfa04e",
+          "name": "大欧皇彪子#65035"
+        },
+        {
+          "id": "674a72bd1c20ab7bac1229ef",
+          "name": "raty#32091"
+        },
+        {
+          "id": "67a0d23fecbdbf034937feab",
+          "name": "Q丘Q#77629"
+        },
+        {
+          "id": "67cd9edb4af9bd75a86747bc",
+          "name": "阿尔茨海默症大王#23089"
+        },
+        {
+          "id": "606cfed064a6c9132ddeb510",
+          "name": "秦飘渺#76568"
+        },
+        {
+          "id": "5f4a44c2df68a5129e2e632a",
+          "name": "123#11483"
+        },
+        {
+          "id": "62da82b6d47f2012f572a4e3",
+          "name": "Lulu#86702"
+        },
+        {
+          "id": "6a13acb83f035489bd832e68",
+          "name": "danian#90047"
+        }
+      ]
+    },
+    "hustle": {
+      "slug": "hustle",
+      "name": "hustle",
+      "guild_id": "6776515e39261e91c1ab067a",
+      "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
+      "snapshot_date": "2026-06-24",
+      "fetched_at": "2026-06-24T01:09:12.028919Z",
+      "members": [
+        {
+          "id": "67700a7565449b0e8a0d3e99",
+          "name": "AirYang#20446"
+        },
+        {
+          "id": "67d94113dbc0a67c22b05400",
+          "name": "gzt2025#69645"
+        },
+        {
+          "id": "676aba5f7ef1dd907019aafd",
+          "name": "雨季墨叶#79559"
+        },
+        {
+          "id": "6110b8a9c82266132f80a053",
+          "name": "丞灬七#56940"
+        },
+        {
+          "id": "60aba1939cd7b5132f3047dc",
+          "name": "星痕锁碎#67115"
+        },
+        {
+          "id": "66169595374719e2055673ea",
+          "name": "玩家_河北第一帅#62845"
+        },
+        {
+          "id": "5e2a9b4c9e45be11765c8ff6",
+          "name": "ZYu#73188"
+        },
+        {
+          "id": "5e48eaa3eadae011718c135b",
+          "name": "苹果橘子大西瓜#31630"
+        },
+        {
+          "id": "621ca86ee2c32c12f607b817",
+          "name": "天刀笑剑钝#51635"
+        },
+        {
+          "id": "5f85adadda264413232c50a1",
+          "name": "Ryan樂#20630"
+        },
+        {
+          "id": "6968e40013ab0a851415586f",
+          "name": "干就完了#28346"
+        },
+        {
+          "id": "5e68681570ddac121a0f1cf3",
+          "name": "夏紫恒#60053"
+        },
+        {
+          "id": "61123eaab1bd11132f6b382a",
+          "name": "小兔兔#31781"
+        },
+        {
+          "id": "66324db4b300953fe1e95849",
+          "name": "托马斯#58719"
+        },
+        {
+          "id": "673f28df125dbf7cf74b3afd",
+          "name": "苹果橘子小西瓜#37898"
+        },
+        {
+          "id": "64c7bd76c7dfb23da37f51ba",
+          "name": "Luna#31588"
+        },
+        {
+          "id": "692aee30085d95edd040cd69",
+          "name": "十一秒#10632"
+        },
+        {
+          "id": "60472c0b936fdf1336c05353",
+          "name": "Viking#22834"
+        },
+        {
+          "id": "692b9abe5655b052d3de49b0",
+          "name": "中老年#20712"
+        },
+        {
+          "id": "67e66128f0698da36bae02bf",
+          "name": "与世无争#30844"
+        }
+      ]
+    },
+    "haha-yixiao": {
+      "slug": "haha-yixiao",
+      "name": "哈哈一笑",
+      "guild_id": "5e2dc5cb5334081178683bf5",
+      "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
+      "snapshot_date": "2026-06-24",
+      "fetched_at": "2026-06-24T01:09:12.028919Z",
+      "members": [
+        {
+          "id": "69038d9816197a414e81e75d",
+          "name": "叫我肝帝#60464"
+        },
+        {
+          "id": "65fd62d90878e9f0fe807c54",
+          "name": "原来是木星#21851"
+        },
+        {
+          "id": "5e20a744c128d47f3c2caad7",
+          "name": "猫猫玖子#16310"
+        },
+        {
+          "id": "613739368dbef513389f1b53",
+          "name": "杰尼杰尼#91950"
+        },
+        {
+          "id": "6873b745f80aa509b53cc122",
+          "name": "冰血无邪#10908"
+        },
+        {
+          "id": "6395feb7ddb45a13021a2810",
+          "name": "鵺鵼呀↗#93571"
+        },
+        {
+          "id": "696f1552e2099932df48ab4e",
+          "name": "-周小杰-#21956"
+        },
+        {
+          "id": "5dccc5728c2b23119d1f0979",
+          "name": "laomizhy#11209"
+        },
+        {
+          "id": "68a1f829a2ccae572ac35ab5",
+          "name": "路西法#57157"
+        },
+        {
+          "id": "675d763214fd6e890db3cfdd",
+          "name": "-梁小辉-#91673"
+        },
+        {
+          "id": "6684577cc631dba46d7a32ce",
+          "name": "原来是木星#80847"
+        },
+        {
+          "id": "634f65c1c83c7012e5c2de13",
+          "name": "YuXin#50867"
+        },
+        {
+          "id": "60209d217c9c741332f62e2f",
+          "name": "曹彼得#54137"
+        },
+        {
+          "id": "676a736bce382af81f72dc1b",
+          "name": "Zio#82433"
+        },
+        {
+          "id": "6845ad22326a1fa6fd1c2438",
+          "name": "Eloy#28001"
+        },
+        {
+          "id": "5e5b6bfc723fc91215421dd1",
+          "name": "小森林#51821"
+        },
+        {
+          "id": "5ebc9ae1136235293c990b76",
+          "name": "糕冷小帅#30316"
+        },
+        {
+          "id": "67895e8ff8e7888f18c69b6a",
+          "name": "Dreambig#70036"
+        },
+        {
+          "id": "5ebdfe9c3babd61239b4dc8a",
+          "name": "南方传奇商店#61069"
+        },
+        {
+          "id": "631860b44d16a713016b8c7e",
+          "name": "果汁郎CC冻#16219"
+        },
+        {
+          "id": "5e23dbf5d03be47ee8e47d0e",
+          "name": "晴天の娃娃#34155"
+        }
+      ]
+    },
+    "xieruisi": {
+      "slug": "xieruisi",
+      "name": "希尔锐斯",
+      "guild_id": "6421160c7836d519149fa8c9",
+      "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
+      "snapshot_date": "2026-06-24",
+      "fetched_at": "2026-06-24T01:09:12.028919Z",
+      "members": [
+        {
+          "id": "5e4029d4068d3a11713667de",
+          "name": "天凉好个秋#33444"
+        },
+        {
+          "id": "6805fc5573e08ceb9c99e7f7",
+          "name": "雾青丝#39731"
+        },
+        {
+          "id": "5e626fea626bb71218241f71",
+          "name": "会计师#29722"
+        },
+        {
+          "id": "67b46d46665600d22d6a5ab1",
+          "name": "清素笔调#12295"
+        },
+        {
+          "id": "69d0a72ea36fa02151a7136b",
+          "name": "四暮暮暮#36166"
+        },
+        {
+          "id": "692d91c0bf91ac66c00eccf3",
+          "name": "天才呀#40183"
+        },
+        {
+          "id": "69b94d6f0e001ce3f8df7efa",
+          "name": "Klein#10782"
+        },
+        {
+          "id": "663ba9bf44dc9ac80776a27a",
+          "name": "MagicMirror#39146"
+        },
+        {
+          "id": "5f700930031a301329a11eee",
+          "name": "yiyi11494#13953"
+        },
+        {
+          "id": "69ba35bc0e001ce3f8df8868",
+          "name": "时夜雨#67267"
+        },
+        {
+          "id": "6306a4f0b67b1f12f03774c7",
+          "name": "5277#57894"
+        },
+        {
+          "id": "5eb693952d9e80123ae02639",
+          "name": "Shan*_*FOX#42418"
+        },
+        {
+          "id": "620b4995245f6e12f3cd1b53",
+          "name": "Penny L#39430"
+        },
+        {
+          "id": "69b7a790fa63a8a3ae71a7d2",
+          "name": "渔洲渡#24911"
+        },
+        {
+          "id": "5e6ef23469f6ee121b57912e",
+          "name": "Clodday#53519"
+        },
+        {
+          "id": "62a069ea85c2db12dcaad220",
+          "name": "天打雷劈#91827"
+        },
+        {
+          "id": "659c3e2ee54e0360bb858e59",
+          "name": "潘小闲#78923"
+        },
+        {
+          "id": "5e46e62406ba35116a40b71e",
+          "name": "赖赖小姐#66674"
+        },
+        {
+          "id": "629324d34a110612f39273ac",
+          "name": "关耀#91347"
+        },
+        {
+          "id": "637c96695c732e60e22178b9",
+          "name": "MidgartFish#40032"
+        }
+      ]
+    }
+  }
+}

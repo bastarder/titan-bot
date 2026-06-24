@@ -1,4 +1,4 @@
-name: TitansDB guild daily snapshot
+name: TitansDB guild daily member data
 
 on:
   schedule:
@@ -20,7 +20,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: titansdb-guild-daily-snapshot
+  group: titansdb-guild-daily-member-data
   cancel-in-progress: false
 
 jobs:
@@ -36,23 +36,23 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Fetch today's snapshot
+      - name: Fetch today's member data
         env:
           TITANSDB_API_KEY: ${{ secrets.TITANSDB_API_KEY }}
           SNAPSHOT_DATE: ${{ github.event.inputs.snapshot_date }}
         run: |
           if [ -n "$SNAPSHOT_DATE" ]; then
-            python3 scripts/fetch_snapshot.py --config config/guilds.json --output-dir data --date "$SNAPSHOT_DATE" || echo "Fetch failed; existing successful same-day data was kept when present."
+            python3 scripts/fetch_snapshot.py --config config/guilds.json --output-dir data --date "$SNAPSHOT_DATE" || echo "Fetch failed; existing aggregate data was kept when present."
           else
-            python3 scripts/fetch_snapshot.py --config config/guilds.json --output-dir data || echo "Fetch failed; existing successful same-day data was kept when present."
+            python3 scripts/fetch_snapshot.py --config config/guilds.json --output-dir data || echo "Fetch failed; existing aggregate data was kept when present."
           fi
 
-      - name: Commit snapshot data
+      - name: Commit member data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data
-          git diff --cached --quiet || git commit -m "Add TitansDB guild snapshot"
+          git diff --cached --quiet || git commit -m "Update TitansDB member data"
 
       - name: Update README
         env:

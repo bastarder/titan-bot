@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch TitansDB guild snapshots into data/{guild_slug}/YYYY-MM-DD.json."""
+"""Fetch TitansDB guild data into member-centric JSON stores."""
 
 from __future__ import annotations
 
@@ -13,8 +13,17 @@ import urllib.request
 from pathlib import Path
 from typing import Any
 
-from build_pages_index import build_index as build_pages_index
 from guild_config import GuildConfig, load_guilds
+from member_store import (
+    GUILD_MEMBERS_FILENAME,
+    MEMBERS_FILENAME,
+    finalize_guild_member_store,
+    finalize_member_store,
+    load_guild_member_store,
+    load_member_store,
+    update_stores_from_snapshot,
+    write_json,
+)
 
 
 API_URL_TEMPLATE = "https://www.titansdb.com/api/guild/{guild_id}"
@@ -122,71 +131,61 @@ def fetch_snapshot(guild: GuildConfig, api_key: str | None) -> dict[str, Any]:
     }
 
 
-def read_existing_snapshot(path: Path) -> dict[str, Any] | None:
-    try:
-        payload = json.loads(path.read_text(encoding="utf-8"))
-    except (OSError, json.JSONDecodeError):
-        return None
-    return payload if isinstance(payload, dict) else None
-
-
-def write_snapshot(
+def update_member_data(
     *,
     guild: GuildConfig,
-    output_dir: Path,
+    member_store: dict[str, Any],
+    guild_store: dict[str, Any],
     snapshot_date: str,
     fetched_at: str,
     api_key: str | None,
-    overwrite_success_with_error: bool,
 ) -> int:
-    guild_output_dir = output_dir / guild.slug
-    guild_output_dir.mkdir(parents=True, exist_ok=True)
-    output_path = guild_output_dir / f"{snapshot_date}.json"
-
     result = {
         "snapshot_date": snapshot_date,
         "fetched_at": fetched_at,
         **fetch_snapshot(guild, api_key),
     }
 
-    existing = read_existing_snapshot(output_path)
-    if (
-        result.get("ok") is False
-        and existing
-        and existing.get("ok") is True
-        and not overwrite_success_with_error
-    ):
-        print(
-            f"{output_path} already contains a successful snapshot; "
-            "keeping it instead of overwriting with the failed fetch result."
-        )
+    if result.get("ok") is False:
+        print(f"{guild.slug}: fetch failed; aggregate data was not changed.")
         return 2
 
-    output_path.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(output_path)
-    return 0 if result.get("ok") else 2
+    updated = update_stores_from_snapshot(
+        member_store=member_store,
+        guild_store=guild_store,
+        guild=guild,
+        snapshot=result,
+        snapshot_date=snapshot_date,
+        fetched_at=fetched_at,
+    )
+    if not updated:
+        print(f"{guild.slug}: no members found; aggregate data was not changed.")
+        return 2
+
+    print(f"{guild.slug}: updated {len(result.get('members') or [])} members for {snapshot_date}")
+    return 0
 
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--output-dir", default="data", help="Directory for guild snapshot output")
+    parser.add_argument("--output-dir", default="data", help="Directory for aggregate member data output")
     parser.add_argument("--config", default="config/guilds.json", help="Guild config JSON path")
     parser.add_argument("--guild-slug", default=None, help="Fetch only one configured guild slug")
     parser.add_argument("--date", default=None, help="Override output date, format YYYY-MM-DD")
     parser.add_argument(
         "--overwrite-success-with-error",
         action="store_true",
-        help="Replace an existing successful same-day snapshot with an error snapshot.",
+        help="Deprecated; aggregate data is never overwritten by failed fetches.",
     )
     parser.add_argument(
         "--pages-index-output",
         default=None,
-        help="Path for the GitHub Pages snapshot manifest. Defaults to {output-dir}/pages-index.json.",
+        help="Deprecated; pages-index.json is no longer generated.",
     )
     parser.add_argument(
         "--skip-pages-index",
         action="store_true",
-        help="Do not refresh the GitHub Pages snapshot manifest after fetching.",
+        help="Deprecated; pages-index.json is no longer generated.",
     )
     args = parser.parse_args()
 
@@ -204,31 +203,32 @@ def main() -> int:
     fetched_at = dt.datetime.now(dt.timezone.utc).isoformat().replace("+00:00", "Z")
     output_dir = (root / args.output_dir).resolve()
     api_key = os.environ.get("TITANSDB_API_KEY", "").strip()
+    members_path = output_dir / MEMBERS_FILENAME
+    guild_members_path = output_dir / GUILD_MEMBERS_FILENAME
+    member_store = load_member_store(members_path)
+    guild_store = load_guild_member_store(guild_members_path)
 
     exit_code = 0
+    changed = False
     for guild in guilds:
-        result = write_snapshot(
+        result = update_member_data(
             guild=guild,
-            output_dir=output_dir,
+            member_store=member_store,
+            guild_store=guild_store,
             snapshot_date=snapshot_date,
             fetched_at=fetched_at,
             api_key=api_key,
-            overwrite_success_with_error=args.overwrite_success_with_error,
         )
+        if result == 0:
+            changed = True
         exit_code = max(exit_code, result)
 
-    if not args.skip_pages_index:
-        pages_index_output = (
-            (root / args.pages_index_output).resolve()
-            if args.pages_index_output
-            else output_dir / "pages-index.json"
-        )
-        build_pages_index(
-            config_path=config_path,
-            data_dir=output_dir,
-            output_path=pages_index_output,
-            root=root.resolve(),
-        )
+    if changed:
+        generated_at = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
+        finalize_member_store(member_store, generated_at=generated_at)
+        finalize_guild_member_store(guild_store, generated_at=generated_at)
+        write_json(members_path, member_store)
+        write_json(guild_members_path, guild_store)
 
     return exit_code
 
