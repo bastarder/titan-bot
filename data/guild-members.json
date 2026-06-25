@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-25T12:38:29Z",
+  "generated_at": "2026-06-25T13:30:34Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
@@ -8,7 +8,7 @@
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
       "snapshot_date": "2026-06-25",
-      "fetched_at": "2026-06-25T12:38:25.049964Z",
+      "fetched_at": "2026-06-25T13:30:29.304776Z",
       "members": [
         {
           "id": "67d5bb413385dfdc68a03fa5",
@@ -75,10 +75,6 @@
           "name": "阿尔茨海默症大王#23089"
         },
         {
-          "id": "67befcbebe6f0230e2982010",
-          "name": "sss#51600"
-        },
-        {
           "id": "5f4a44c2df68a5129e2e632a",
           "name": "123#11483"
         },
@@ -98,7 +94,7 @@
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
       "snapshot_date": "2026-06-25",
-      "fetched_at": "2026-06-25T12:38:25.049964Z",
+      "fetched_at": "2026-06-25T13:30:29.304776Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -131,10 +127,6 @@
         {
           "id": "621ca86ee2c32c12f607b817",
           "name": "天刀笑剑钝#51635"
-        },
-        {
-          "id": "5ee96d07c143e315774f3aaa",
-          "name": "书生压力大#26831"
         },
         {
           "id": "5ee96d07c143e315774f3aaa",
@@ -192,7 +184,7 @@
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
       "snapshot_date": "2026-06-25",
-      "fetched_at": "2026-06-25T12:38:25.049964Z",
+      "fetched_at": "2026-06-25T13:30:29.304776Z",
       "members": [
         {
           "id": "69038d9816197a414e81e75d",
@@ -282,7 +274,7 @@
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
       "snapshot_date": "2026-06-25",
-      "fetched_at": "2026-06-25T12:38:25.049964Z",
+      "fetched_at": "2026-06-25T13:30:29.304776Z",
       "members": [
         {
           "id": "5e4029d4068d3a11713667de",
