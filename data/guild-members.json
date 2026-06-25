@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-25T05:15:34Z",
+  "generated_at": "2026-06-25T12:38:29Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
@@ -8,7 +8,7 @@
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
       "snapshot_date": "2026-06-25",
-      "fetched_at": "2026-06-25T05:15:29.842550Z",
+      "fetched_at": "2026-06-25T12:38:25.049964Z",
       "members": [
         {
           "id": "67d5bb413385dfdc68a03fa5",
@@ -87,10 +87,6 @@
           "name": "Lulu#86702"
         },
         {
-          "id": "641e9491cd9b201d5e0a31dc",
-          "name": "小趴菜#87872"
-        },
-        {
           "id": "6a13acb83f035489bd832e68",
           "name": "danian#90047"
         }
@@ -102,7 +98,7 @@
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
       "snapshot_date": "2026-06-25",
-      "fetched_at": "2026-06-25T05:15:29.842550Z",
+      "fetched_at": "2026-06-25T12:38:25.049964Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -187,10 +183,6 @@
         {
           "id": "67e66128f0698da36bae02bf",
           "name": "与世无争#30844"
-        },
-        {
-          "id": "693bf08def200609bbe16cf5",
-          "name": "BUG#71327"
         }
       ]
     },
@@ -200,7 +192,7 @@
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
       "snapshot_date": "2026-06-25",
-      "fetched_at": "2026-06-25T05:15:29.842550Z",
+      "fetched_at": "2026-06-25T12:38:25.049964Z",
       "members": [
         {
           "id": "69038d9816197a414e81e75d",
@@ -290,7 +282,7 @@
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
       "snapshot_date": "2026-06-25",
-      "fetched_at": "2026-06-25T05:15:29.842550Z",
+      "fetched_at": "2026-06-25T12:38:25.049964Z",
       "members": [
         {
           "id": "5e4029d4068d3a11713667de",
@@ -325,10 +317,6 @@
           "name": "MagicMirror#39146"
         },
         {
-          "id": "5e3c23e0de7a4313a32b21b9",
-          "name": "monk yluffy#30798"
-        },
-        {
           "id": "5f700930031a301329a11eee",
           "name": "yiyi11494#13953"
         },
@@ -351,10 +339,6 @@
         {
           "id": "69b7a790fa63a8a3ae71a7d2",
           "name": "渔洲渡#24911"
-        },
-        {
-          "id": "66062aa678d4dc1f41c8c0e6",
-          "name": "他们说我是蜂子#86351"
         },
         {
           "id": "5e6ef23469f6ee121b57912e",
