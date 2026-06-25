@@ -145,7 +145,7 @@ def update_stores_from_snapshot(
         return False
 
     member_records = member_store.setdefault("members", {})
-    guild_members: list[dict[str, str]] = []
+    guild_members_map: dict[str, dict[str, str]] = {}
 
     for member in members:
         if not isinstance(member, dict):
@@ -180,7 +180,9 @@ def update_stores_from_snapshot(
             record["latest_investment"] = investment
             record["latest_date"] = snapshot_date
 
-        guild_members.append({"id": member_id, "name": name})
+        guild_members_map[member_id] = {"id": member_id, "name": name}
+
+    guild_members = list(guild_members_map.values())
 
     if not guild_members:
         return False
