@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-27T05:03:54Z",
+  "generated_at": "2026-06-28T01:09:16Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
       "name": "糖果派",
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
-      "snapshot_date": "2026-06-27",
-      "fetched_at": "2026-06-27T05:03:49.849256Z",
+      "snapshot_date": "2026-06-28",
+      "fetched_at": "2026-06-28T01:09:11.380327Z",
       "members": [
         {
           "id": "67d5bb413385dfdc68a03fa5",
@@ -71,12 +71,12 @@
           "name": "秦飘渺#76568"
         },
         {
-          "id": "67a0d23fecbdbf034937feab",
-          "name": "Q丘Q#77629"
-        },
-        {
           "id": "67cd9edb4af9bd75a86747bc",
           "name": "阿尔茨海默症大王#23089"
+        },
+        {
+          "id": "67a0d23fecbdbf034937feab",
+          "name": "Q丘Q#77629"
         },
         {
           "id": "5f4a44c2df68a5129e2e632a",
@@ -97,8 +97,8 @@
       "name": "hustle",
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
-      "snapshot_date": "2026-06-27",
-      "fetched_at": "2026-06-27T05:03:49.849256Z",
+      "snapshot_date": "2026-06-28",
+      "fetched_at": "2026-06-28T01:09:11.380327Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -187,8 +187,8 @@
       "name": "哈哈一笑",
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
-      "snapshot_date": "2026-06-27",
-      "fetched_at": "2026-06-27T05:03:49.849256Z",
+      "snapshot_date": "2026-06-28",
+      "fetched_at": "2026-06-28T01:09:11.380327Z",
       "members": [
         {
           "id": "69038d9816197a414e81e75d",
@@ -255,12 +255,12 @@
           "name": "小森林#51821"
         },
         {
-          "id": "67895e8ff8e7888f18c69b6a",
-          "name": "Dreambig#70036"
-        },
-        {
           "id": "5ebc9ae1136235293c990b76",
           "name": "糕冷小帅#30316"
+        },
+        {
+          "id": "67895e8ff8e7888f18c69b6a",
+          "name": "Dreambig#70036"
         },
         {
           "id": "5ebdfe9c3babd61239b4dc8a",
@@ -277,8 +277,8 @@
       "name": "希尔锐斯",
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
-      "snapshot_date": "2026-06-27",
-      "fetched_at": "2026-06-27T05:03:49.849256Z",
+      "snapshot_date": "2026-06-28",
+      "fetched_at": "2026-06-28T01:09:11.380327Z",
       "members": [
         {
           "id": "5e4029d4068d3a11713667de",
