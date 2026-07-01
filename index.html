@@ -44,7 +44,7 @@
       }
 
       .shell {
-        width: min(1280px, calc(100% - 32px));
+        width: min(1360px, calc(100% - 32px));
         margin: 0 auto;
         padding: 28px 0 44px;
       }
@@ -134,7 +134,7 @@
 
       .toolbar {
         display: grid;
-        grid-template-columns: minmax(220px, 1fr) auto auto auto;
+        grid-template-columns: minmax(430px, 1.45fr) minmax(120px, 140px) minmax(220px, 1fr) minmax(150px, 190px);
         gap: 12px;
         align-items: center;
         margin: 18px 0;
@@ -169,11 +169,58 @@
         font-weight: 700;
       }
 
-      .segmented {
-        display: flex;
-        gap: 6px;
-        flex-wrap: wrap;
+      .sort-button {
+        display: inline-flex;
+        align-items: center;
         justify-content: flex-end;
+        gap: 4px;
+        min-height: auto;
+        padding: 0;
+        border: 0;
+        background: transparent;
+        color: inherit;
+        font: inherit;
+        font-weight: 700;
+      }
+
+      .sort-button:hover {
+        color: var(--blue);
+      }
+
+      .sort-button.active {
+        background: transparent;
+        color: var(--blue);
+      }
+
+      .sort-indicator {
+        display: inline-block;
+        min-width: 10px;
+        color: var(--muted);
+        font-size: 11px;
+      }
+
+      .date-range {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(140px, 1fr));
+        gap: 8px 10px;
+        align-items: end;
+      }
+
+      .date-field {
+        display: grid;
+        gap: 4px;
+      }
+
+      .date-field span,
+      .date-note {
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      .date-note {
+        grid-column: 1 / -1;
+        min-height: 18px;
+        white-space: nowrap;
       }
 
       .guild-grid {
@@ -346,16 +393,34 @@
       }
 
       th:first-child,
-      td:first-child {
+      td:first-child,
+      th:nth-child(2),
+      td:nth-child(2) {
         position: sticky;
-        left: 0;
         z-index: 2;
         background: var(--surface);
+      }
+
+      th:first-child,
+      td:first-child {
+        left: 0;
+        min-width: 64px;
+        text-align: center;
+      }
+
+      th:nth-child(2),
+      td:nth-child(2) {
+        left: 64px;
         text-align: left;
         min-width: 210px;
       }
 
       th:first-child {
+        z-index: 3;
+        background: #f0f4f9;
+      }
+
+      th:nth-child(2) {
         z-index: 3;
         background: #f0f4f9;
       }
@@ -428,14 +493,14 @@
           border-top: 1px solid var(--line);
         }
 
-        .segmented {
-          justify-content: start;
+        .date-range {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
         }
       }
 
       @media (max-width: 620px) {
         .shell {
-          width: min(100% - 20px, 1280px);
+          width: min(100% - 20px, 1360px);
           padding-top: 18px;
         }
 
@@ -488,18 +553,24 @@
       <section class="summary-grid" id="summaryGrid" aria-label="总览"></section>
 
       <section class="toolbar" aria-label="筛选">
-        <input id="searchInput" type="search" placeholder="搜索成员、公会、职位" />
-        <select id="guildSelect" aria-label="选择公会"></select>
+        <div class="date-range" aria-label="统计日期">
+          <label class="date-field">
+            <span>统计日期</span>
+            <input id="targetDateInput" type="date" />
+          </label>
+          <label class="date-field">
+            <span>对比日期</span>
+            <input id="baseDateInput" type="date" />
+          </label>
+          <span class="date-note" id="dateNote"></span>
+        </div>
         <select id="rankLimitSelect" aria-label="卡片排名数量">
           <option value="5">Top 5</option>
-          <option value="10" selected>Top 10</option>
-          <option value="20">Top 20</option>
+          <option value="10">Top 10</option>
+          <option value="20" selected>Top 20</option>
         </select>
-        <div class="segmented" aria-label="时间范围">
-          <button type="button" data-days="all" class="active">全部</button>
-          <button type="button" data-days="30">30 天</button>
-          <button type="button" data-days="7">7 天</button>
-        </div>
+        <input id="searchInput" type="search" placeholder="搜索成员、公会、职位" />
+        <select id="guildSelect" aria-label="选择公会"></select>
       </section>
 
       <section class="guild-grid" id="guildGrid" aria-label="公会概览"></section>
@@ -517,7 +588,12 @@
     </main>
 
     <script>
-      const HUNDRED_MILLION = 100000000;
+      const NUMBER_UNITS = [
+        { threshold: 1000000000000, suffix: "T" },
+        { threshold: 1000000000, suffix: "G" },
+        { threshold: 1000000, suffix: "M" },
+        { threshold: 1000, suffix: "K" },
+      ];
       const state = {
         memberStore: null,
         guildStore: null,
@@ -525,8 +601,10 @@
         globalMembers: [],
         allDates: [],
         selectedGuild: "all",
-        selectedDays: "all",
-        rankLimit: 10,
+        requestedTargetDate: "",
+        requestedBaseDate: "",
+        rankLimit: 20,
+        tableSort: null,
         query: "",
       };
 
@@ -541,6 +619,9 @@
         tableWrap: document.querySelector("#tableWrap"),
         rowCount: document.querySelector("#rowCount"),
         tableNote: document.querySelector("#tableNote"),
+        targetDateInput: document.querySelector("#targetDateInput"),
+        baseDateInput: document.querySelector("#baseDateInput"),
+        dateNote: document.querySelector("#dateNote"),
       };
 
       function formatDateTime(value) {
@@ -553,15 +634,59 @@
         }).format(date);
       }
 
-      function formatYi(value) {
+      function formatAmount(value) {
         if (!Number.isFinite(value)) return "-";
-        return `${(value / HUNDRED_MILLION).toFixed(2)}亿`;
+        const absolute = Math.abs(value);
+        const unit = NUMBER_UNITS.find((item) => absolute >= item.threshold);
+        if (!unit) return String(value);
+        const scaled = (value / unit.threshold)
+          .toFixed(2)
+          .replace(/\.00$/, "")
+          .replace(/(\.\d)0$/, "$1");
+        return `${scaled}${unit.suffix}`;
       }
 
       function formatDelta(value) {
         if (!Number.isFinite(value)) return "";
         const sign = value > 0 ? "+" : "";
-        return `${sign}${formatYi(value)}`;
+        return `${sign}${formatAmount(value)}`;
+      }
+
+      function sortButton(key, label) {
+        const active = state.tableSort?.key === key;
+        const direction = active ? state.tableSort.direction : "";
+        const indicator = active ? (direction === "asc" ? "↑" : "↓") : "";
+        return `
+          <button class="sort-button ${active ? "active" : ""}" type="button" data-sort-key="${key}">
+            <span>${label}</span>
+            <span class="sort-indicator" aria-hidden="true">${indicator}</span>
+          </button>
+        `;
+      }
+
+      function levelNumber(value) {
+        const number = Number(value);
+        return Number.isFinite(number) ? number : -Infinity;
+      }
+
+      function sortTableRows(rows) {
+        const currentOrder = [...rows].sort((a, b) => b.latest - a.latest);
+        if (!state.tableSort) return currentOrder;
+
+        const direction = state.tableSort.direction === "asc" ? 1 : -1;
+        const valueByKey = {
+          level: (row) => levelNumber(row.member.level),
+          latest: (row) => row.latest,
+          growth: (row) => row.growth,
+        };
+        const getValue = valueByKey[state.tableSort.key];
+        if (!getValue) return currentOrder;
+
+        return currentOrder.sort((a, b) => {
+          const difference = getValue(a) - getValue(b);
+          if (difference !== 0) return difference * direction;
+          return b.latest - a.latest;
+        });
       }
 
       function escapeHtml(value) {
@@ -577,10 +702,61 @@
         });
       }
 
-      function limitDates(dates) {
-        if (state.selectedDays === "all") return dates;
-        const count = Number(state.selectedDays);
-        return dates.slice(Math.max(0, dates.length - count));
+      function toDateInputValue(date) {
+        const year = date.getFullYear();
+        const month = String(date.getMonth() + 1).padStart(2, "0");
+        const day = String(date.getDate()).padStart(2, "0");
+        return `${year}-${month}-${day}`;
+      }
+
+      function dateFromInputValue(value) {
+        const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(value || "");
+        if (!match) return null;
+        const [, year, month, day] = match.map(Number);
+        const date = new Date(year, month - 1, day);
+        return Number.isNaN(date.getTime()) ? null : date;
+      }
+
+      function previousMonthEnd(value) {
+        const date = dateFromInputValue(value) || new Date();
+        return toDateInputValue(new Date(date.getFullYear(), date.getMonth(), 0));
+      }
+
+      function nearestAvailableDate(dates, requestedDate) {
+        const requested = dateFromInputValue(requestedDate);
+        if (!dates.length) return "";
+        if (!requested) return dates.at(-1);
+        let bestDate = dates[0];
+        let bestDistance = Math.abs(dateFromInputValue(bestDate) - requested);
+        for (const date of dates.slice(1)) {
+          const distance = Math.abs(dateFromInputValue(date) - requested);
+          if (distance < bestDistance) {
+            bestDate = date;
+            bestDistance = distance;
+          }
+        }
+        return bestDate;
+      }
+
+      function selectedDateWindow(dates) {
+        const sortedDates = [...dates].sort();
+        const targetDate = nearestAvailableDate(sortedDates, state.requestedTargetDate);
+        const baseDate = nearestAvailableDate(sortedDates, state.requestedBaseDate);
+        if (!targetDate || !baseDate) {
+          return { baseDate: "", targetDate: "", dates: [] };
+        }
+        const startDate = targetDate < baseDate ? targetDate : baseDate;
+        const endDate = targetDate < baseDate ? baseDate : targetDate;
+        return {
+          baseDate,
+          targetDate,
+          dates: sortedDates.filter((date) => date >= startDate && date <= endDate),
+        };
+      }
+
+      function valueAtDate(member, date) {
+        if (!date) return 0;
+        return member.byDate.get(date) || 0;
       }
 
       function investmentMap(record) {
@@ -685,11 +861,11 @@
       }
 
       function intervalMemberStats(guild) {
-        const dates = limitDates(guild.dates);
+        const { baseDate, targetDate } = selectedDateWindow(guild.dates);
         return guild.members
           .map((member) => {
-            const latest = latestValue(member, dates);
-            const earliest = earliestValue(member, dates);
+            const latest = valueAtDate(member, targetDate);
+            const earliest = valueAtDate(member, baseDate);
             return {
               member,
               latest,
@@ -701,8 +877,8 @@
 
       function renderGuildRanking(guild) {
         const ranking = intervalMemberStats(guild).slice(0, state.rankLimit);
-        const dates = limitDates(guild.dates);
-        const rangeLabel = dates.length ? `${dates[0]} 至 ${dates.at(-1)}` : "暂无投资记录";
+        const { baseDate, targetDate } = selectedDateWindow(guild.dates);
+        const rangeLabel = targetDate && baseDate ? `${baseDate} 对比 ${targetDate}` : "暂无投资记录";
         const rows = ranking.length
           ? ranking
               .map(
@@ -710,7 +886,7 @@
                   <li class="rank-row ${growth === 0 ? "muted" : ""}" title="${escapeHtml(member.name)}">
                     <span class="rank-index">${index + 1}</span>
                     <span class="rank-name">${escapeHtml(member.name)}</span>
-                    <span class="rank-value delta">${growth === 0 ? "0.00亿" : formatDelta(growth) || "-"}</span>
+                    <span class="rank-value delta">${growth === 0 ? "0" : formatDelta(growth) || "-"}</span>
                   </li>
                 `,
               )
@@ -730,19 +906,30 @@
 
       function renderSummary() {
         const models = state.guildModels;
-        const dates = state.allDates;
-        const latestTotal = state.globalMembers.reduce((sum, member) => sum + latestValue(member, dates), 0);
+        const { baseDate, targetDate, dates } = selectedDateWindow(state.allDates);
+        const latestTotal = state.globalMembers.reduce((sum, member) => sum + valueAtDate(member, targetDate), 0);
         const growth = state.globalMembers.reduce(
-          (sum, member) => sum + latestValue(member, dates) - earliestValue(member, dates),
+          (sum, member) => sum + valueAtDate(member, targetDate) - valueAtDate(member, baseDate),
           0,
         );
         const memberCount = state.globalMembers.length;
         els.summaryGrid.innerHTML = [
           metric("公会数量", models.length),
-          metric("有效日期", dates.length),
-          metric("最新总投资", formatYi(latestTotal), growth),
+          metric("统计区间", dates.length ? `${baseDate} → ${targetDate}` : "-"),
+          metric("统计总投资", formatAmount(latestTotal), growth),
           metric("唯一成员", memberCount),
         ].join("");
+      }
+
+      function renderDateControls() {
+        els.targetDateInput.value = state.requestedTargetDate;
+        els.baseDateInput.value = state.requestedBaseDate;
+        const { baseDate, targetDate } = selectedDateWindow(state.allDates);
+        const matched = baseDate !== state.requestedBaseDate || targetDate !== state.requestedTargetDate;
+        els.dateNote.textContent =
+          baseDate && targetDate
+            ? `实际使用：${targetDate} 对比 ${baseDate}${matched ? "（已匹配最接近日期）" : ""}`
+            : "暂无可用日期";
       }
 
       function renderGuildSelect() {
@@ -758,24 +945,30 @@
       function renderGuildCards() {
         els.guildGrid.innerHTML = state.guildModels
           .map(
-            (guild) => `
-              <article class="guild-card">
-                <header>
-                  <div>
-                    <h2>${escapeHtml(guild.name)}</h2>
-                    <span class="sub">${escapeHtml(guild.guild_id)}</span>
+            (guild) => {
+              const { baseDate, targetDate } = selectedDateWindow(guild.dates);
+              const targetTotal = guild.members.reduce((sum, member) => sum + valueAtDate(member, targetDate), 0);
+              const baseTotal = guild.members.reduce((sum, member) => sum + valueAtDate(member, baseDate), 0);
+              const growth = targetTotal - baseTotal;
+              return `
+                <article class="guild-card">
+                  <header>
+                    <div>
+                      <h2>${escapeHtml(guild.name)}</h2>
+                      <span class="sub">${escapeHtml(guild.guild_id)}</span>
+                    </div>
+                    <a href="${escapeHtml(guild.guild_url)}" target="_blank" rel="noreferrer">TitansDB</a>
+                  </header>
+                  <div class="guild-stats">
+                    <div><span>统计日期</span><strong>${escapeHtml(targetDate || "-")}</strong></div>
+                    <div><span>成员数</span><strong>${guild.latestMemberCount}</strong></div>
+                    <div><span>总投资</span><strong>${formatAmount(targetTotal)}</strong></div>
+                    <div><span>对比增长</span><strong class="delta ${growth < 0 ? "negative" : ""}">${formatDelta(growth) || "-"}</strong></div>
                   </div>
-                  <a href="${escapeHtml(guild.guild_url)}" target="_blank" rel="noreferrer">TitansDB</a>
-                </header>
-                <div class="guild-stats">
-                  <div><span>最新投资</span><strong>${escapeHtml(guild.latestDate || "-")}</strong></div>
-                  <div><span>成员数</span><strong>${guild.latestMemberCount}</strong></div>
-                  <div><span>总投资</span><strong>${formatYi(guild.latestTotal)}</strong></div>
-                  <div><span>总增长</span><strong class="delta ${guild.growth < 0 ? "negative" : ""}">${formatDelta(guild.growth) || "-"}</strong></div>
-                </div>
-                ${renderGuildRanking(guild)}
-              </article>
-            `,
+                  ${renderGuildRanking(guild)}
+                </article>
+              `;
+            },
           )
           .join("");
       }
@@ -787,24 +980,28 @@
 
       function getRowsAndDates() {
         if (state.selectedGuild === "all") {
+          const window = selectedDateWindow(state.allDates);
           return {
+            ...window,
             rows: state.globalMembers.map((member) => ({ member })),
-            dates: limitDates(state.allDates).slice().reverse(),
+            dates: window.dates.slice().reverse(),
           };
         }
 
         const guild = state.guildModels.find((item) => item.slug === state.selectedGuild);
         if (!guild) return { rows: [], dates: [] };
+        const window = selectedDateWindow(guild.dates);
         return {
+          ...window,
           rows: guild.members.map((member) => ({ member })),
-          dates: limitDates(guild.dates).slice().reverse(),
+          dates: window.dates.slice().reverse(),
         };
       }
 
       function renderTable() {
-        const { rows, dates } = getRowsAndDates();
+        const { rows, dates, baseDate, targetDate } = getRowsAndDates();
         const query = state.query.trim().toLowerCase();
-        const filtered = rows
+        const filtered = sortTableRows(rows
           .filter(({ member }) => {
             if (!query) return true;
             return [member.name, member.guildName, ...(member.guildNames || []), member.role, member.level]
@@ -813,16 +1010,14 @@
               .includes(query);
           })
           .map(({ member }) => {
-            const ascendingDates = [...dates].reverse();
-            const latest = latestValue(member, ascendingDates);
-            const earliest = earliestValue(member, ascendingDates);
+            const latest = valueAtDate(member, targetDate);
+            const earliest = valueAtDate(member, baseDate);
             return { member, latest, growth: latest - earliest };
-          })
-          .sort((a, b) => b.latest - a.latest);
+          }));
 
         els.rowCount.textContent = `${filtered.length} 行`;
         els.tableNote.textContent = dates.length
-          ? `当前展示 ${dates.at(-1)} 至 ${dates[0]}，最新日期在左侧，括号内为较上一投资记录变化。`
+          ? `当前按 ${targetDate} 对比 ${baseDate} 统计增长；明细展示 ${dates.at(-1)} 至 ${dates[0]}。`
           : "暂无有效投资记录。";
 
         if (!dates.length || !filtered.length) {
@@ -831,11 +1026,12 @@
         }
 
         const header = [
+          "<th>序号</th>",
           "<th>成员</th>",
-          "<th>等级</th>",
+          `<th>${sortButton("level", "等级")}</th>`,
           "<th>职位</th>",
-          "<th>最新累计</th>",
-          "<th>区间增长</th>",
+          `<th>${sortButton("latest", "统计累计")}</th>`,
+          `<th>${sortButton("growth", "对比增长")}</th>`,
           ...dates.map((date) => `<th>${escapeHtml(date)}</th>`),
         ].join("");
 
@@ -844,7 +1040,7 @@
           ascendingDates.map((date, index) => [date, index > 0 ? ascendingDates[index - 1] : null]),
         );
         const body = filtered
-          .map(({ member, latest, growth }) => {
+          .map(({ member, latest, growth }, index) => {
             const dateCells = dates
               .map((date) => {
                 if (!member.byDate.has(date)) return "<td>-</td>";
@@ -856,18 +1052,19 @@
                   previous === undefined || change === 0
                     ? ""
                     : ` <span class="delta ${change < 0 ? "negative" : ""}">(${formatDelta(change)})</span>`;
-                return `<td>${formatYi(value)}${delta}</td>`;
+                return `<td>${formatAmount(value)}${delta}</td>`;
               })
               .join("");
             return `
               <tr>
+                <td>${index + 1}</td>
                 <td>
                   <span class="name">${escapeHtml(member.name)}</span>
                   <span class="meta">${escapeHtml((member.guildNames || [member.guildName]).join(" / "))}</span>
                 </td>
                 <td>${escapeHtml(member.level || "-")}</td>
                 <td>${escapeHtml(member.role || "-")}</td>
-                <td>${formatYi(latest)}</td>
+                <td>${formatAmount(latest)}</td>
                 <td><span class="delta ${growth < 0 ? "negative" : ""}">${formatDelta(growth) || "-"}</span></td>
                 ${dateCells}
               </tr>
@@ -879,6 +1076,7 @@
       }
 
       function render() {
+        renderDateControls();
         renderSummary();
         renderGuildSelect();
         renderGuildCards();
@@ -899,6 +1097,8 @@
           state.allDates = Array.isArray(state.memberStore.dates)
             ? [...state.memberStore.dates].sort()
             : [];
+          state.requestedTargetDate = toDateInputValue(new Date());
+          state.requestedBaseDate = previousMonthEnd(state.requestedTargetDate);
           state.guildModels = Object.values(state.guildStore.guilds || {}).map(buildGuildModel);
           state.globalMembers = buildGlobalMembers(state.guildModels);
 
@@ -930,14 +1130,26 @@
         renderTable();
       });
 
-      document.querySelectorAll("[data-days]").forEach((button) => {
-        button.addEventListener("click", () => {
-          state.selectedDays = button.dataset.days;
-          document.querySelectorAll("[data-days]").forEach((item) => item.classList.remove("active"));
-          button.classList.add("active");
-          renderGuildCards();
-          renderTable();
-        });
+      els.tableWrap.addEventListener("click", (event) => {
+        const button = event.target.closest("[data-sort-key]");
+        if (!button) return;
+        const key = button.dataset.sortKey;
+        const current = state.tableSort;
+        state.tableSort =
+          current?.key === key
+            ? { key, direction: current.direction === "desc" ? "asc" : "desc" }
+            : { key, direction: "desc" };
+        renderTable();
+      });
+
+      els.targetDateInput.addEventListener("change", (event) => {
+        state.requestedTargetDate = event.target.value;
+        render();
+      });
+
+      els.baseDateInput.addEventListener("change", (event) => {
+        state.requestedBaseDate = event.target.value;
+        render();
       });
 
       init();
