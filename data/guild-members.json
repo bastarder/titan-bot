@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-01T05:54:21Z",
+  "generated_at": "2026-07-02T01:09:17Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
       "name": "糖果派",
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
-      "snapshot_date": "2026-07-01",
-      "fetched_at": "2026-07-01T05:54:16.935988Z",
+      "snapshot_date": "2026-07-02",
+      "fetched_at": "2026-07-02T01:09:12.910895Z",
       "members": [
         {
           "id": "67d5bb413385dfdc68a03fa5",
@@ -27,12 +27,12 @@
           "name": "天下无敌君不见大王#34824"
         },
         {
-          "id": "5e27c3c263f9a111791ff51c",
-          "name": "雕刻月光ic#59803"
-        },
-        {
           "id": "693ed9b774a10413800247c2",
           "name": "究极机械鱼丸#85234"
+        },
+        {
+          "id": "5e27c3c263f9a111791ff51c",
+          "name": "雕刻月光ic#59803"
         },
         {
           "id": "67e2998e18c00179336d7415",
@@ -97,8 +97,8 @@
       "name": "hustle",
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
-      "snapshot_date": "2026-07-01",
-      "fetched_at": "2026-07-01T05:54:16.935988Z",
+      "snapshot_date": "2026-07-02",
+      "fetched_at": "2026-07-02T01:09:12.910895Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -169,12 +169,12 @@
           "name": "十一秒#10632"
         },
         {
-          "id": "60472c0b936fdf1336c05353",
-          "name": "Viking#22834"
-        },
-        {
           "id": "692b9abe5655b052d3de49b0",
           "name": "中老年#20712"
+        },
+        {
+          "id": "60472c0b936fdf1336c05353",
+          "name": "Viking#22834"
         },
         {
           "id": "67e66128f0698da36bae02bf",
@@ -187,8 +187,8 @@
       "name": "哈哈一笑",
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
-      "snapshot_date": "2026-07-01",
-      "fetched_at": "2026-07-01T05:54:16.935988Z",
+      "snapshot_date": "2026-07-02",
+      "fetched_at": "2026-07-02T01:09:12.910895Z",
       "members": [
         {
           "id": "69038d9816197a414e81e75d",
@@ -277,8 +277,8 @@
       "name": "希尔锐斯",
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
-      "snapshot_date": "2026-07-01",
-      "fetched_at": "2026-07-01T05:54:16.935988Z",
+      "snapshot_date": "2026-07-02",
+      "fetched_at": "2026-07-02T01:09:12.910895Z",
       "members": [
         {
           "id": "5e4029d4068d3a11713667de",
@@ -335,10 +335,6 @@
         {
           "id": "620b4995245f6e12f3cd1b53",
           "name": "Penny L#39430"
-        },
-        {
-          "id": "5e4bec6776ec2a117117054a",
-          "name": "二爷、4·5收了你#89945"
         },
         {
           "id": "69b7a790fa63a8a3ae71a7d2",
