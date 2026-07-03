@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-02T05:09:45Z",
+  "generated_at": "2026-07-03T01:09:18Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
       "name": "糖果派",
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
-      "snapshot_date": "2026-07-02",
-      "fetched_at": "2026-07-02T05:09:40.342768Z",
+      "snapshot_date": "2026-07-03",
+      "fetched_at": "2026-07-03T01:09:13.337469Z",
       "members": [
         {
           "id": "67d5bb413385dfdc68a03fa5",
@@ -23,12 +23,12 @@
           "name": "解富贵#83818"
         },
         {
-          "id": "5e9a918cb965cc122a4b14fb",
-          "name": "天下无敌君不见大王#34824"
-        },
-        {
           "id": "693ed9b774a10413800247c2",
           "name": "究极机械鱼丸#85234"
+        },
+        {
+          "id": "5e9a918cb965cc122a4b14fb",
+          "name": "天下无敌君不见大王#34824"
         },
         {
           "id": "5e27c3c263f9a111791ff51c",
@@ -45,6 +45,10 @@
         {
           "id": "60721f7328eb17132dd77566",
           "name": "Yeona#16224"
+        },
+        {
+          "id": "5ee96d07c143e315774f3aaa",
+          "name": "书生压力大#26831"
         },
         {
           "id": "629c804447e76812eed5d508",
@@ -79,10 +83,6 @@
           "name": "Q丘Q#77629"
         },
         {
-          "id": "5f4a44c2df68a5129e2e632a",
-          "name": "123#11483"
-        },
-        {
           "id": "62da82b6d47f2012f572a4e3",
           "name": "Lulu#86702"
         },
@@ -97,8 +97,8 @@
       "name": "hustle",
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
-      "snapshot_date": "2026-07-02",
-      "fetched_at": "2026-07-02T05:09:40.342768Z",
+      "snapshot_date": "2026-07-03",
+      "fetched_at": "2026-07-03T01:09:13.337469Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -129,28 +129,24 @@
           "name": "玩家_河北第一帅#62845"
         },
         {
-          "id": "5e48eaa3eadae011718c135b",
-          "name": "苹果橘子大西瓜#31630"
-        },
-        {
           "id": "621ca86ee2c32c12f607b817",
           "name": "天刀笑剑钝#51635"
-        },
-        {
-          "id": "5ee96d07c143e315774f3aaa",
-          "name": "书生压力大#26831"
         },
         {
           "id": "5f85adadda264413232c50a1",
           "name": "Ryan樂#20630"
         },
         {
-          "id": "6968e40013ab0a851415586f",
-          "name": "干就完了#28346"
+          "id": "5e54a861dbca38116e43c409",
+          "name": "网恋骗他八万#66106"
         },
         {
           "id": "5e68681570ddac121a0f1cf3",
           "name": "夏紫恒#60053"
+        },
+        {
+          "id": "6968e40013ab0a851415586f",
+          "name": "干就完了#28346"
         },
         {
           "id": "66324db4b300953fe1e95849",
@@ -187,8 +183,8 @@
       "name": "哈哈一笑",
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
-      "snapshot_date": "2026-07-02",
-      "fetched_at": "2026-07-02T05:09:40.342768Z",
+      "snapshot_date": "2026-07-03",
+      "fetched_at": "2026-07-03T01:09:13.337469Z",
       "members": [
         {
           "id": "69038d9816197a414e81e75d",
@@ -247,12 +243,12 @@
           "name": "曹彼得#54137"
         },
         {
-          "id": "6845ad22326a1fa6fd1c2438",
-          "name": "Eloy#28001"
-        },
-        {
           "id": "5e5b6bfc723fc91215421dd1",
           "name": "小森林#51821"
+        },
+        {
+          "id": "5e2104acd6a80511797543f8",
+          "name": "Endy#22149"
         },
         {
           "id": "5ebc9ae1136235293c990b76",
@@ -277,8 +273,8 @@
       "name": "希尔锐斯",
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
-      "snapshot_date": "2026-07-02",
-      "fetched_at": "2026-07-02T05:09:40.342768Z",
+      "snapshot_date": "2026-07-03",
+      "fetched_at": "2026-07-03T01:09:13.337469Z",
       "members": [
         {
           "id": "5e4029d4068d3a11713667de",
@@ -315,10 +311,6 @@
         {
           "id": "5e26bb7cc927fa1eaf2d7099",
           "name": "月亮之上#86402"
-        },
-        {
-          "id": "5e3c23e0de7a4313a32b21b9",
-          "name": "monk yluffy#30798"
         },
         {
           "id": "5f700930031a301329a11eee",
