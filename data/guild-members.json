@@ -1,30 +1,30 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-03T04:57:18Z",
+  "generated_at": "2026-07-04T01:09:18Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
       "name": "糖果派",
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
-      "snapshot_date": "2026-07-03",
-      "fetched_at": "2026-07-03T04:57:14.214560Z",
+      "snapshot_date": "2026-07-04",
+      "fetched_at": "2026-07-04T01:09:12.448129Z",
       "members": [
         {
           "id": "67d5bb413385dfdc68a03fa5",
-          "name": "海绵胖了吗#95679"
+          "name": "重生变成蓝海绵被狠狠蹂躏#22631"
         },
         {
           "id": "65bfbc85e755b271319edd5a",
           "name": "xiaonian#79853"
         },
         {
-          "id": "64ecb52a96939c091be78a83",
-          "name": "解富贵#83818"
-        },
-        {
           "id": "693ed9b774a10413800247c2",
           "name": "究极机械鱼丸#85234"
+        },
+        {
+          "id": "64ecb52a96939c091be78a83",
+          "name": "解富贵#83818"
         },
         {
           "id": "5e9a918cb965cc122a4b14fb",
@@ -97,8 +97,8 @@
       "name": "hustle",
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
-      "snapshot_date": "2026-07-03",
-      "fetched_at": "2026-07-03T04:57:14.214560Z",
+      "snapshot_date": "2026-07-04",
+      "fetched_at": "2026-07-04T01:09:12.448129Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -127,6 +127,10 @@
         {
           "id": "66169595374719e2055673ea",
           "name": "玩家_河北第一帅#62845"
+        },
+        {
+          "id": "5e48eaa3eadae011718c135b",
+          "name": "苹果橘子大西瓜#31630"
         },
         {
           "id": "621ca86ee2c32c12f607b817",
@@ -183,8 +187,8 @@
       "name": "哈哈一笑",
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
-      "snapshot_date": "2026-07-03",
-      "fetched_at": "2026-07-03T04:57:14.214560Z",
+      "snapshot_date": "2026-07-04",
+      "fetched_at": "2026-07-04T01:09:12.448129Z",
       "members": [
         {
           "id": "69038d9816197a414e81e75d",
@@ -255,12 +259,16 @@
           "name": "Dreambig#70036"
         },
         {
-          "id": "5ebdfe9c3babd61239b4dc8a",
-          "name": "南方传奇商店#61069"
-        },
-        {
           "id": "631860b44d16a713016b8c7e",
           "name": "果汁郎CC冻#16219"
+        },
+        {
+          "id": "5e439b28a9d6ed116e8adfbc",
+          "name": "坑一波没事的#61005"
+        },
+        {
+          "id": "5ebdfe9c3babd61239b4dc8a",
+          "name": "南方传奇商店#61069"
         }
       ]
     },
@@ -269,8 +277,8 @@
       "name": "希尔锐斯",
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
-      "snapshot_date": "2026-07-03",
-      "fetched_at": "2026-07-03T04:57:14.214560Z",
+      "snapshot_date": "2026-07-04",
+      "fetched_at": "2026-07-04T01:09:12.448129Z",
       "members": [
         {
           "id": "5e4029d4068d3a11713667de",
@@ -283,10 +291,6 @@
         {
           "id": "5e626fea626bb71218241f71",
           "name": "会计师#29722"
-        },
-        {
-          "id": "67b46d46665600d22d6a5ab1",
-          "name": "清素笔调#12295"
         },
         {
           "id": "69d0a72ea36fa02151a7136b",
@@ -347,6 +351,10 @@
         {
           "id": "5e46e62406ba35116a40b71e",
           "name": "赖赖小姐#66674"
+        },
+        {
+          "id": "69bab2de17cd6def3212fd01",
+          "name": "淅淅沥沥#77664"
         },
         {
           "id": "637c96695c732e60e22178b9",
