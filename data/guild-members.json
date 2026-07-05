@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-04T04:51:12Z",
+  "generated_at": "2026-07-05T01:09:19Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
       "name": "糖果派",
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
-      "snapshot_date": "2026-07-04",
-      "fetched_at": "2026-07-04T04:51:07.575685Z",
+      "snapshot_date": "2026-07-05",
+      "fetched_at": "2026-07-05T01:09:14.064052Z",
       "members": [
         {
           "id": "67d5bb413385dfdc68a03fa5",
@@ -97,8 +97,8 @@
       "name": "hustle",
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
-      "snapshot_date": "2026-07-04",
-      "fetched_at": "2026-07-04T04:51:07.575685Z",
+      "snapshot_date": "2026-07-05",
+      "fetched_at": "2026-07-05T01:09:14.064052Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -187,8 +187,8 @@
       "name": "哈哈一笑",
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
-      "snapshot_date": "2026-07-04",
-      "fetched_at": "2026-07-04T04:51:07.575685Z",
+      "snapshot_date": "2026-07-05",
+      "fetched_at": "2026-07-05T01:09:14.064052Z",
       "members": [
         {
           "id": "69038d9816197a414e81e75d",
@@ -197,10 +197,6 @@
         {
           "id": "65fd62d90878e9f0fe807c54",
           "name": "原来是木星#21851"
-        },
-        {
-          "id": "5e20a744c128d47f3c2caad7",
-          "name": "猫猫玖子#16310"
         },
         {
           "id": "613739368dbef513389f1b53",
@@ -235,6 +231,10 @@
           "name": "YuXin#50867"
         },
         {
+          "id": "5e20a744c128d47f3c2caad7",
+          "name": "猫猫玖子#16310"
+        },
+        {
           "id": "676a736bce382af81f72dc1b",
           "name": "Zio#82433"
         },
@@ -259,12 +259,12 @@
           "name": "Dreambig#70036"
         },
         {
-          "id": "631860b44d16a713016b8c7e",
-          "name": "果汁郎CC冻#16219"
-        },
-        {
           "id": "5e439b28a9d6ed116e8adfbc",
           "name": "坑一波没事的#61005"
+        },
+        {
+          "id": "631860b44d16a713016b8c7e",
+          "name": "果汁郎CC冻#16219"
         },
         {
           "id": "5ebdfe9c3babd61239b4dc8a",
@@ -277,8 +277,8 @@
       "name": "希尔锐斯",
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
-      "snapshot_date": "2026-07-04",
-      "fetched_at": "2026-07-04T04:51:07.575685Z",
+      "snapshot_date": "2026-07-05",
+      "fetched_at": "2026-07-05T01:09:14.064052Z",
       "members": [
         {
           "id": "5e4029d4068d3a11713667de",
