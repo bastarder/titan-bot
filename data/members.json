@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-05T01:09:19Z",
+  "generated_at": "2026-07-05T05:08:11Z",
   "dates": [
     "2026-06-12",
     "2026-06-13",
@@ -228,7 +228,7 @@
     },
     "65bfbc85e755b271319edd5a": {
       "name": "xiaonian#79853",
-      "level": 267,
+      "level": 271,
       "role": "Officer",
       "latest_investment": 30461657374500,
       "latest_date": "2026-07-05",
@@ -841,7 +841,7 @@
     },
     "621ca86ee2c32c12f607b817": {
       "name": "天刀笑剑钝#51635",
-      "level": 181,
+      "level": 182,
       "role": "Member",
       "latest_investment": 2761557374500,
       "latest_date": "2026-07-05",
