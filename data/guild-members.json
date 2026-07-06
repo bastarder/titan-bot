@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-05T05:08:11Z",
+  "generated_at": "2026-07-06T01:09:17Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
       "name": "糖果派",
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
-      "snapshot_date": "2026-07-05",
-      "fetched_at": "2026-07-05T05:08:06.954947Z",
+      "snapshot_date": "2026-07-06",
+      "fetched_at": "2026-07-06T01:09:12.906990Z",
       "members": [
         {
           "id": "67d5bb413385dfdc68a03fa5",
@@ -97,8 +97,8 @@
       "name": "hustle",
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
-      "snapshot_date": "2026-07-05",
-      "fetched_at": "2026-07-05T05:08:06.954947Z",
+      "snapshot_date": "2026-07-06",
+      "fetched_at": "2026-07-06T01:09:12.906990Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -187,8 +187,8 @@
       "name": "哈哈一笑",
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
-      "snapshot_date": "2026-07-05",
-      "fetched_at": "2026-07-05T05:08:06.954947Z",
+      "snapshot_date": "2026-07-06",
+      "fetched_at": "2026-07-06T01:09:12.906990Z",
       "members": [
         {
           "id": "69038d9816197a414e81e75d",
@@ -235,12 +235,12 @@
           "name": "猫猫玖子#16310"
         },
         {
-          "id": "676a736bce382af81f72dc1b",
-          "name": "Zio#82433"
-        },
-        {
           "id": "60209d217c9c741332f62e2f",
           "name": "曹彼得#54137"
+        },
+        {
+          "id": "676a736bce382af81f72dc1b",
+          "name": "Zio#82433"
         },
         {
           "id": "5e5b6bfc723fc91215421dd1",
@@ -277,8 +277,8 @@
       "name": "希尔锐斯",
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
-      "snapshot_date": "2026-07-05",
-      "fetched_at": "2026-07-05T05:08:06.954947Z",
+      "snapshot_date": "2026-07-06",
+      "fetched_at": "2026-07-06T01:09:12.906990Z",
       "members": [
         {
           "id": "5e4029d4068d3a11713667de",
