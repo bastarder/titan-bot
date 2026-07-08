@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-08T01:09:17Z",
+  "generated_at": "2026-07-08T04:31:52Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
@@ -8,7 +8,7 @@
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
       "snapshot_date": "2026-07-08",
-      "fetched_at": "2026-07-08T01:09:12.693459Z",
+      "fetched_at": "2026-07-08T04:31:47.219524Z",
       "members": [
         {
           "id": "67d5bb413385dfdc68a03fa5",
@@ -98,7 +98,7 @@
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
       "snapshot_date": "2026-07-08",
-      "fetched_at": "2026-07-08T01:09:12.693459Z",
+      "fetched_at": "2026-07-08T04:31:47.219524Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -188,7 +188,7 @@
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
       "snapshot_date": "2026-07-08",
-      "fetched_at": "2026-07-08T01:09:12.693459Z",
+      "fetched_at": "2026-07-08T04:31:47.219524Z",
       "members": [
         {
           "id": "69038d9816197a414e81e75d",
@@ -269,10 +269,6 @@
         {
           "id": "5ebdfe9c3babd61239b4dc8a",
           "name": "南方传奇商店#61069"
-        },
-        {
-          "id": "5e23dbf5d03be47ee8e47d0e",
-          "name": "晴天の娃娃#34155"
         }
       ]
     },
@@ -282,7 +278,7 @@
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
       "snapshot_date": "2026-07-08",
-      "fetched_at": "2026-07-08T01:09:12.693459Z",
+      "fetched_at": "2026-07-08T04:31:47.219524Z",
       "members": [
         {
           "id": "5e4029d4068d3a11713667de",
@@ -323,6 +319,10 @@
         {
           "id": "5eb693952d9e80123ae02639",
           "name": "Shan*_*FOX#42418"
+        },
+        {
+          "id": "6747f4940e3459f23409bbde",
+          "name": "shaoshuo#51137"
         },
         {
           "id": "69ba35bc0e001ce3f8df8868",
