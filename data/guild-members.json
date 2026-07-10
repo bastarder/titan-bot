@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-09T05:05:35Z",
+  "generated_at": "2026-07-10T01:09:16Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
       "name": "糖果派",
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
-      "snapshot_date": "2026-07-09",
-      "fetched_at": "2026-07-09T05:05:29.632597Z",
+      "snapshot_date": "2026-07-10",
+      "fetched_at": "2026-07-10T01:09:11.634266Z",
       "members": [
         {
           "id": "67d5bb413385dfdc68a03fa5",
@@ -97,8 +97,8 @@
       "name": "hustle",
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
-      "snapshot_date": "2026-07-09",
-      "fetched_at": "2026-07-09T05:05:29.632597Z",
+      "snapshot_date": "2026-07-10",
+      "fetched_at": "2026-07-10T01:09:11.634266Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -157,10 +157,6 @@
           "name": "干就完了#28346"
         },
         {
-          "id": "6007ff083d5c6a13177ba0d9",
-          "name": "南方姑娘哇#25050"
-        },
-        {
           "id": "673f28df125dbf7cf74b3afd",
           "name": "你终究不是她#74058"
         },
@@ -183,10 +179,6 @@
         {
           "id": "67e66128f0698da36bae02bf",
           "name": "与世无争#30844"
-        },
-        {
-          "id": "693bf08def200609bbe16cf5",
-          "name": "BUG#71327"
         }
       ]
     },
@@ -195,8 +187,8 @@
       "name": "哈哈一笑",
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
-      "snapshot_date": "2026-07-09",
-      "fetched_at": "2026-07-09T05:05:29.632597Z",
+      "snapshot_date": "2026-07-10",
+      "fetched_at": "2026-07-10T01:09:11.634266Z",
       "members": [
         {
           "id": "69038d9816197a414e81e75d",
@@ -239,8 +231,12 @@
           "name": "原来是木星#80847"
         },
         {
-          "id": "5e2a9b4c9e45be11765c8ff6",
-          "name": "ZYu#73188"
+          "id": "634f65c1c83c7012e5c2de13",
+          "name": "YuXin#50867"
+        },
+        {
+          "id": "670a2dfc0ad6682b45f2442e",
+          "name": "咖咖咖咖#97142"
         },
         {
           "id": "60209d217c9c741332f62e2f",
@@ -267,10 +263,6 @@
           "name": "Dreambig#70036"
         },
         {
-          "id": "5e439b28a9d6ed116e8adfbc",
-          "name": "坑一波没事的#61005"
-        },
-        {
           "id": "631860b44d16a713016b8c7e",
           "name": "果汁郎CC冻#16219"
         },
@@ -285,8 +277,8 @@
       "name": "希尔锐斯",
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
-      "snapshot_date": "2026-07-09",
-      "fetched_at": "2026-07-09T05:05:29.632597Z",
+      "snapshot_date": "2026-07-10",
+      "fetched_at": "2026-07-10T01:09:11.634266Z",
       "members": [
         {
           "id": "5e4029d4068d3a11713667de",
@@ -321,10 +313,6 @@
           "name": "月亮之上#86402"
         },
         {
-          "id": "5e3c23e0de7a4313a32b21b9",
-          "name": "monk yluffy#30798"
-        },
-        {
           "id": "5f700930031a301329a11eee",
           "name": "yiyi11494#13953"
         },
@@ -355,10 +343,6 @@
         {
           "id": "5e6ef23469f6ee121b57912e",
           "name": "Clodday#53519"
-        },
-        {
-          "id": "66062aa678d4dc1f41c8c0e6",
-          "name": "他们说我是蜂子#86351"
         },
         {
           "id": "659c3e2ee54e0360bb858e59",
