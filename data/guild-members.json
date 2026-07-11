@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-10T05:07:59Z",
+  "generated_at": "2026-07-11T01:09:17Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
       "name": "糖果派",
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
-      "snapshot_date": "2026-07-10",
-      "fetched_at": "2026-07-10T05:07:53.716735Z",
+      "snapshot_date": "2026-07-11",
+      "fetched_at": "2026-07-11T01:09:12.569398Z",
       "members": [
         {
           "id": "67d5bb413385dfdc68a03fa5",
@@ -97,8 +97,8 @@
       "name": "hustle",
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
-      "snapshot_date": "2026-07-10",
-      "fetched_at": "2026-07-10T05:07:53.716735Z",
+      "snapshot_date": "2026-07-11",
+      "fetched_at": "2026-07-11T01:09:12.569398Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -145,10 +145,6 @@
           "name": "Ryan樂#20630"
         },
         {
-          "id": "5e54a861dbca38116e43c409",
-          "name": "网恋骗他八万#66106"
-        },
-        {
           "id": "5e68681570ddac121a0f1cf3",
           "name": "夏紫恒#60053"
         },
@@ -187,8 +183,8 @@
       "name": "哈哈一笑",
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
-      "snapshot_date": "2026-07-10",
-      "fetched_at": "2026-07-10T05:07:53.716735Z",
+      "snapshot_date": "2026-07-11",
+      "fetched_at": "2026-07-11T01:09:12.569398Z",
       "members": [
         {
           "id": "69038d9816197a414e81e75d",
@@ -219,10 +215,6 @@
           "name": "-周小杰-#21956"
         },
         {
-          "id": "68a1f829a2ccae572ac35ab5",
-          "name": "路西法#57157"
-        },
-        {
           "id": "675d763214fd6e890db3cfdd",
           "name": "-梁小辉-#91673"
         },
@@ -245,6 +237,10 @@
         {
           "id": "676a736bce382af81f72dc1b",
           "name": "Zio#82433"
+        },
+        {
+          "id": "5e54a861dbca38116e43c409",
+          "name": "网恋骗他八万#66106"
         },
         {
           "id": "5e5b6bfc723fc91215421dd1",
@@ -277,8 +273,8 @@
       "name": "希尔锐斯",
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
-      "snapshot_date": "2026-07-10",
-      "fetched_at": "2026-07-10T05:07:53.716735Z",
+      "snapshot_date": "2026-07-11",
+      "fetched_at": "2026-07-11T01:09:12.569398Z",
       "members": [
         {
           "id": "5e4029d4068d3a11713667de",
@@ -351,10 +347,6 @@
         {
           "id": "5e46e62406ba35116a40b71e",
           "name": "赖赖小姐#66674"
-        },
-        {
-          "id": "69bab2de17cd6def3212fd01",
-          "name": "淅淅沥沥#77664"
         },
         {
           "id": "637c96695c732e60e22178b9",
