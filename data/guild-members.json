@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-13T01:09:17Z",
+  "generated_at": "2026-07-13T04:46:12Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
@@ -8,7 +8,7 @@
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
       "snapshot_date": "2026-07-13",
-      "fetched_at": "2026-07-13T01:09:12.665904Z",
+      "fetched_at": "2026-07-13T04:46:07.424515Z",
       "members": [
         {
           "id": "67d5bb413385dfdc68a03fa5",
@@ -98,7 +98,7 @@
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
       "snapshot_date": "2026-07-13",
-      "fetched_at": "2026-07-13T01:09:12.665904Z",
+      "fetched_at": "2026-07-13T04:46:07.424515Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -184,15 +184,11 @@
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
       "snapshot_date": "2026-07-13",
-      "fetched_at": "2026-07-13T01:09:12.665904Z",
+      "fetched_at": "2026-07-13T04:46:07.424515Z",
       "members": [
         {
           "id": "69038d9816197a414e81e75d",
           "name": "叫我肝帝#60464"
-        },
-        {
-          "id": "65fd62d90878e9f0fe807c54",
-          "name": "原来是木星#21851"
         },
         {
           "id": "5e20a744c128d47f3c2caad7",
@@ -274,7 +270,7 @@
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
       "snapshot_date": "2026-07-13",
-      "fetched_at": "2026-07-13T01:09:12.665904Z",
+      "fetched_at": "2026-07-13T04:46:07.424515Z",
       "members": [
         {
           "id": "5e4029d4068d3a11713667de",
