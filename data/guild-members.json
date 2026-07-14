@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-13T04:46:12Z",
+  "generated_at": "2026-07-14T01:09:16Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
       "name": "糖果派",
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
-      "snapshot_date": "2026-07-13",
-      "fetched_at": "2026-07-13T04:46:07.424515Z",
+      "snapshot_date": "2026-07-14",
+      "fetched_at": "2026-07-14T01:09:12.599222Z",
       "members": [
         {
           "id": "67d5bb413385dfdc68a03fa5",
@@ -97,8 +97,8 @@
       "name": "hustle",
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
-      "snapshot_date": "2026-07-13",
-      "fetched_at": "2026-07-13T04:46:07.424515Z",
+      "snapshot_date": "2026-07-14",
+      "fetched_at": "2026-07-14T01:09:12.599222Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -135,6 +135,10 @@
         {
           "id": "64c7bd76c7dfb23da37f51ba",
           "name": "Luna#31588"
+        },
+        {
+          "id": "629dd0a685c2db12dcaaa906",
+          "name": "- 夜船听雪 -#41539"
         },
         {
           "id": "5e48eaa3eadae011718c135b",
@@ -183,8 +187,8 @@
       "name": "哈哈一笑",
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
-      "snapshot_date": "2026-07-13",
-      "fetched_at": "2026-07-13T04:46:07.424515Z",
+      "snapshot_date": "2026-07-14",
+      "fetched_at": "2026-07-14T01:09:12.599222Z",
       "members": [
         {
           "id": "69038d9816197a414e81e75d",
@@ -255,6 +259,10 @@
           "name": "Dreambig#70036"
         },
         {
+          "id": "5e439b28a9d6ed116e8adfbc",
+          "name": "坑一波没事的#61005"
+        },
+        {
           "id": "631860b44d16a713016b8c7e",
           "name": "果汁郎CC冻#16219"
         },
@@ -269,8 +277,8 @@
       "name": "希尔锐斯",
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
-      "snapshot_date": "2026-07-13",
-      "fetched_at": "2026-07-13T04:46:07.424515Z",
+      "snapshot_date": "2026-07-14",
+      "fetched_at": "2026-07-14T01:09:12.599222Z",
       "members": [
         {
           "id": "5e4029d4068d3a11713667de",
