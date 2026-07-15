@@ -787,6 +787,12 @@
         return 0;
       }
 
+      function memberGrowth(member, baseDate, targetDate) {
+        // 只有当成员在起止两个日期都有数据时才计算新增投资，否则新增为0
+        if (!member.byDate.has(baseDate) || !member.byDate.has(targetDate)) return 0;
+        return valueAtDate(member, targetDate) - valueAtDate(member, baseDate);
+      }
+
       function earliestValue(member, dates) {
         for (const date of dates) {
           if (member.byDate.has(date)) return member.byDate.get(date);
@@ -865,11 +871,11 @@
         return guild.members
           .map((member) => {
             const latest = valueAtDate(member, targetDate);
-            const earliest = valueAtDate(member, baseDate);
+            const growth = memberGrowth(member, baseDate, targetDate);
             return {
               member,
               latest,
-              growth: latest - earliest,
+              growth,
             };
           })
           .sort((a, b) => b.growth - a.growth || b.latest - a.latest);
@@ -909,7 +915,7 @@
         const { baseDate, targetDate, dates } = selectedDateWindow(state.allDates);
         const latestTotal = state.globalMembers.reduce((sum, member) => sum + valueAtDate(member, targetDate), 0);
         const growth = state.globalMembers.reduce(
-          (sum, member) => sum + valueAtDate(member, targetDate) - valueAtDate(member, baseDate),
+          (sum, member) => sum + memberGrowth(member, baseDate, targetDate),
           0,
         );
         const memberCount = state.globalMembers.length;
@@ -948,8 +954,7 @@
             (guild) => {
               const { baseDate, targetDate } = selectedDateWindow(guild.dates);
               const targetTotal = guild.members.reduce((sum, member) => sum + valueAtDate(member, targetDate), 0);
-              const baseTotal = guild.members.reduce((sum, member) => sum + valueAtDate(member, baseDate), 0);
-              const growth = targetTotal - baseTotal;
+              const growth = guild.members.reduce((sum, member) => sum + memberGrowth(member, baseDate, targetDate), 0);
               return `
                 <article class="guild-card">
                   <header>
