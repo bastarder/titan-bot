@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-18T01:09:19Z",
+  "generated_at": "2026-07-18T04:14:24Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
@@ -8,7 +8,7 @@
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
       "snapshot_date": "2026-07-18",
-      "fetched_at": "2026-07-18T01:09:13.775878Z",
+      "fetched_at": "2026-07-18T04:14:20.035750Z",
       "members": [
         {
           "id": "67d5bb413385dfdc68a03fa5",
@@ -67,6 +67,10 @@
           "name": "-周小杰-#21956"
         },
         {
+          "id": "676cf92c9bf3e12ae7687290",
+          "name": "yoyo#52366"
+        },
+        {
           "id": "606cfed064a6c9132ddeb510",
           "name": "秦飘渺#76568"
         },
@@ -98,7 +102,7 @@
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
       "snapshot_date": "2026-07-18",
-      "fetched_at": "2026-07-18T01:09:13.775878Z",
+      "fetched_at": "2026-07-18T04:14:20.035750Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -184,7 +188,7 @@
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
       "snapshot_date": "2026-07-18",
-      "fetched_at": "2026-07-18T01:09:13.775878Z",
+      "fetched_at": "2026-07-18T04:14:20.035750Z",
       "members": [
         {
           "id": "5e20a744c128d47f3c2caad7",
@@ -274,7 +278,7 @@
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
       "snapshot_date": "2026-07-18",
-      "fetched_at": "2026-07-18T01:09:13.775878Z",
+      "fetched_at": "2026-07-18T04:14:20.035750Z",
       "members": [
         {
           "id": "5e4029d4068d3a11713667de",
