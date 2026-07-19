@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-19T01:09:17Z",
+  "generated_at": "2026-07-19T04:34:53Z",
   "dates": [
     "2026-06-12",
     "2026-06-13",
@@ -1138,7 +1138,7 @@
     },
     "5e48eaa3eadae011718c135b": {
       "name": "苹果橘子大西瓜#31630",
-      "level": 169,
+      "level": 171,
       "role": "Member",
       "latest_investment": 3450957374500,
       "latest_date": "2026-07-19",
