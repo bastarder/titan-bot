@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-19T04:34:53Z",
+  "generated_at": "2026-07-20T04:52:12Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
       "name": "糖果派",
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
-      "snapshot_date": "2026-07-19",
-      "fetched_at": "2026-07-19T04:34:48.574829Z",
+      "snapshot_date": "2026-07-20",
+      "fetched_at": "2026-07-20T04:52:07.668177Z",
       "members": [
         {
           "id": "67d5bb413385dfdc68a03fa5",
@@ -97,8 +97,8 @@
       "name": "hustle",
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
-      "snapshot_date": "2026-07-19",
-      "fetched_at": "2026-07-19T04:34:48.574829Z",
+      "snapshot_date": "2026-07-20",
+      "fetched_at": "2026-07-20T04:52:07.668177Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -149,6 +149,10 @@
           "name": "天刀笑剑钝#51635"
         },
         {
+          "id": "5f85adadda264413232c50a1",
+          "name": "Ryan樂#20630"
+        },
+        {
           "id": "689c4d7da1c811aca4f838cb",
           "name": "多情玫瑰#21486"
         },
@@ -183,8 +187,8 @@
       "name": "哈哈一笑",
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
-      "snapshot_date": "2026-07-19",
-      "fetched_at": "2026-07-19T04:34:48.574829Z",
+      "snapshot_date": "2026-07-20",
+      "fetched_at": "2026-07-20T04:52:07.668177Z",
       "members": [
         {
           "id": "5e20a744c128d47f3c2caad7",
@@ -273,8 +277,8 @@
       "name": "希尔锐斯",
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
-      "snapshot_date": "2026-07-19",
-      "fetched_at": "2026-07-19T04:34:48.574829Z",
+      "snapshot_date": "2026-07-20",
+      "fetched_at": "2026-07-20T04:52:07.668177Z",
       "members": [
         {
           "id": "5e4029d4068d3a11713667de",
