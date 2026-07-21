@@ -151,10 +151,16 @@ def top_investors(dates: list[str], members: list[MemberRecord], limit: int = 10
     latest_date = dates[-1]
     gains: list[tuple[MemberRecord, int]] = []
     for member in members:
-        start = member.by_date.get(first_date)
         end = member.by_date.get(latest_date)
-        if start is None or end is None:
+        if end is None:
             continue
+        start = member.by_date.get(first_date)
+        if start is None:
+            # 新入会成员：回退到该成员在区间内最早的记录，至少需要2条数据
+            member_dates_in_range = [d for d in sorted(member.by_date) if first_date <= d <= latest_date]
+            if len(member_dates_in_range) < 2:
+                continue
+            start = member.by_date[member_dates_in_range[0]]
         gain = end - start
         if gain > 0:
             gains.append((member, gain))
