@@ -788,9 +788,21 @@
       }
 
       function memberGrowth(member, baseDate, targetDate) {
-        // 只有当成员在起止两个日期都有数据时才计算新增投资，否则新增为0
-        if (!member.byDate.has(baseDate) || !member.byDate.has(targetDate)) return 0;
-        return valueAtDate(member, targetDate) - valueAtDate(member, baseDate);
+        // targetDate 必须有数据才能计算增长
+        if (!member.byDate.has(targetDate)) return 0;
+        // 如果 baseDate 有数据，直接计算差值
+        if (member.byDate.has(baseDate)) {
+          return valueAtDate(member, targetDate) - valueAtDate(member, baseDate);
+        }
+        // baseDate 没有数据（例如新入会成员），回退到该成员在区间内最早的记录
+        // 需要至少2条记录才计算增量，避免把首次数据全额计为增长
+        const startDate = baseDate < targetDate ? baseDate : targetDate;
+        const endDate = baseDate < targetDate ? targetDate : baseDate;
+        const datesInRange = [...member.byDate.keys()]
+          .filter((d) => d >= startDate && d <= endDate)
+          .sort();
+        if (datesInRange.length < 2) return 0;
+        return valueAtDate(member, targetDate) - member.byDate.get(datesInRange[0]);
       }
 
       function earliestValue(member, dates) {
