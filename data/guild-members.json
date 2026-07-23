@@ -1,19 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-22T04:33:49Z",
+  "generated_at": "2026-07-23T01:09:20Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
       "name": "糖果派",
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
-      "snapshot_date": "2026-07-22",
-      "fetched_at": "2026-07-22T04:33:44.921223Z",
+      "snapshot_date": "2026-07-23",
+      "fetched_at": "2026-07-23T01:09:15.167200Z",
       "members": [
-        {
-          "id": "67d5bb413385dfdc68a03fa5",
-          "name": "重生变成蓝海绵被狠狠蹂躏#22631"
-        },
         {
           "id": "65bfbc85e755b271319edd5a",
           "name": "xiaonian#79853"
@@ -33,6 +29,10 @@
         {
           "id": "677732571964e09d3c221361",
           "name": "雷霆嘎巴无情哈拉少#40989"
+        },
+        {
+          "id": "67d5bb413385dfdc68a03fa5",
+          "name": "重生变成蓝海绵被狠狠蹂躏#22631"
         },
         {
           "id": "60721f7328eb17132dd77566",
@@ -97,8 +97,8 @@
       "name": "hustle",
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
-      "snapshot_date": "2026-07-22",
-      "fetched_at": "2026-07-22T04:33:44.921223Z",
+      "snapshot_date": "2026-07-23",
+      "fetched_at": "2026-07-23T01:09:15.167200Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -187,8 +187,8 @@
       "name": "哈哈一笑",
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
-      "snapshot_date": "2026-07-22",
-      "fetched_at": "2026-07-22T04:33:44.921223Z",
+      "snapshot_date": "2026-07-23",
+      "fetched_at": "2026-07-23T01:09:15.167200Z",
       "members": [
         {
           "id": "5e20a744c128d47f3c2caad7",
@@ -255,12 +255,12 @@
           "name": "网恋骗他八万#66106"
         },
         {
-          "id": "5e2104acd6a80511797543f8",
-          "name": "重生後請叫我大屌哥#28042"
-        },
-        {
           "id": "5ebc9ae1136235293c990b76",
           "name": "糕冷小帅#30316"
+        },
+        {
+          "id": "5e2104acd6a80511797543f8",
+          "name": "重生後請叫我大屌哥#28042"
         },
         {
           "id": "631860b44d16a713016b8c7e",
@@ -277,8 +277,8 @@
       "name": "希尔锐斯",
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
-      "snapshot_date": "2026-07-22",
-      "fetched_at": "2026-07-22T04:33:44.921223Z",
+      "snapshot_date": "2026-07-23",
+      "fetched_at": "2026-07-23T01:09:15.167200Z",
       "members": [
         {
           "id": "5e4029d4068d3a11713667de",
@@ -297,12 +297,12 @@
           "name": "天才呀#40183"
         },
         {
-          "id": "69b94d6f0e001ce3f8df7efa",
-          "name": "Klein#10782"
-        },
-        {
           "id": "620b4995245f6e12f3cd1b53",
           "name": "Penny L#39430"
+        },
+        {
+          "id": "69b94d6f0e001ce3f8df7efa",
+          "name": "Klein#10782"
         },
         {
           "id": "663ba9bf44dc9ac80776a27a",
@@ -327,10 +327,6 @@
         {
           "id": "69ba35bc0e001ce3f8df8868",
           "name": "时夜雨#67267"
-        },
-        {
-          "id": "6747f4940e3459f23409bbde",
-          "name": "shaoshuo#51137"
         },
         {
           "id": "6306a4f0b67b1f12f03774c7",
