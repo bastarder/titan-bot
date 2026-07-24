@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-23T04:33:35Z",
+  "generated_at": "2026-07-24T01:09:20Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
       "name": "糖果派",
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
-      "snapshot_date": "2026-07-23",
-      "fetched_at": "2026-07-23T04:33:30.584572Z",
+      "snapshot_date": "2026-07-24",
+      "fetched_at": "2026-07-24T01:09:15.386150Z",
       "members": [
         {
           "id": "65bfbc85e755b271319edd5a",
@@ -83,6 +83,10 @@
           "name": "Lulu#86702"
         },
         {
+          "id": "659c3e2ee54e0360bb858e59",
+          "name": "潘小闲#78923"
+        },
+        {
           "id": "6a13acb83f035489bd832e68",
           "name": "danian#90047"
         }
@@ -93,8 +97,8 @@
       "name": "hustle",
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
-      "snapshot_date": "2026-07-23",
-      "fetched_at": "2026-07-23T04:33:30.584572Z",
+      "snapshot_date": "2026-07-24",
+      "fetched_at": "2026-07-24T01:09:15.386150Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -157,10 +161,6 @@
           "name": "夏紫恒#60053"
         },
         {
-          "id": "673f28df125dbf7cf74b3afd",
-          "name": "你终究不是她#74058"
-        },
-        {
           "id": "692b9abe5655b052d3de49b0",
           "name": "中老年#20712"
         },
@@ -169,12 +169,16 @@
           "name": "十一秒#10632"
         },
         {
+          "id": "65406baf6e86321287d7f89a",
+          "name": "A Z Z#61166"
+        },
+        {
           "id": "60472c0b936fdf1336c05353",
           "name": "Viking#22834"
         },
         {
-          "id": "67e66128f0698da36bae02bf",
-          "name": "与世无争#30844"
+          "id": "667914725aa1c7a68a012953",
+          "name": "默默仔#50611"
         }
       ]
     },
@@ -183,8 +187,8 @@
       "name": "哈哈一笑",
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
-      "snapshot_date": "2026-07-23",
-      "fetched_at": "2026-07-23T04:33:30.584572Z",
+      "snapshot_date": "2026-07-24",
+      "fetched_at": "2026-07-24T01:09:15.386150Z",
       "members": [
         {
           "id": "5e20a744c128d47f3c2caad7",
@@ -273,16 +277,20 @@
       "name": "希尔锐斯",
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
-      "snapshot_date": "2026-07-23",
-      "fetched_at": "2026-07-23T04:33:30.584572Z",
+      "snapshot_date": "2026-07-24",
+      "fetched_at": "2026-07-24T01:09:15.386150Z",
       "members": [
         {
-          "id": "5e4029d4068d3a11713667de",
-          "name": "天凉好个秋#33444"
+          "id": "67d5bb413385dfdc68a03fa5",
+          "name": "重生变成蓝海绵被狠狠蹂躏#22631"
         },
         {
           "id": "6805fc5573e08ceb9c99e7f7",
           "name": "雾青丝#39731"
+        },
+        {
+          "id": "5e4029d4068d3a11713667de",
+          "name": "天凉好个秋#33444"
         },
         {
           "id": "69d0a72ea36fa02151a7136b",
@@ -301,12 +309,12 @@
           "name": "Klein#10782"
         },
         {
-          "id": "663ba9bf44dc9ac80776a27a",
-          "name": "MagicMirror#39146"
-        },
-        {
           "id": "629324d34a110612f39273ac",
           "name": "关耀#91347"
+        },
+        {
+          "id": "663ba9bf44dc9ac80776a27a",
+          "name": "MagicMirror#39146"
         },
         {
           "id": "5e26bb7cc927fa1eaf2d7099",
@@ -337,16 +345,16 @@
           "name": "任性的你#99269"
         },
         {
+          "id": "61b9663427277e12e53dad85",
+          "name": "章鱼。#69715"
+        },
+        {
           "id": "5e6ef23469f6ee121b57912e",
           "name": "Clodday#53519"
         },
         {
           "id": "5e46e62406ba35116a40b71e",
           "name": "赖赖小姐#66674"
-        },
-        {
-          "id": "61b9663427277e12e53dad85",
-          "name": "章鱼。#69715"
         },
         {
           "id": "6a50d9450be066f8a2868c89",
