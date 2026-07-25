@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-24T04:32:26Z",
+  "generated_at": "2026-07-25T01:09:20Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
       "name": "糖果派",
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
-      "snapshot_date": "2026-07-24",
-      "fetched_at": "2026-07-24T04:32:21.802977Z",
+      "snapshot_date": "2026-07-25",
+      "fetched_at": "2026-07-25T01:09:14.694686Z",
       "members": [
         {
           "id": "65bfbc85e755b271319edd5a",
@@ -27,10 +27,6 @@
           "name": "解富贵#83818"
         },
         {
-          "id": "69038d9816197a414e81e75d",
-          "name": "叫我肝帝#60464"
-        },
-        {
           "id": "677732571964e09d3c221361",
           "name": "雷霆嘎巴无情哈拉少#40989"
         },
@@ -41,6 +37,10 @@
         {
           "id": "62ecc749ba78a812dfbead6d",
           "name": "Loyce#13684"
+        },
+        {
+          "id": "5e9a918cb965cc122a4b14fb",
+          "name": "天下无敌君不见大王#34824"
         },
         {
           "id": "5ee96d07c143e315774f3aaa",
@@ -97,8 +97,8 @@
       "name": "hustle",
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
-      "snapshot_date": "2026-07-24",
-      "fetched_at": "2026-07-24T04:32:21.802977Z",
+      "snapshot_date": "2026-07-25",
+      "fetched_at": "2026-07-25T01:09:14.694686Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -153,20 +153,20 @@
           "name": "Ryan樂#20630"
         },
         {
-          "id": "689c4d7da1c811aca4f838cb",
-          "name": "多情玫瑰#21486"
-        },
-        {
           "id": "5e68681570ddac121a0f1cf3",
           "name": "夏紫恒#60053"
+        },
+        {
+          "id": "692aee30085d95edd040cd69",
+          "name": "十一秒#10632"
         },
         {
           "id": "692b9abe5655b052d3de49b0",
           "name": "中老年#20712"
         },
         {
-          "id": "692aee30085d95edd040cd69",
-          "name": "十一秒#10632"
+          "id": "5e439b28a9d6ed116e8adfbc",
+          "name": "坑一波没事的#61005"
         },
         {
           "id": "65406baf6e86321287d7f89a",
@@ -187,8 +187,8 @@
       "name": "哈哈一笑",
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
-      "snapshot_date": "2026-07-24",
-      "fetched_at": "2026-07-24T04:32:21.802977Z",
+      "snapshot_date": "2026-07-25",
+      "fetched_at": "2026-07-25T01:09:14.694686Z",
       "members": [
         {
           "id": "5e20a744c128d47f3c2caad7",
@@ -219,10 +219,6 @@
           "name": "苹果醋的orange#34414"
         },
         {
-          "id": "5e9a918cb965cc122a4b14fb",
-          "name": "天下无敌君不见大王#34824"
-        },
-        {
           "id": "613739368dbef513389f1b53",
           "name": "杰尼杰尼#91950"
         },
@@ -241,6 +237,10 @@
         {
           "id": "678bd7492825800bc64dc323",
           "name": "富可敌国的掌柜#83265"
+        },
+        {
+          "id": "69038d9816197a414e81e75d",
+          "name": "叫我肝帝#60464"
         },
         {
           "id": "670a2dfc0ad6682b45f2442e",
@@ -277,8 +277,8 @@
       "name": "希尔锐斯",
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
-      "snapshot_date": "2026-07-24",
-      "fetched_at": "2026-07-24T04:32:21.802977Z",
+      "snapshot_date": "2026-07-25",
+      "fetched_at": "2026-07-25T01:09:14.694686Z",
       "members": [
         {
           "id": "67d5bb413385dfdc68a03fa5",
@@ -341,12 +341,12 @@
           "name": "渔洲渡#24911"
         },
         {
-          "id": "663cab58aa5200403961fdf6",
-          "name": "任性的你#99269"
-        },
-        {
           "id": "61b9663427277e12e53dad85",
           "name": "章鱼。#69715"
+        },
+        {
+          "id": "663cab58aa5200403961fdf6",
+          "name": "任性的你#99269"
         },
         {
           "id": "5e6ef23469f6ee121b57912e",
