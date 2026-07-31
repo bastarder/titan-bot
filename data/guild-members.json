@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-30T04:20:28Z",
+  "generated_at": "2026-07-31T01:09:21Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
       "name": "糖果派",
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
-      "snapshot_date": "2026-07-30",
-      "fetched_at": "2026-07-30T04:20:22.710171Z",
+      "snapshot_date": "2026-07-31",
+      "fetched_at": "2026-07-31T01:09:16.146951Z",
       "members": [
         {
           "id": "65bfbc85e755b271319edd5a",
@@ -97,8 +97,8 @@
       "name": "hustle",
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
-      "snapshot_date": "2026-07-30",
-      "fetched_at": "2026-07-30T04:20:22.710171Z",
+      "snapshot_date": "2026-07-31",
+      "fetched_at": "2026-07-31T01:09:16.146951Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -107,6 +107,10 @@
         {
           "id": "67d94113dbc0a67c22b05400",
           "name": "gzt2025#69645"
+        },
+        {
+          "id": "676aba5f7ef1dd907019aafd",
+          "name": "雨季墨叶#79559"
         },
         {
           "id": "629dd0a685c2db12dcaaa906",
@@ -173,10 +177,6 @@
           "name": "A Z Z#61166"
         },
         {
-          "id": "60472c0b936fdf1336c05353",
-          "name": "Viking#22834"
-        },
-        {
           "id": "667914725aa1c7a68a012953",
           "name": "默默仔#50611"
         }
@@ -187,8 +187,8 @@
       "name": "哈哈一笑",
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
-      "snapshot_date": "2026-07-30",
-      "fetched_at": "2026-07-30T04:20:22.710171Z",
+      "snapshot_date": "2026-07-31",
+      "fetched_at": "2026-07-31T01:09:16.146951Z",
       "members": [
         {
           "id": "69038d9816197a414e81e75d",
@@ -199,12 +199,12 @@
           "name": "Mark#72245"
         },
         {
-          "id": "634f65c1c83c7012e5c2de13",
-          "name": "YuXin#50867"
-        },
-        {
           "id": "62ecc749ba78a812dfbead6d",
           "name": "Loyce#13684"
+        },
+        {
+          "id": "634f65c1c83c7012e5c2de13",
+          "name": "YuXin#50867"
         },
         {
           "id": "641708302b26fb1307c13759",
@@ -229,10 +229,6 @@
         {
           "id": "676a736bce382af81f72dc1b",
           "name": "Zio#82433"
-        },
-        {
-          "id": "5e54a861dbca38116e43c409",
-          "name": "网恋骗他八万#66106"
         },
         {
           "id": "5ebc9ae1136235293c990b76",
@@ -267,6 +263,10 @@
           "name": "富可敌国的掌柜#83265"
         },
         {
+          "id": "5e54a861dbca38116e43c409",
+          "name": "网恋骗他八万#66106"
+        },
+        {
           "id": "66c879845fdcabdbed19fea3",
           "name": "肖恩赛高#74755"
         }
@@ -277,8 +277,8 @@
       "name": "希尔锐斯",
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
-      "snapshot_date": "2026-07-30",
-      "fetched_at": "2026-07-30T04:20:22.710171Z",
+      "snapshot_date": "2026-07-31",
+      "fetched_at": "2026-07-31T01:09:16.146951Z",
       "members": [
         {
           "id": "67d5bb413385dfdc68a03fa5",
@@ -301,16 +301,16 @@
           "name": "天才呀#40183"
         },
         {
+          "id": "69b94d6f0e001ce3f8df7efa",
+          "name": "Klein#10782"
+        },
+        {
           "id": "629324d34a110612f39273ac",
           "name": "关耀#91347"
         },
         {
           "id": "620b4995245f6e12f3cd1b53",
           "name": "Penny L#39430"
-        },
-        {
-          "id": "69b94d6f0e001ce3f8df7efa",
-          "name": "Klein#10782"
         },
         {
           "id": "663ba9bf44dc9ac80776a27a",
@@ -321,12 +321,20 @@
           "name": "月亮之上#86402"
         },
         {
+          "id": "67b46d46665600d22d6a5ab1",
+          "name": "清素笔调#12295"
+        },
+        {
           "id": "5f700930031a301329a11eee",
           "name": "yiyi11494#13953"
         },
         {
           "id": "5eb693952d9e80123ae02639",
           "name": "Shan*_*FOX#42418"
+        },
+        {
+          "id": "61386713df8032132a79fccb",
+          "name": "思灵#51090"
         },
         {
           "id": "6306a4f0b67b1f12f03774c7",
@@ -345,20 +353,12 @@
           "name": "章鱼。#69715"
         },
         {
-          "id": "663cab58aa5200403961fdf6",
-          "name": "任性的你#99269"
-        },
-        {
-          "id": "5e6ef23469f6ee121b57912e",
-          "name": "Clodday#53519"
-        },
-        {
-          "id": "5e46e62406ba35116a40b71e",
-          "name": "赖赖小姐#66674"
-        },
-        {
           "id": "6a50d9450be066f8a2868c89",
           "name": "luna#76898"
+        },
+        {
+          "id": "6122f4a99a34d51328e2bf35",
+          "name": "不起名不行吗#10837"
         }
       ]
     }
