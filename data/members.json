@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-04T01:09:24Z",
+  "generated_at": "2026-08-04T04:30:26Z",
   "dates": [
     "2026-06-12",
     "2026-06-13",
@@ -1381,7 +1381,7 @@
     },
     "676aba5f7ef1dd907019aafd": {
       "name": "雨季墨叶#79559",
-      "level": 189,
+      "level": 190,
       "role": "Officer",
       "latest_investment": 7156427374500,
       "latest_date": "2026-08-04",
