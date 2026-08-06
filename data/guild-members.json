@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-05T04:29:08Z",
+  "generated_at": "2026-08-06T01:09:19Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
       "name": "糖果派",
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
-      "snapshot_date": "2026-08-05",
-      "fetched_at": "2026-08-05T04:29:03.389567Z",
+      "snapshot_date": "2026-08-06",
+      "fetched_at": "2026-08-06T01:09:13.889883Z",
       "members": [
         {
           "id": "65bfbc85e755b271319edd5a",
@@ -97,8 +97,8 @@
       "name": "hustle",
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
-      "snapshot_date": "2026-08-05",
-      "fetched_at": "2026-08-05T04:29:03.389567Z",
+      "snapshot_date": "2026-08-06",
+      "fetched_at": "2026-08-06T01:09:13.889883Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -187,8 +187,8 @@
       "name": "哈哈一笑",
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
-      "snapshot_date": "2026-08-05",
-      "fetched_at": "2026-08-05T04:29:03.389567Z",
+      "snapshot_date": "2026-08-06",
+      "fetched_at": "2026-08-06T01:09:13.889883Z",
       "members": [
         {
           "id": "69038d9816197a414e81e75d",
@@ -207,12 +207,12 @@
           "name": "YuXin#50867"
         },
         {
-          "id": "641708302b26fb1307c13759",
-          "name": "大自然的恩赐#72909"
-        },
-        {
           "id": "615803328299201331afbc15",
           "name": "玄 君#14309"
+        },
+        {
+          "id": "641708302b26fb1307c13759",
+          "name": "大自然的恩赐#72909"
         },
         {
           "id": "670e50267de5e8225551e7c7",
@@ -269,10 +269,6 @@
         {
           "id": "66c879845fdcabdbed19fea3",
           "name": "肖恩赛高#74755"
-        },
-        {
-          "id": "62e0bec1fe658e12f3773ee1",
-          "name": "ojj#59006"
         }
       ]
     },
@@ -281,8 +277,8 @@
       "name": "希尔锐斯",
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
-      "snapshot_date": "2026-08-05",
-      "fetched_at": "2026-08-05T04:29:03.389567Z",
+      "snapshot_date": "2026-08-06",
+      "fetched_at": "2026-08-06T01:09:13.889883Z",
       "members": [
         {
           "id": "67d5bb413385dfdc68a03fa5",
@@ -359,6 +355,10 @@
         {
           "id": "6a50d9450be066f8a2868c89",
           "name": "luna#76898"
+        },
+        {
+          "id": "62fa3b9906000612dc657084",
+          "name": "张怀民#32504"
         },
         {
           "id": "6122f4a99a34d51328e2bf35",
