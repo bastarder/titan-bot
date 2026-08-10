@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-10T01:09:18Z",
+  "generated_at": "2026-08-10T03:18:33Z",
   "dates": [
     "2026-06-12",
     "2026-06-13",
@@ -4634,7 +4634,7 @@
     },
     "69b94d6f0e001ce3f8df7efa": {
       "name": "Klein#10782",
-      "level": 60,
+      "level": 61,
       "role": "Officer",
       "latest_investment": 43107474500,
       "latest_date": "2026-08-10",
