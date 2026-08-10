@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-09T03:07:54Z",
+  "generated_at": "2026-08-10T01:09:18Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
       "name": "糖果派",
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
-      "snapshot_date": "2026-08-09",
-      "fetched_at": "2026-08-09T03:07:49.421189Z",
+      "snapshot_date": "2026-08-10",
+      "fetched_at": "2026-08-10T01:09:14.446575Z",
       "members": [
         {
           "id": "65bfbc85e755b271319edd5a",
@@ -97,8 +97,8 @@
       "name": "hustle",
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
-      "snapshot_date": "2026-08-09",
-      "fetched_at": "2026-08-09T03:07:49.421189Z",
+      "snapshot_date": "2026-08-10",
+      "fetched_at": "2026-08-10T01:09:14.446575Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -187,8 +187,8 @@
       "name": "哈哈一笑",
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
-      "snapshot_date": "2026-08-09",
-      "fetched_at": "2026-08-09T03:07:49.421189Z",
+      "snapshot_date": "2026-08-10",
+      "fetched_at": "2026-08-10T01:09:14.446575Z",
       "members": [
         {
           "id": "69038d9816197a414e81e75d",
@@ -277,8 +277,8 @@
       "name": "希尔锐斯",
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
-      "snapshot_date": "2026-08-09",
-      "fetched_at": "2026-08-09T03:07:49.421189Z",
+      "snapshot_date": "2026-08-10",
+      "fetched_at": "2026-08-10T01:09:14.446575Z",
       "members": [
         {
           "id": "67d5bb413385dfdc68a03fa5",
@@ -301,12 +301,12 @@
           "name": "天才呀#40183"
         },
         {
-          "id": "69b94d6f0e001ce3f8df7efa",
-          "name": "Klein#10782"
-        },
-        {
           "id": "629324d34a110612f39273ac",
           "name": "关耀#91347"
+        },
+        {
+          "id": "69b94d6f0e001ce3f8df7efa",
+          "name": "Klein#10782"
         },
         {
           "id": "620b4995245f6e12f3cd1b53",
@@ -321,12 +321,12 @@
           "name": "月亮之上#86402"
         },
         {
-          "id": "67b46d46665600d22d6a5ab1",
-          "name": "清素笔调#12295"
-        },
-        {
           "id": "61386713df8032132a79fccb",
           "name": "思灵#51090"
+        },
+        {
+          "id": "67b46d46665600d22d6a5ab1",
+          "name": "清素笔调#12295"
         },
         {
           "id": "5f700930031a301329a11eee",
