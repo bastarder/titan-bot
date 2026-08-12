@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-11T03:11:23Z",
+  "generated_at": "2026-08-12T01:09:21Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
       "name": "糖果派",
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
-      "snapshot_date": "2026-08-11",
-      "fetched_at": "2026-08-11T03:11:18.504266Z",
+      "snapshot_date": "2026-08-12",
+      "fetched_at": "2026-08-12T01:09:16.641085Z",
       "members": [
         {
           "id": "65bfbc85e755b271319edd5a",
@@ -23,12 +23,12 @@
           "name": "雕刻月光ic#59803"
         },
         {
-          "id": "5e20a744c128d47f3c2caad7",
-          "name": "猫猫玖子#16310"
-        },
-        {
           "id": "64ecb52a96939c091be78a83",
           "name": "解富贵#83818"
+        },
+        {
+          "id": "5e20a744c128d47f3c2caad7",
+          "name": "猫猫玖子#16310"
         },
         {
           "id": "677732571964e09d3c221361",
@@ -97,8 +97,8 @@
       "name": "hustle",
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
-      "snapshot_date": "2026-08-11",
-      "fetched_at": "2026-08-11T03:11:18.504266Z",
+      "snapshot_date": "2026-08-12",
+      "fetched_at": "2026-08-12T01:09:16.641085Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -153,12 +153,12 @@
           "name": "天刀笑剑钝#51635"
         },
         {
-          "id": "5e68681570ddac121a0f1cf3",
-          "name": "夏紫恒#60053"
-        },
-        {
           "id": "692aee30085d95edd040cd69",
           "name": "十一秒#10632"
+        },
+        {
+          "id": "5e68681570ddac121a0f1cf3",
+          "name": "夏紫恒#60053"
         },
         {
           "id": "692b9abe5655b052d3de49b0",
@@ -187,8 +187,8 @@
       "name": "哈哈一笑",
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
-      "snapshot_date": "2026-08-11",
-      "fetched_at": "2026-08-11T03:11:18.504266Z",
+      "snapshot_date": "2026-08-12",
+      "fetched_at": "2026-08-12T01:09:16.641085Z",
       "members": [
         {
           "id": "69038d9816197a414e81e75d",
@@ -239,6 +239,10 @@
           "name": "冰血无邪#10908"
         },
         {
+          "id": "68a584d818c83706dc91c585",
+          "name": "我欲封天#37454"
+        },
+        {
           "id": "61b440ab2cdd2912e37e51ba",
           "name": "爱抡野鸽儿#80089"
         },
@@ -273,8 +277,8 @@
       "name": "希尔锐斯",
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
-      "snapshot_date": "2026-08-11",
-      "fetched_at": "2026-08-11T03:11:18.504266Z",
+      "snapshot_date": "2026-08-12",
+      "fetched_at": "2026-08-12T01:09:16.641085Z",
       "members": [
         {
           "id": "67d5bb413385dfdc68a03fa5",
