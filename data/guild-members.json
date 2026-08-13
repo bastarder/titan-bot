@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-13T03:32:52Z",
+  "generated_at": "2026-08-13T09:45:26Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
@@ -8,7 +8,7 @@
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
       "snapshot_date": "2026-08-13",
-      "fetched_at": "2026-08-13T03:32:47.926018Z",
+      "fetched_at": "2026-08-13T09:45:19.786595Z",
       "members": [
         {
           "id": "65bfbc85e755b271319edd5a",
@@ -98,7 +98,7 @@
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
       "snapshot_date": "2026-08-13",
-      "fetched_at": "2026-08-13T03:32:47.926018Z",
+      "fetched_at": "2026-08-13T09:45:19.786595Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -188,7 +188,7 @@
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
       "snapshot_date": "2026-08-13",
-      "fetched_at": "2026-08-13T03:32:47.926018Z",
+      "fetched_at": "2026-08-13T09:45:19.786595Z",
       "members": [
         {
           "id": "69038d9816197a414e81e75d",
@@ -278,7 +278,7 @@
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
       "snapshot_date": "2026-08-13",
-      "fetched_at": "2026-08-13T03:32:47.926018Z",
+      "fetched_at": "2026-08-13T09:45:19.786595Z",
       "members": [
         {
           "id": "5e4029d4068d3a11713667de",
@@ -355,6 +355,96 @@
         {
           "id": "6122f4a99a34d51328e2bf35",
           "name": "不起名不行吗#10837"
+        }
+      ]
+    },
+    "baijinhang": {
+      "slug": "baijinhang",
+      "name": "白金瀚",
+      "guild_id": "5f52ba6156ca5512986bd497",
+      "guild_url": "https://www.titansdb.com/guilds/5f52ba6156ca5512986bd497",
+      "snapshot_date": "2026-08-13",
+      "fetched_at": "2026-08-13T09:45:19.786595Z",
+      "members": [
+        {
+          "id": "60c74545692017132f111efe",
+          "name": "ryuk986#61708"
+        },
+        {
+          "id": "6684577cc631dba46d7a32ce",
+          "name": "原来是木星#80847"
+        },
+        {
+          "id": "67e2998e18c00179336d7415",
+          "name": "菜刀川美美#15892"
+        },
+        {
+          "id": "65956a4e332a6989e1c0a357",
+          "name": "张烫麻辣亮#84935"
+        },
+        {
+          "id": "677df27352cc2c42cd1d1b72",
+          "name": "怩秋之梦#21574"
+        },
+        {
+          "id": "6797949200f07ce7aad955d3",
+          "name": "山月知我心底事#71074"
+        },
+        {
+          "id": "63bc2b9773689f12eea2d93f",
+          "name": "嘉南#24938"
+        },
+        {
+          "id": "67120169a6c64737821fe5cc",
+          "name": "水豆腐#93507"
+        },
+        {
+          "id": "62e7b5231e2e41261d0700dd",
+          "name": "苍之封印#63365"
+        },
+        {
+          "id": "62e0e8d3ba7ad412fb3a77b0",
+          "name": "奈斯兔咪兔呦#11202"
+        },
+        {
+          "id": "685f38c9d64b54411b5d277a",
+          "name": "tiantian#25486"
+        },
+        {
+          "id": "67b58aacc36412ef28a240ad",
+          "name": "biu#95325"
+        },
+        {
+          "id": "67e3b0b4b8d24f85e39452f1",
+          "name": "大肥羊#86178"
+        },
+        {
+          "id": "67452554cd56663b99af825c",
+          "name": "BobPizza#84099"
+        },
+        {
+          "id": "674a72bd1c20ab7bac1229ef",
+          "name": "raty#32091"
+        },
+        {
+          "id": "63a56e38463bd612fb5b4f5c",
+          "name": "森月の輝「霧雨靈夢」#36161"
+        },
+        {
+          "id": "6173992eecb089132cd9e9d0",
+          "name": "bzzb#14631"
+        },
+        {
+          "id": "6882fbc574a089f078feb8cf",
+          "name": "ss龙s#65673"
+        },
+        {
+          "id": "5d0ac63c43876e5a11e9229a",
+          "name": "启东李宗伟#57519"
+        },
+        {
+          "id": "6520d939c137c65c60ef3ebb",
+          "name": "周周周#84120"
         }
       ]
     }
