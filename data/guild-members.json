@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-13T09:45:26Z",
+  "generated_at": "2026-08-14T01:09:23Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
       "name": "糖果派",
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
-      "snapshot_date": "2026-08-13",
-      "fetched_at": "2026-08-13T09:45:19.786595Z",
+      "snapshot_date": "2026-08-14",
+      "fetched_at": "2026-08-14T01:09:16.916890Z",
       "members": [
         {
           "id": "65bfbc85e755b271319edd5a",
@@ -75,12 +75,12 @@
           "name": "Dreambig#70036"
         },
         {
-          "id": "675d763214fd6e890db3cfdd",
-          "name": "-梁小辉-#91673"
-        },
-        {
           "id": "67a0d23fecbdbf034937feab",
           "name": "Q丘Q#77629"
+        },
+        {
+          "id": "675d763214fd6e890db3cfdd",
+          "name": "-梁小辉-#91673"
         },
         {
           "id": "62da82b6d47f2012f572a4e3",
@@ -97,8 +97,8 @@
       "name": "hustle",
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
-      "snapshot_date": "2026-08-13",
-      "fetched_at": "2026-08-13T09:45:19.786595Z",
+      "snapshot_date": "2026-08-14",
+      "fetched_at": "2026-08-14T01:09:16.916890Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -187,8 +187,8 @@
       "name": "哈哈一笑",
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
-      "snapshot_date": "2026-08-13",
-      "fetched_at": "2026-08-13T09:45:19.786595Z",
+      "snapshot_date": "2026-08-14",
+      "fetched_at": "2026-08-14T01:09:16.916890Z",
       "members": [
         {
           "id": "69038d9816197a414e81e75d",
@@ -223,8 +223,16 @@
           "name": "杰尼杰尼#91950"
         },
         {
+          "id": "5f80146dc089f11324f94c98",
+          "name": "悠悠自在#93713"
+        },
+        {
           "id": "676a736bce382af81f72dc1b",
           "name": "Zio#82433"
+        },
+        {
+          "id": "5e54a861dbca38116e43c409",
+          "name": "网恋骗他八万#66106"
         },
         {
           "id": "5ebc9ae1136235293c990b76",
@@ -255,20 +263,12 @@
           "name": "某C#95469"
         },
         {
-          "id": "678bd7492825800bc64dc323",
-          "name": "富可敌国的掌柜#83265"
-        },
-        {
-          "id": "5f80146dc089f11324f94c98",
-          "name": "悠悠自在#93713"
-        },
-        {
-          "id": "5e54a861dbca38116e43c409",
-          "name": "网恋骗他八万#66106"
-        },
-        {
           "id": "67e66128f0698da36bae02bf",
           "name": "与世无争#30844"
+        },
+        {
+          "id": "678bd7492825800bc64dc323",
+          "name": "富可敌国的掌柜#83265"
         }
       ]
     },
@@ -277,8 +277,8 @@
       "name": "希尔锐斯",
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
-      "snapshot_date": "2026-08-13",
-      "fetched_at": "2026-08-13T09:45:19.786595Z",
+      "snapshot_date": "2026-08-14",
+      "fetched_at": "2026-08-14T01:09:16.916890Z",
       "members": [
         {
           "id": "5e4029d4068d3a11713667de",
@@ -353,6 +353,10 @@
           "name": "luna#76898"
         },
         {
+          "id": "60e8cdee887f801334abcd88",
+          "name": "小熊猫#88711"
+        },
+        {
           "id": "6122f4a99a34d51328e2bf35",
           "name": "不起名不行吗#10837"
         }
@@ -363,8 +367,8 @@
       "name": "白金瀚",
       "guild_id": "5f52ba6156ca5512986bd497",
       "guild_url": "https://www.titansdb.com/guilds/5f52ba6156ca5512986bd497",
-      "snapshot_date": "2026-08-13",
-      "fetched_at": "2026-08-13T09:45:19.786595Z",
+      "snapshot_date": "2026-08-14",
+      "fetched_at": "2026-08-14T01:09:16.916890Z",
       "members": [
         {
           "id": "60c74545692017132f111efe",
