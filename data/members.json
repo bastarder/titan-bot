@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-15T01:09:24Z",
+  "generated_at": "2026-08-15T02:19:16Z",
   "dates": [
     "2026-06-12",
     "2026-06-13",
@@ -6364,7 +6364,7 @@
     "62e7b5231e2e41261d0700dd": {
       "name": "苍之封印#63365",
       "level": 191,
-      "role": "Member",
+      "role": "Officer",
       "latest_investment": 5466039760600,
       "latest_date": "2026-08-15",
       "investments": {
@@ -6401,12 +6401,12 @@
       "name": "biu#95325",
       "level": 90,
       "role": "Member",
-      "latest_investment": 1946757374500,
+      "latest_investment": 1947261760600,
       "latest_date": "2026-08-15",
       "investments": {
         "2026-08-13": 1946757374500,
         "2026-08-14": 1946757374500,
-        "2026-08-15": 1946757374500
+        "2026-08-15": 1947261760600
       }
     },
     "67e3b0b4b8d24f85e39452f1": {
