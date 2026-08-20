@@ -1,15 +1,19 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-19T02:31:54Z",
+  "generated_at": "2026-08-20T01:09:18Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
       "name": "糖果派",
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
-      "snapshot_date": "2026-08-19",
-      "fetched_at": "2026-08-19T02:31:48.770736Z",
+      "snapshot_date": "2026-08-20",
+      "fetched_at": "2026-08-20T01:09:12.478177Z",
       "members": [
+        {
+          "id": "67d5bb413385dfdc68a03fa5",
+          "name": "重生变成蓝海绵被狠狠蹂躏#22631"
+        },
         {
           "id": "65bfbc85e755b271319edd5a",
           "name": "xiaonian#79853"
@@ -63,10 +67,6 @@
           "name": "阿尔茨海默症大王#23089"
         },
         {
-          "id": "67d5bb413385dfdc68a03fa5",
-          "name": "重生变成蓝海绵被狠狠蹂躏#22631"
-        },
-        {
           "id": "606cfed064a6c9132ddeb510",
           "name": "秦飘渺#76568"
         },
@@ -87,6 +87,10 @@
           "name": "Lulu#86702"
         },
         {
+          "id": "6662850bdb4ed8b121ff7d3f",
+          "name": "嘿嘿嘿#16178"
+        },
+        {
           "id": "6a13acb83f035489bd832e68",
           "name": "danian#90047"
         }
@@ -97,8 +101,8 @@
       "name": "hustle",
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
-      "snapshot_date": "2026-08-19",
-      "fetched_at": "2026-08-19T02:31:48.770736Z",
+      "snapshot_date": "2026-08-20",
+      "fetched_at": "2026-08-20T01:09:12.478177Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -187,8 +191,8 @@
       "name": "哈哈一笑",
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
-      "snapshot_date": "2026-08-19",
-      "fetched_at": "2026-08-19T02:31:48.770736Z",
+      "snapshot_date": "2026-08-20",
+      "fetched_at": "2026-08-20T01:09:12.478177Z",
       "members": [
         {
           "id": "69038d9816197a414e81e75d",
@@ -223,12 +227,12 @@
           "name": "杰尼杰尼#91950"
         },
         {
-          "id": "5f80146dc089f11324f94c98",
-          "name": "悠悠自在#93713"
-        },
-        {
           "id": "676a736bce382af81f72dc1b",
           "name": "Zio#82433"
+        },
+        {
+          "id": "5f80146dc089f11324f94c98",
+          "name": "悠悠自在#93713"
         },
         {
           "id": "5e54a861dbca38116e43c409",
@@ -277,8 +281,8 @@
       "name": "希尔锐斯",
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
-      "snapshot_date": "2026-08-19",
-      "fetched_at": "2026-08-19T02:31:48.770736Z",
+      "snapshot_date": "2026-08-20",
+      "fetched_at": "2026-08-20T01:09:12.478177Z",
       "members": [
         {
           "id": "5e4029d4068d3a11713667de",
@@ -326,7 +330,7 @@
         },
         {
           "id": "68467f1123a0506837090c92",
-          "name": "挪威韩大炮#20515"
+          "name": "传奇二道贩子#76699"
         },
         {
           "id": "5f700930031a301329a11eee",
@@ -367,8 +371,8 @@
       "name": "白金瀚",
       "guild_id": "5f52ba6156ca5512986bd497",
       "guild_url": "https://www.titansdb.com/guilds/5f52ba6156ca5512986bd497",
-      "snapshot_date": "2026-08-19",
-      "fetched_at": "2026-08-19T02:31:48.770736Z",
+      "snapshot_date": "2026-08-20",
+      "fetched_at": "2026-08-20T01:09:12.478177Z",
       "members": [
         {
           "id": "60c74545692017132f111efe",
@@ -431,12 +435,12 @@
           "name": "森月の輝「霧雨靈夢」#36161"
         },
         {
-          "id": "6173992eecb089132cd9e9d0",
-          "name": "bzzb#14631"
-        },
-        {
           "id": "61a4fa77934d9912df890078",
           "name": "ohh#30348"
+        },
+        {
+          "id": "6173992eecb089132cd9e9d0",
+          "name": "bzzb#14631"
         },
         {
           "id": "6882fbc574a089f078feb8cf",
