@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-21T01:09:22Z",
+  "generated_at": "2026-08-21T02:36:43Z",
   "dates": [
     "2026-06-12",
     "2026-06-13",
@@ -6745,7 +6745,7 @@
     },
     "68a584d818c83706dc91c585": {
       "name": "**Serendip**#91871",
-      "level": 164,
+      "level": 166,
       "role": "Officer",
       "latest_investment": 1149668360600,
       "latest_date": "2026-08-21",
