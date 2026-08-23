@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-22T02:20:38Z",
+  "generated_at": "2026-08-23T01:09:21Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
       "name": "糖果派",
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
-      "snapshot_date": "2026-08-22",
-      "fetched_at": "2026-08-22T02:20:32.819396Z",
+      "snapshot_date": "2026-08-23",
+      "fetched_at": "2026-08-23T01:09:14.709500Z",
       "members": [
         {
           "id": "67d5bb413385dfdc68a03fa5",
@@ -97,8 +97,8 @@
       "name": "hustle",
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
-      "snapshot_date": "2026-08-22",
-      "fetched_at": "2026-08-22T02:20:32.819396Z",
+      "snapshot_date": "2026-08-23",
+      "fetched_at": "2026-08-23T01:09:14.709500Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -187,8 +187,8 @@
       "name": "哈哈一笑",
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
-      "snapshot_date": "2026-08-22",
-      "fetched_at": "2026-08-22T02:20:32.819396Z",
+      "snapshot_date": "2026-08-23",
+      "fetched_at": "2026-08-23T01:09:14.709500Z",
       "members": [
         {
           "id": "69038d9816197a414e81e75d",
@@ -207,12 +207,12 @@
           "name": "YuXin#50867"
         },
         {
-          "id": "615803328299201331afbc15",
-          "name": "玄 君#14309"
-        },
-        {
           "id": "641708302b26fb1307c13759",
           "name": "大自然的恩赐#72909"
+        },
+        {
+          "id": "615803328299201331afbc15",
+          "name": "玄 君#14309"
         },
         {
           "id": "65d57855d5512807febfe668",
@@ -247,10 +247,6 @@
           "name": "**Serendip**#91871"
         },
         {
-          "id": "61b440ab2cdd2912e37e51ba",
-          "name": "爱抡野鸽儿#80089"
-        },
-        {
           "id": "5e2104acd6a80511797543f8",
           "name": "重生後請叫我大屌哥#28042"
         },
@@ -269,6 +265,10 @@
         {
           "id": "678bd7492825800bc64dc323",
           "name": "富可敌国的掌柜#83265"
+        },
+        {
+          "id": "677df27352cc2c42cd1d1b72",
+          "name": "怩秋之梦#21574"
         }
       ]
     },
@@ -277,8 +277,8 @@
       "name": "希尔锐斯",
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
-      "snapshot_date": "2026-08-22",
-      "fetched_at": "2026-08-22T02:20:32.819396Z",
+      "snapshot_date": "2026-08-23",
+      "fetched_at": "2026-08-23T01:09:14.709500Z",
       "members": [
         {
           "id": "5e4029d4068d3a11713667de",
@@ -293,12 +293,12 @@
           "name": "四暮暮暮#36166"
         },
         {
-          "id": "629324d34a110612f39273ac",
-          "name": "关耀#91347"
-        },
-        {
           "id": "69b94d6f0e001ce3f8df7efa",
           "name": "Klein#10782"
+        },
+        {
+          "id": "629324d34a110612f39273ac",
+          "name": "关耀#91347"
         },
         {
           "id": "620b4995245f6e12f3cd1b53",
@@ -367,12 +367,12 @@
       "name": "白金瀚",
       "guild_id": "5f52ba6156ca5512986bd497",
       "guild_url": "https://www.titansdb.com/guilds/5f52ba6156ca5512986bd497",
-      "snapshot_date": "2026-08-22",
-      "fetched_at": "2026-08-22T02:20:32.819396Z",
+      "snapshot_date": "2026-08-23",
+      "fetched_at": "2026-08-23T01:09:14.709500Z",
       "members": [
         {
-          "id": "60c74545692017132f111efe",
-          "name": "ryuk986#61708"
+          "id": "65020028fdf2f830289239ba",
+          "name": "克林丶#22020"
         },
         {
           "id": "6684577cc631dba46d7a32ce",
@@ -387,12 +387,20 @@
           "name": "苍之封印#63365"
         },
         {
+          "id": "65d1cc07870e48ac5f99adcf",
+          "name": "Alex#28673"
+        },
+        {
           "id": "62e0e8d3ba7ad412fb3a77b0",
           "name": "奈斯兔咪兔呦#11202"
         },
         {
-          "id": "67e2998e18c00179336d7415",
-          "name": "菜刀川美美#15892"
+          "id": "60c74545692017132f111efe",
+          "name": "ryuk986#61708"
+        },
+        {
+          "id": "629c641463128d12f6fe21a5",
+          "name": "☾⋆᭄高先生☠#12829"
         },
         {
           "id": "65956a4e332a6989e1c0a357",
@@ -403,12 +411,8 @@
           "name": "大肥羊#86178"
         },
         {
-          "id": "677df27352cc2c42cd1d1b72",
-          "name": "怩秋之梦#21574"
-        },
-        {
-          "id": "685f38c9d64b54411b5d277a",
-          "name": "tiantian#25486"
+          "id": "665afadc6da395683f2793e8",
+          "name": "磨刀の老头#10548"
         },
         {
           "id": "67b58aacc36412ef28a240ad",
@@ -417,14 +421,6 @@
         {
           "id": "674a72bd1c20ab7bac1229ef",
           "name": "raty#32091"
-        },
-        {
-          "id": "67452554cd56663b99af825c",
-          "name": "BobPizza#84099"
-        },
-        {
-          "id": "63a56e38463bd612fb5b4f5c",
-          "name": "森月の輝「霧雨靈夢」#36161"
         },
         {
           "id": "61a4fa77934d9912df890078",
