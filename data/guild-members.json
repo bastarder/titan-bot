@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-25T02:31:05Z",
+  "generated_at": "2026-08-26T01:09:20Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
       "name": "糖果派",
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
-      "snapshot_date": "2026-08-25",
-      "fetched_at": "2026-08-25T02:30:58.788775Z",
+      "snapshot_date": "2026-08-26",
+      "fetched_at": "2026-08-26T01:09:14.050927Z",
       "members": [
         {
           "id": "67d5bb413385dfdc68a03fa5",
@@ -97,8 +97,8 @@
       "name": "hustle",
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
-      "snapshot_date": "2026-08-25",
-      "fetched_at": "2026-08-25T02:30:58.788775Z",
+      "snapshot_date": "2026-08-26",
+      "fetched_at": "2026-08-26T01:09:14.050927Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -187,8 +187,8 @@
       "name": "哈哈一笑",
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
-      "snapshot_date": "2026-08-25",
-      "fetched_at": "2026-08-25T02:30:58.788775Z",
+      "snapshot_date": "2026-08-26",
+      "fetched_at": "2026-08-26T01:09:14.050927Z",
       "members": [
         {
           "id": "69038d9816197a414e81e75d",
@@ -251,6 +251,10 @@
           "name": "重生後請叫我大屌哥#28042"
         },
         {
+          "id": "677df27352cc2c42cd1d1b72",
+          "name": "怩秋之梦#21574"
+        },
+        {
           "id": "631860b44d16a713016b8c7e",
           "name": "果汁郎CC冻#16219"
         },
@@ -265,10 +269,6 @@
         {
           "id": "678bd7492825800bc64dc323",
           "name": "富可敌国的掌柜#83265"
-        },
-        {
-          "id": "677df27352cc2c42cd1d1b72",
-          "name": "怩秋之梦#21574"
         }
       ]
     },
@@ -277,8 +277,8 @@
       "name": "希尔锐斯",
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
-      "snapshot_date": "2026-08-25",
-      "fetched_at": "2026-08-25T02:30:58.788775Z",
+      "snapshot_date": "2026-08-26",
+      "fetched_at": "2026-08-26T01:09:14.050927Z",
       "members": [
         {
           "id": "5e4029d4068d3a11713667de",
@@ -317,24 +317,24 @@
           "name": "思灵#51090"
         },
         {
-          "id": "60721f7328eb17132dd77566",
-          "name": "Yeona#16224"
+          "id": "61364a686796421333335d37",
+          "name": "夜风灬#78838"
         },
         {
-          "id": "67b46d46665600d22d6a5ab1",
-          "name": "清素笔调#12295"
+          "id": "60721f7328eb17132dd77566",
+          "name": "Yeona#16224"
         },
         {
           "id": "68467f1123a0506837090c92",
           "name": "传奇二道贩子#76699"
         },
         {
-          "id": "5f700930031a301329a11eee",
-          "name": "yiyi11494#13953"
-        },
-        {
           "id": "5eb693952d9e80123ae02639",
           "name": "Shan*_*FOX#42418"
+        },
+        {
+          "id": "5f700930031a301329a11eee",
+          "name": "yiyi11494#13953"
         },
         {
           "id": "6306a4f0b67b1f12f03774c7",
@@ -367,8 +367,8 @@
       "name": "白金瀚",
       "guild_id": "5f52ba6156ca5512986bd497",
       "guild_url": "https://www.titansdb.com/guilds/5f52ba6156ca5512986bd497",
-      "snapshot_date": "2026-08-25",
-      "fetched_at": "2026-08-25T02:30:58.788775Z",
+      "snapshot_date": "2026-08-26",
+      "fetched_at": "2026-08-26T01:09:14.050927Z",
       "members": [
         {
           "id": "65020028fdf2f830289239ba",
