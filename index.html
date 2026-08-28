@@ -702,6 +702,20 @@
         });
       }
 
+      function maskMemberName(value) {
+        const characters = Array.from(String(value ?? ""));
+        if (characters.length <= 4) return characters.join("");
+        const visibleName = characters.slice(0, 2).join("");
+        const visibleId = characters.slice(-2).join("");
+        return `${visibleName}${"*".repeat(characters.length - 4)}${visibleId}`;
+      }
+
+      function maskGuildName(value) {
+        const characters = Array.from(String(value ?? ""));
+        if (characters.length <= 1) return characters.join("");
+        return `${characters[0]}${"*".repeat(characters.length - 1)}`;
+      }
+
       function toDateInputValue(date) {
         const year = date.getFullYear();
         const month = String(date.getMonth() + 1).padStart(2, "0");
@@ -900,13 +914,16 @@
         const rows = ranking.length
           ? ranking
               .map(
-                ({ member, growth }, index) => `
-                  <li class="rank-row ${growth === 0 ? "muted" : ""}" title="${escapeHtml(member.name)}">
+                ({ member, growth }, index) => {
+                  const maskedName = maskMemberName(member.name);
+                  return `
+                  <li class="rank-row ${growth === 0 ? "muted" : ""}" title="${escapeHtml(maskedName)}">
                     <span class="rank-index">${index + 1}</span>
-                    <span class="rank-name">${escapeHtml(member.name)}</span>
+                    <span class="rank-name">${escapeHtml(maskedName)}</span>
                     <span class="rank-value delta">${growth === 0 ? "0" : formatDelta(growth) || "-"}</span>
                   </li>
-                `,
+                `;
+                },
               )
               .join("")
           : `<li class="rank-row"><span class="rank-index">-</span><span class="rank-name">暂无数据</span><span class="rank-value">-</span></li>`;
@@ -954,7 +971,7 @@
         els.guildSelect.innerHTML = [
           `<option value="all">全部公会</option>`,
           ...state.guildModels.map(
-            (guild) => `<option value="${escapeHtml(guild.slug)}">${escapeHtml(guild.name)}</option>`,
+            (guild) => `<option value="${escapeHtml(guild.slug)}">${escapeHtml(maskGuildName(guild.name))}</option>`,
           ),
         ].join("");
         els.guildSelect.value = state.selectedGuild;
@@ -970,11 +987,7 @@
               return `
                 <article class="guild-card">
                   <header>
-                    <div>
-                      <h2>${escapeHtml(guild.name)}</h2>
-                      <span class="sub">${escapeHtml(guild.guild_id)}</span>
-                    </div>
-                    <a href="${escapeHtml(guild.guild_url)}" target="_blank" rel="noreferrer">TitansDB</a>
+                    <h2>${escapeHtml(maskGuildName(guild.name))}</h2>
                   </header>
                   <div class="guild-stats">
                     <div><span>统计日期</span><strong>${escapeHtml(targetDate || "-")}</strong></div>
@@ -1076,8 +1089,8 @@
               <tr>
                 <td>${index + 1}</td>
                 <td>
-                  <span class="name">${escapeHtml(member.name)}</span>
-                  <span class="meta">${escapeHtml((member.guildNames || [member.guildName]).join(" / "))}</span>
+                  <span class="name">${escapeHtml(maskMemberName(member.name))}</span>
+                  <span class="meta">${escapeHtml((member.guildNames || [member.guildName]).map(maskGuildName).join(" / "))}</span>
                 </td>
                 <td>${escapeHtml(member.level || "-")}</td>
                 <td>${escapeHtml(member.role || "-")}</td>
