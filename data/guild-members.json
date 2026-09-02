@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T01:09:21Z",
+  "generated_at": "2026-09-02T05:49:55Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
@@ -8,7 +8,7 @@
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
       "snapshot_date": "2026-09-02",
-      "fetched_at": "2026-09-02T01:09:15.208401Z",
+      "fetched_at": "2026-09-02T05:49:48.657595Z",
       "members": [
         {
           "id": "67d5bb413385dfdc68a03fa5",
@@ -51,12 +51,12 @@
           "name": "大欧皇彪子#65035"
         },
         {
-          "id": "629c804447e76812eed5d508",
-          "name": "swang0726#35346"
-        },
-        {
           "id": "659ad7ca9a4618db4b24358f",
           "name": "秦始皇#47810"
+        },
+        {
+          "id": "629c804447e76812eed5d508",
+          "name": "swang0726#35346"
         },
         {
           "id": "696f1552e2099932df48ab4e",
@@ -98,7 +98,7 @@
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
       "snapshot_date": "2026-09-02",
-      "fetched_at": "2026-09-02T01:09:15.208401Z",
+      "fetched_at": "2026-09-02T05:49:48.657595Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -188,7 +188,7 @@
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
       "snapshot_date": "2026-09-02",
-      "fetched_at": "2026-09-02T01:09:15.208401Z",
+      "fetched_at": "2026-09-02T05:49:48.657595Z",
       "members": [
         {
           "id": "69038d9816197a414e81e75d",
@@ -201,10 +201,6 @@
         {
           "id": "633ffb752e699912f2645264",
           "name": "Mark#72245"
-        },
-        {
-          "id": "634f65c1c83c7012e5c2de13",
-          "name": "YuXin#50867"
         },
         {
           "id": "641708302b26fb1307c13759",
@@ -269,6 +265,10 @@
         {
           "id": "678bd7492825800bc64dc323",
           "name": "富可敌国的掌柜#83265"
+        },
+        {
+          "id": "634f65c1c83c7012e5c2de13",
+          "name": "YuXin#50867"
         }
       ]
     },
@@ -278,7 +278,7 @@
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
       "snapshot_date": "2026-09-02",
-      "fetched_at": "2026-09-02T01:09:15.208401Z",
+      "fetched_at": "2026-09-02T05:49:48.657595Z",
       "members": [
         {
           "id": "5e4029d4068d3a11713667de",
@@ -368,7 +368,7 @@
       "guild_id": "5f52ba6156ca5512986bd497",
       "guild_url": "https://www.titansdb.com/guilds/5f52ba6156ca5512986bd497",
       "snapshot_date": "2026-09-02",
-      "fetched_at": "2026-09-02T01:09:15.208401Z",
+      "fetched_at": "2026-09-02T05:49:48.657595Z",
       "members": [
         {
           "id": "65020028fdf2f830289239ba",
