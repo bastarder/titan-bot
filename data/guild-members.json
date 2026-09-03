@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T05:49:55Z",
+  "generated_at": "2026-09-03T01:09:25Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
       "name": "糖果派",
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
-      "snapshot_date": "2026-09-02",
-      "fetched_at": "2026-09-02T05:49:48.657595Z",
+      "snapshot_date": "2026-09-03",
+      "fetched_at": "2026-09-03T01:09:18.890277Z",
       "members": [
         {
           "id": "67d5bb413385dfdc68a03fa5",
@@ -31,16 +31,12 @@
           "name": "解富贵#83818"
         },
         {
-          "id": "5e20a744c128d47f3c2caad7",
-          "name": "猫猫玖子#16310"
-        },
-        {
-          "id": "677732571964e09d3c221361",
-          "name": "雷霆嘎巴无情哈拉少#40989"
-        },
-        {
           "id": "5e9a918cb965cc122a4b14fb",
           "name": "天下无敌君不见大王#34824"
+        },
+        {
+          "id": "5e20a744c128d47f3c2caad7",
+          "name": "猫猫玖子#16310"
         },
         {
           "id": "5ee96d07c143e315774f3aaa",
@@ -67,6 +63,10 @@
           "name": "阿尔茨海默症大王#23089"
         },
         {
+          "id": "675d763214fd6e890db3cfdd",
+          "name": "-梁小辉-#91673"
+        },
+        {
           "id": "606cfed064a6c9132ddeb510",
           "name": "秦飘渺#76568"
         },
@@ -75,16 +75,16 @@
           "name": "Q丘Q#77629"
         },
         {
-          "id": "675d763214fd6e890db3cfdd",
-          "name": "-梁小辉-#91673"
-        },
-        {
           "id": "67895e8ff8e7888f18c69b6a",
           "name": "Dreambig#70036"
         },
         {
           "id": "62da82b6d47f2012f572a4e3",
           "name": "Lulu#86702"
+        },
+        {
+          "id": "659c3e2ee54e0360bb858e59",
+          "name": "潘小闲#78923"
         },
         {
           "id": "6a13acb83f035489bd832e68",
@@ -97,8 +97,8 @@
       "name": "hustle",
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
-      "snapshot_date": "2026-09-02",
-      "fetched_at": "2026-09-02T05:49:48.657595Z",
+      "snapshot_date": "2026-09-03",
+      "fetched_at": "2026-09-03T01:09:18.890277Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -187,8 +187,8 @@
       "name": "哈哈一笑",
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
-      "snapshot_date": "2026-09-02",
-      "fetched_at": "2026-09-02T05:49:48.657595Z",
+      "snapshot_date": "2026-09-03",
+      "fetched_at": "2026-09-03T01:09:18.890277Z",
       "members": [
         {
           "id": "69038d9816197a414e81e75d",
@@ -277,8 +277,8 @@
       "name": "希尔锐斯",
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
-      "snapshot_date": "2026-09-02",
-      "fetched_at": "2026-09-02T05:49:48.657595Z",
+      "snapshot_date": "2026-09-03",
+      "fetched_at": "2026-09-03T01:09:18.890277Z",
       "members": [
         {
           "id": "5e4029d4068d3a11713667de",
@@ -367,8 +367,8 @@
       "name": "白金瀚",
       "guild_id": "5f52ba6156ca5512986bd497",
       "guild_url": "https://www.titansdb.com/guilds/5f52ba6156ca5512986bd497",
-      "snapshot_date": "2026-09-02",
-      "fetched_at": "2026-09-02T05:49:48.657595Z",
+      "snapshot_date": "2026-09-03",
+      "fetched_at": "2026-09-03T01:09:18.890277Z",
       "members": [
         {
           "id": "65020028fdf2f830289239ba",
