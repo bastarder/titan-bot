@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-09T05:58:52Z",
+  "generated_at": "2026-09-10T01:09:20Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
       "name": "糖果派",
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
-      "snapshot_date": "2026-09-09",
-      "fetched_at": "2026-09-09T05:58:47.286492Z",
+      "snapshot_date": "2026-09-10",
+      "fetched_at": "2026-09-10T01:09:14.700764Z",
       "members": [
         {
           "id": "67d5bb413385dfdc68a03fa5",
@@ -79,8 +79,8 @@
           "name": "Q丘Q#77629"
         },
         {
-          "id": "62da82b6d47f2012f572a4e3",
-          "name": "Lulu#86702"
+          "id": "6797949200f07ce7aad955d3",
+          "name": "山月知我心底事#71074"
         },
         {
           "id": "659c3e2ee54e0360bb858e59",
@@ -97,8 +97,8 @@
       "name": "hustle",
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
-      "snapshot_date": "2026-09-09",
-      "fetched_at": "2026-09-09T05:58:47.286492Z",
+      "snapshot_date": "2026-09-10",
+      "fetched_at": "2026-09-10T01:09:14.700764Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -187,8 +187,8 @@
       "name": "哈哈一笑",
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
-      "snapshot_date": "2026-09-09",
-      "fetched_at": "2026-09-09T05:58:47.286492Z",
+      "snapshot_date": "2026-09-10",
+      "fetched_at": "2026-09-10T01:09:14.700764Z",
       "members": [
         {
           "id": "69038d9816197a414e81e75d",
@@ -277,8 +277,8 @@
       "name": "希尔锐斯",
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
-      "snapshot_date": "2026-09-09",
-      "fetched_at": "2026-09-09T05:58:47.286492Z",
+      "snapshot_date": "2026-09-10",
+      "fetched_at": "2026-09-10T01:09:14.700764Z",
       "members": [
         {
           "id": "5e4029d4068d3a11713667de",
@@ -321,16 +321,20 @@
           "name": "yiyi11494#13953"
         },
         {
-          "id": "629324d34a110612f39273ac",
-          "name": "关耀#91347"
-        },
-        {
           "id": "663ba9bf44dc9ac80776a27a",
           "name": "MagicMirror#39146"
         },
         {
+          "id": "6122f4a99a34d51328e2bf35",
+          "name": "不起名不行吗#10837"
+        },
+        {
           "id": "5e26bb7cc927fa1eaf2d7099",
           "name": "月亮之上#86402"
+        },
+        {
+          "id": "677732571964e09d3c221361",
+          "name": "雷霆嘎巴无情哈拉少#40989"
         },
         {
           "id": "61364a686796421333335d37",
@@ -339,10 +343,6 @@
         {
           "id": "6306a4f0b67b1f12f03774c7",
           "name": "5277#57894"
-        },
-        {
-          "id": "61b9663427277e12e53dad85",
-          "name": "章鱼。#69715"
         },
         {
           "id": "6a50d9450be066f8a2868c89",
@@ -355,10 +355,6 @@
         {
           "id": "6a7f42d85eebdd68365ba045",
           "name": "SharkYuhang#34839"
-        },
-        {
-          "id": "6122f4a99a34d51328e2bf35",
-          "name": "不起名不行吗#10837"
         }
       ]
     },
@@ -367,8 +363,8 @@
       "name": "白金瀚",
       "guild_id": "5f52ba6156ca5512986bd497",
       "guild_url": "https://www.titansdb.com/guilds/5f52ba6156ca5512986bd497",
-      "snapshot_date": "2026-09-09",
-      "fetched_at": "2026-09-09T05:58:47.286492Z",
+      "snapshot_date": "2026-09-10",
+      "fetched_at": "2026-09-10T01:09:14.700764Z",
       "members": [
         {
           "id": "65020028fdf2f830289239ba",
@@ -399,20 +395,12 @@
           "name": "ryuk986#61708"
         },
         {
-          "id": "629c641463128d12f6fe21a5",
-          "name": "☾⋆᭄高先生☠#12829"
-        },
-        {
           "id": "67e3b0b4b8d24f85e39452f1",
           "name": "大肥羊#86178"
         },
         {
           "id": "65956a4e332a6989e1c0a357",
           "name": "张烫麻辣亮#84935"
-        },
-        {
-          "id": "665002067bfa6d63831106c0",
-          "name": "一眼顶针#72895"
         },
         {
           "id": "665afadc6da395683f2793e8",
@@ -429,6 +417,10 @@
         {
           "id": "61a4fa77934d9912df890078",
           "name": "ohh#30348"
+        },
+        {
+          "id": "67a7ec9f324896f9a16c59a1",
+          "name": "Andy#51717"
         },
         {
           "id": "6173992eecb089132cd9e9d0",
@@ -449,6 +441,10 @@
         {
           "id": "6520d939c137c65c60ef3ebb",
           "name": "周周周#84120"
+        },
+        {
+          "id": "692d91c0bf91ac66c00eccf3",
+          "name": "天才呀#40183"
         }
       ]
     }
