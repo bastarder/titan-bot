@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T06:17:19Z",
+  "generated_at": "2026-09-15T01:09:22Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
       "name": "糖果派",
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
-      "snapshot_date": "2026-09-14",
-      "fetched_at": "2026-09-14T06:17:12.565844Z",
+      "snapshot_date": "2026-09-15",
+      "fetched_at": "2026-09-15T01:09:15.896613Z",
       "members": [
         {
           "id": "67d5bb413385dfdc68a03fa5",
@@ -39,12 +39,12 @@
           "name": "天下无敌君不见大王#34824"
         },
         {
-          "id": "696f1552e2099932df48ab4e",
-          "name": "-周小杰-#21956"
-        },
-        {
           "id": "67895e8ff8e7888f18c69b6a",
           "name": "Dreambig#70036"
+        },
+        {
+          "id": "696f1552e2099932df48ab4e",
+          "name": "-周小杰-#21956"
         },
         {
           "id": "675d763214fd6e890db3cfdd",
@@ -83,6 +83,10 @@
           "name": "秦飘渺#76568"
         },
         {
+          "id": "610ea8d3543845133b1ecb39",
+          "name": "扬帆起航#56945"
+        },
+        {
           "id": "6797949200f07ce7aad955d3",
           "name": "山月知我心底事#71074"
         }
@@ -93,8 +97,8 @@
       "name": "hustle",
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
-      "snapshot_date": "2026-09-14",
-      "fetched_at": "2026-09-14T06:17:12.565844Z",
+      "snapshot_date": "2026-09-15",
+      "fetched_at": "2026-09-15T01:09:15.896613Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -183,8 +187,8 @@
       "name": "哈哈一笑",
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
-      "snapshot_date": "2026-09-14",
-      "fetched_at": "2026-09-14T06:17:12.565844Z",
+      "snapshot_date": "2026-09-15",
+      "fetched_at": "2026-09-15T01:09:15.896613Z",
       "members": [
         {
           "id": "69038d9816197a414e81e75d",
@@ -197,10 +201,6 @@
         {
           "id": "633ffb752e699912f2645264",
           "name": "Mark#72245"
-        },
-        {
-          "id": "634f65c1c83c7012e5c2de13",
-          "name": "YuXin#50867"
         },
         {
           "id": "641708302b26fb1307c13759",
@@ -263,6 +263,10 @@
           "name": "富可敌国的掌柜#83265"
         },
         {
+          "id": "634f65c1c83c7012e5c2de13",
+          "name": "YuXin#50867"
+        },
+        {
           "id": "5f80146dc089f11324f94c98",
           "name": "悠悠自在#93713"
         }
@@ -273,8 +277,8 @@
       "name": "希尔锐斯",
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
-      "snapshot_date": "2026-09-14",
-      "fetched_at": "2026-09-14T06:17:12.565844Z",
+      "snapshot_date": "2026-09-15",
+      "fetched_at": "2026-09-15T01:09:15.896613Z",
       "members": [
         {
           "id": "5e4029d4068d3a11713667de",
@@ -345,10 +349,6 @@
           "name": "帝国元首阿道夫#84057"
         },
         {
-          "id": "65085ca0a8dd67c922e34449",
-          "name": "愿你三生荣华#41211"
-        },
-        {
           "id": "6a7f42d85eebdd68365ba045",
           "name": "绿色鲨鱼#21882"
         },
@@ -363,8 +363,8 @@
       "name": "白金瀚",
       "guild_id": "5f52ba6156ca5512986bd497",
       "guild_url": "https://www.titansdb.com/guilds/5f52ba6156ca5512986bd497",
-      "snapshot_date": "2026-09-14",
-      "fetched_at": "2026-09-14T06:17:12.565844Z",
+      "snapshot_date": "2026-09-15",
+      "fetched_at": "2026-09-15T01:09:15.896613Z",
       "members": [
         {
           "id": "65020028fdf2f830289239ba",
