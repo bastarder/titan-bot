@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T01:09:22Z",
+  "generated_at": "2026-10-01T07:11:00Z",
   "dates": [
     "2026-06-12",
     "2026-06-13",
@@ -2642,7 +2642,7 @@
     },
     "5e48eaa3eadae011718c135b": {
       "name": "苹果橘子大西瓜#31630",
-      "level": 191,
+      "level": 192,
       "role": "Member",
       "latest_investment": 3519289760600,
       "latest_date": "2026-10-01",
@@ -10184,7 +10184,7 @@
     },
     "62e7b5231e2e41261d0700dd": {
       "name": "苍之封印#63365",
-      "level": 195,
+      "level": 196,
       "role": "Officer",
       "latest_investment": 6734739760600,
       "latest_date": "2026-10-01",
