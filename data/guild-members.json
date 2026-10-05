@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-05T01:09:23Z",
+  "generated_at": "2026-10-05T07:02:17Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
@@ -8,7 +8,7 @@
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
       "snapshot_date": "2026-10-05",
-      "fetched_at": "2026-10-05T01:09:16.842407Z",
+      "fetched_at": "2026-10-05T07:02:09.464742Z",
       "members": [
         {
           "id": "67d5bb413385dfdc68a03fa5",
@@ -85,10 +85,6 @@
         {
           "id": "6797949200f07ce7aad955d3",
           "name": "山月知我心底事#71074"
-        },
-        {
-          "id": "6abe38965e51fb95e317b019",
-          "name": "我有头发了#71086"
         }
       ]
     },
@@ -98,7 +94,7 @@
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
       "snapshot_date": "2026-10-05",
-      "fetched_at": "2026-10-05T01:09:16.842407Z",
+      "fetched_at": "2026-10-05T07:02:09.464742Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -188,7 +184,7 @@
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
       "snapshot_date": "2026-10-05",
-      "fetched_at": "2026-10-05T01:09:16.842407Z",
+      "fetched_at": "2026-10-05T07:02:09.464742Z",
       "members": [
         {
           "id": "69038d9816197a414e81e75d",
@@ -278,7 +274,7 @@
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
       "snapshot_date": "2026-10-05",
-      "fetched_at": "2026-10-05T01:09:16.842407Z",
+      "fetched_at": "2026-10-05T07:02:09.464742Z",
       "members": [
         {
           "id": "5e4029d4068d3a11713667de",
@@ -329,10 +325,6 @@
           "name": "月亮之上#86402"
         },
         {
-          "id": "5ee1bc3681597612a423f1bb",
-          "name": "嘴平伊之助#65006"
-        },
-        {
           "id": "625e120908c63312f0955d45",
           "name": "兽性大发小白兔#94789"
         },
@@ -368,7 +360,7 @@
       "guild_id": "5f52ba6156ca5512986bd497",
       "guild_url": "https://www.titansdb.com/guilds/5f52ba6156ca5512986bd497",
       "snapshot_date": "2026-10-05",
-      "fetched_at": "2026-10-05T01:09:16.842407Z",
+      "fetched_at": "2026-10-05T07:02:09.464742Z",
       "members": [
         {
           "id": "65020028fdf2f830289239ba",
@@ -403,12 +395,12 @@
           "name": "大肥羊#86178"
         },
         {
-          "id": "65956a4e332a6989e1c0a357",
-          "name": "张烫麻辣亮#84935"
-        },
-        {
           "id": "665afadc6da395683f2793e8",
           "name": "磨刀の老头#10548"
+        },
+        {
+          "id": "64e35a4607fe3c5f6f508ae6",
+          "name": "Dafei#73873"
         },
         {
           "id": "67b58aacc36412ef28a240ad",
