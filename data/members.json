@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-12T01:09:19Z",
+  "generated_at": "2026-10-12T07:20:50Z",
   "dates": [
     "2026-06-12",
     "2026-06-13",
@@ -1020,7 +1020,7 @@
     },
     "5e27c3c263f9a111791ff51c": {
       "name": "雕刻月光ic#59803",
-      "level": 98,
+      "level": 99,
       "role": "Officer",
       "latest_investment": 10035289760600,
       "latest_date": "2026-10-12",
@@ -3542,7 +3542,7 @@
     },
     "676a736bce382af81f72dc1b": {
       "name": "Zio#82433",
-      "level": 188,
+      "level": 189,
       "role": "Officer",
       "latest_investment": 2408500429100,
       "latest_date": "2026-10-12",
@@ -3983,7 +3983,7 @@
       "name": "星痕锁碎#67115",
       "level": 194,
       "role": "Officer",
-      "latest_investment": 5537239760600,
+      "latest_investment": 5737239760600,
       "latest_date": "2026-10-12",
       "investments": {
         "2026-06-14": 444029374500,
@@ -4105,7 +4105,7 @@
         "2026-10-09": 5237239760600,
         "2026-10-10": 5237239760600,
         "2026-10-11": 5237239760600,
-        "2026-10-12": 5537239760600
+        "2026-10-12": 5737239760600
       }
     },
     "61123eaab1bd11132f6b382a": {
@@ -8723,7 +8723,7 @@
     },
     "5e54a861dbca38116e43c409": {
       "name": "网恋骗他八万#66106",
-      "level": 172,
+      "level": 175,
       "role": "Officer",
       "latest_investment": 1925649760600,
       "latest_date": "2026-10-12",
@@ -9197,7 +9197,7 @@
     },
     "6a50d9450be066f8a2868c89": {
       "name": "luna#76898",
-      "level": 69,
+      "level": 70,
       "role": "Member",
       "latest_investment": 9471922800,
       "latest_date": "2026-10-12",
@@ -11083,7 +11083,7 @@
     },
     "62e0e8d3ba7ad412fb3a77b0": {
       "name": "奈斯兔咪兔呦#11202",
-      "level": 179,
+      "level": 180,
       "role": "Officer",
       "latest_investment": 5876889760600,
       "latest_date": "2026-10-12",
@@ -11242,7 +11242,7 @@
     },
     "67e3b0b4b8d24f85e39452f1": {
       "name": "大肥羊#86178",
-      "level": 181,
+      "level": 182,
       "role": "Officer",
       "latest_investment": 2651539760600,
       "latest_date": "2026-10-12",
@@ -11769,7 +11769,7 @@
       "name": "ohh#30348",
       "level": 90,
       "role": "Member",
-      "latest_investment": 1076869760600,
+      "latest_investment": 1110569760600,
       "latest_date": "2026-10-12",
       "investments": {
         "2026-08-18": 748287374500,
@@ -11827,7 +11827,7 @@
         "2026-10-09": 1076869760600,
         "2026-10-10": 1076869760600,
         "2026-10-11": 1076869760600,
-        "2026-10-12": 1076869760600
+        "2026-10-12": 1110569760600
       }
     },
     "6662850bdb4ed8b121ff7d3f": {
@@ -12559,7 +12559,7 @@
     },
     "67cbf03c10811ada75bcc519": {
       "name": "KMKim#54123",
-      "level": 75,
+      "level": 76,
       "role": "Member",
       "latest_investment": 90053138400,
       "latest_date": "2026-10-12",
@@ -12580,6 +12580,16 @@
       "investments": {
         "2026-10-11": 1908649760600,
         "2026-10-12": 1908649760600
+      }
+    },
+    "6acbde0b7f516128ab40f98e": {
+      "name": "Alex#8c2d4d5d",
+      "level": 9,
+      "role": "Member",
+      "latest_investment": 0,
+      "latest_date": "2026-10-12",
+      "investments": {
+        "2026-10-12": 0
       }
     }
   }
