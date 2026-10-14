@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-13T07:42:00Z",
+  "generated_at": "2026-10-14T01:09:22Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
       "name": "糖果派",
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
-      "snapshot_date": "2026-10-13",
-      "fetched_at": "2026-10-13T07:41:53.239679Z",
+      "snapshot_date": "2026-10-14",
+      "fetched_at": "2026-10-14T01:09:15.222222Z",
       "members": [
         {
           "id": "67d5bb413385dfdc68a03fa5",
@@ -60,7 +60,7 @@
         },
         {
           "id": "610ea8d3543845133b1ecb39",
-          "name": "扬帆起航#56945"
+          "name": "桃港杀手#4f4f5f2a"
         },
         {
           "id": "5e91f5b901f480122bbfa04e",
@@ -97,8 +97,8 @@
       "name": "hustle",
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
-      "snapshot_date": "2026-10-13",
-      "fetched_at": "2026-10-13T07:41:53.239679Z",
+      "snapshot_date": "2026-10-14",
+      "fetched_at": "2026-10-14T01:09:15.222222Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -183,8 +183,8 @@
       "name": "哈哈一笑",
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
-      "snapshot_date": "2026-10-13",
-      "fetched_at": "2026-10-13T07:41:53.239679Z",
+      "snapshot_date": "2026-10-14",
+      "fetched_at": "2026-10-14T01:09:15.222222Z",
       "members": [
         {
           "id": "69038d9816197a414e81e75d",
@@ -205,10 +205,6 @@
         {
           "id": "65d57855d5512807febfe668",
           "name": "苹果醋的orange#34414"
-        },
-        {
-          "id": "613739368dbef513389f1b53",
-          "name": "杰尼杰尼#91950"
         },
         {
           "id": "676a736bce382af81f72dc1b",
@@ -273,8 +269,8 @@
       "name": "希尔锐斯",
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
-      "snapshot_date": "2026-10-13",
-      "fetched_at": "2026-10-13T07:41:53.239679Z",
+      "snapshot_date": "2026-10-14",
+      "fetched_at": "2026-10-14T01:09:15.222222Z",
       "members": [
         {
           "id": "5e4029d4068d3a11713667de",
@@ -363,8 +359,8 @@
       "name": "白金瀚",
       "guild_id": "5f52ba6156ca5512986bd497",
       "guild_url": "https://www.titansdb.com/guilds/5f52ba6156ca5512986bd497",
-      "snapshot_date": "2026-10-13",
-      "fetched_at": "2026-10-13T07:41:53.239679Z",
+      "snapshot_date": "2026-10-14",
+      "fetched_at": "2026-10-14T01:09:15.222222Z",
       "members": [
         {
           "id": "65020028fdf2f830289239ba",
