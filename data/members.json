@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-14T01:09:22Z",
+  "generated_at": "2026-10-14T06:08:43Z",
   "dates": [
     "2026-06-12",
     "2026-06-13",
@@ -5324,7 +5324,7 @@
       }
     },
     "5e20a744c128d47f3c2caad7": {
-      "name": "猫猫玖子#16310",
+      "name": "Catnine#8e5d2f3a",
       "level": 299,
       "role": "Officer",
       "latest_investment": 5975497374600,
@@ -7301,7 +7301,7 @@
     },
     "5eb693952d9e80123ae02639": {
       "name": "Shan*_*FOX#42418",
-      "level": 60,
+      "level": 61,
       "role": "Officer",
       "latest_investment": 67865965900,
       "latest_date": "2026-10-14",
@@ -9825,7 +9825,7 @@
       "name": "苹果醋的orange#34414",
       "level": 99,
       "role": "Officer",
-      "latest_investment": 4579607374500,
+      "latest_investment": 4619407374500,
       "latest_date": "2026-10-14",
       "investments": {
         "2026-07-17": 4230307374500,
@@ -9917,7 +9917,7 @@
         "2026-10-11": 4569607374500,
         "2026-10-12": 4579607374500,
         "2026-10-13": 4579607374500,
-        "2026-10-14": 4579607374500
+        "2026-10-14": 4619407374500
       }
     },
     "62d96f5e5268ed12ec1fe02e": {
@@ -11392,7 +11392,7 @@
     },
     "67e3b0b4b8d24f85e39452f1": {
       "name": "大肥羊#86178",
-      "level": 183,
+      "level": 184,
       "role": "Officer",
       "latest_investment": 2651539760600,
       "latest_date": "2026-10-14",
@@ -11502,7 +11502,7 @@
     },
     "6173992eecb089132cd9e9d0": {
       "name": "bzzb#14631",
-      "level": 180,
+      "level": 181,
       "role": "Member",
       "latest_investment": 893479760600,
       "latest_date": "2026-10-14",
@@ -11790,7 +11790,7 @@
     },
     "60e8cdee887f801334abcd88": {
       "name": "小熊猫#88711",
-      "level": 72,
+      "level": 73,
       "role": "Member",
       "latest_investment": 10802517200,
       "latest_date": "2026-10-14",
