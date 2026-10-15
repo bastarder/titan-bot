@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T01:09:22Z",
+  "generated_at": "2026-10-15T05:54:06Z",
   "dates": [
     "2026-06-12",
     "2026-06-13",
@@ -3614,7 +3614,7 @@
     },
     "676a736bce382af81f72dc1b": {
       "name": "Zio#82433",
-      "level": 190,
+      "level": 191,
       "role": "Officer",
       "latest_investment": 2408500429100,
       "latest_date": "2026-10-15",
@@ -4964,7 +4964,7 @@
     "634f65c1c83c7012e5c2de13": {
       "name": "YuXin#50867",
       "level": 490,
-      "role": "Member",
+      "role": "Officer",
       "latest_investment": 7350889760600,
       "latest_date": "2026-10-15",
       "investments": {
@@ -7347,7 +7347,7 @@
       "name": "Shan*_*FOX#42418",
       "level": 61,
       "role": "Officer",
-      "latest_investment": 67865965900,
+      "latest_investment": 67865990900,
       "latest_date": "2026-10-15",
       "investments": {
         "2026-06-14": 13848511000,
@@ -7473,7 +7473,7 @@
         "2026-10-12": 67865965900,
         "2026-10-13": 67865965900,
         "2026-10-14": 67865965900,
-        "2026-10-15": 67865965900
+        "2026-10-15": 67865990900
       }
     },
     "620b4995245f6e12f3cd1b53": {
@@ -7613,7 +7613,7 @@
       "name": "MagicMirror#39146",
       "level": 61,
       "role": "Officer",
-      "latest_investment": 25374099600,
+      "latest_investment": 27916485700,
       "latest_date": "2026-10-15",
       "investments": {
         "2026-06-14": 7123913500,
@@ -7739,7 +7739,7 @@
         "2026-10-12": 25374099600,
         "2026-10-13": 25374099600,
         "2026-10-14": 25374099600,
-        "2026-10-15": 25374099600
+        "2026-10-15": 27916485700
       }
     },
     "5e6ef23469f6ee121b57912e": {
@@ -9484,7 +9484,7 @@
     "62ecc749ba78a812dfbead6d": {
       "name": "Loyce#13684",
       "level": 75,
-      "role": "Member",
+      "role": "Officer",
       "latest_investment": 12585289760600,
       "latest_date": "2026-10-15",
       "investments": {
@@ -10816,7 +10816,7 @@
     "5f80146dc089f11324f94c98": {
       "name": "少来这套#45622",
       "level": 195,
-      "role": "Member",
+      "role": "Officer",
       "latest_investment": 3184239760600,
       "latest_date": "2026-10-15",
       "investments": {
@@ -11301,7 +11301,7 @@
     },
     "62e0e8d3ba7ad412fb3a77b0": {
       "name": "奈斯兔咪兔呦#11202",
-      "level": 183,
+      "level": 184,
       "role": "Officer",
       "latest_investment": 5876889760600,
       "latest_date": "2026-10-15",
@@ -12734,7 +12734,7 @@
       "name": "凯尔希#65839",
       "level": 72,
       "role": "Member",
-      "latest_investment": 33439710600,
+      "latest_investment": 36573710600,
       "latest_date": "2026-10-15",
       "investments": {
         "2026-09-15": 14565574800,
@@ -12767,7 +12767,7 @@
         "2026-10-12": 31151510600,
         "2026-10-13": 32323210600,
         "2026-10-14": 32323210600,
-        "2026-10-15": 33439710600
+        "2026-10-15": 36573710600
       }
     },
     "625e120908c63312f0955d45": {
@@ -12894,11 +12894,11 @@
     "6a6798b7da603a577bf7026f": {
       "name": "Luca#48534",
       "level": 76,
-      "role": "Member",
-      "latest_investment": 196329760600,
+      "role": "Officer",
+      "latest_investment": 198333760600,
       "latest_date": "2026-10-15",
       "investments": {
-        "2026-10-15": 196329760600
+        "2026-10-15": 198333760600
       }
     }
   }
