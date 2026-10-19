@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T01:09:21Z",
+  "generated_at": "2026-10-19T06:12:26Z",
   "dates": [
     "2026-06-12",
     "2026-06-13",
@@ -531,7 +531,7 @@
     },
     "693ed9b774a10413800247c2": {
       "name": "Yumaru#4c7a1f1f",
-      "level": 396,
+      "level": 397,
       "role": "Officer",
       "latest_investment": 25778659760600,
       "latest_date": "2026-10-19",
@@ -2720,7 +2720,7 @@
       "name": "gzt2025#69645",
       "level": 298,
       "role": "Officer",
-      "latest_investment": 7799157374500,
+      "latest_investment": 7799257374500,
       "latest_date": "2026-10-19",
       "investments": {
         "2026-06-14": 7565857374500,
@@ -2850,7 +2850,7 @@
         "2026-10-16": 7799157374500,
         "2026-10-17": 7799157374500,
         "2026-10-18": 7799157374500,
-        "2026-10-19": 7799157374500
+        "2026-10-19": 7799257374500
       }
     },
     "676aba5f7ef1dd907019aafd": {
@@ -3260,7 +3260,7 @@
     },
     "5f85adadda264413232c50a1": {
       "name": "Ryan樂#20630",
-      "level": 277,
+      "level": 278,
       "role": "Member",
       "latest_investment": 5135789760600,
       "latest_date": "2026-10-19",
@@ -13057,7 +13057,7 @@
     },
     "610ea8d3543845133b1ecb39": {
       "name": "桃港杀手#4f4f5f2a",
-      "level": 177,
+      "level": 179,
       "role": "Member",
       "latest_investment": 5290721760600,
       "latest_date": "2026-10-19",
