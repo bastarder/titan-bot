@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T01:09:22Z",
+  "generated_at": "2026-10-20T06:00:14Z",
   "dates": [
     "2026-06-12",
     "2026-06-13",
@@ -3281,7 +3281,7 @@
     },
     "5f85adadda264413232c50a1": {
       "name": "Ryan樂#20630",
-      "level": 280,
+      "level": 281,
       "role": "Member",
       "latest_investment": 5135789760600,
       "latest_date": "2026-10-20",
@@ -5123,7 +5123,7 @@
     },
     "634f65c1c83c7012e5c2de13": {
       "name": "YuXin#50867",
-      "level": 491,
+      "level": 492,
       "role": "Officer",
       "latest_investment": 7350889760600,
       "latest_date": "2026-10-20",
@@ -5391,7 +5391,7 @@
     },
     "69038d9816197a414e81e75d": {
       "name": "叫我肝帝#60464",
-      "level": 372,
+      "level": 373,
       "role": "Officer",
       "latest_investment": 10355841760600,
       "latest_date": "2026-10-20",
@@ -6421,7 +6421,7 @@
     },
     "67895e8ff8e7888f18c69b6a": {
       "name": "Dreambig#70036",
-      "level": 99,
+      "level": 167,
       "role": "Officer",
       "latest_investment": 1345989760600,
       "latest_date": "2026-10-20",
@@ -9146,7 +9146,7 @@
     },
     "5e54a861dbca38116e43c409": {
       "name": "网恋骗他八万#66106",
-      "level": 187,
+      "level": 188,
       "role": "Officer",
       "latest_investment": 1925649760600,
       "latest_date": "2026-10-20",
@@ -13148,7 +13148,7 @@
     },
     "610ea8d3543845133b1ecb39": {
       "name": "桃港杀手#4f4f5f2a",
-      "level": 182,
+      "level": 183,
       "role": "Member",
       "latest_investment": 5290721760600,
       "latest_date": "2026-10-20",
@@ -13240,7 +13240,7 @@
       "name": "兽性大发小白兔#94789",
       "level": 80,
       "role": "Member",
-      "latest_investment": 200129760600,
+      "latest_investment": 202679760600,
       "latest_date": "2026-10-20",
       "investments": {
         "2026-10-01": 2911310600,
@@ -13262,7 +13262,7 @@
         "2026-10-17": 200129760600,
         "2026-10-18": 200129760600,
         "2026-10-19": 200129760600,
-        "2026-10-20": 200129760600
+        "2026-10-20": 202679760600
       }
     },
     "6abe38965e51fb95e317b019": {
