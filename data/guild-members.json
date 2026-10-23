@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-22T06:07:03Z",
+  "generated_at": "2026-10-23T01:09:23Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
       "name": "糖果派",
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
-      "snapshot_date": "2026-10-22",
-      "fetched_at": "2026-10-22T06:06:54.283343Z",
+      "snapshot_date": "2026-10-23",
+      "fetched_at": "2026-10-23T01:09:15.763917Z",
       "members": [
         {
           "id": "67d5bb413385dfdc68a03fa5",
@@ -79,6 +79,10 @@
           "name": "兽性大发小白兔#94789"
         },
         {
+          "id": "6a70c835a0a958eef2d84146",
+          "name": "凯尔希#65839"
+        },
+        {
           "id": "67cbf03c10811ada75bcc519",
           "name": "KMKim#54123"
         }
@@ -89,8 +93,8 @@
       "name": "hustle",
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
-      "snapshot_date": "2026-10-22",
-      "fetched_at": "2026-10-22T06:06:54.283343Z",
+      "snapshot_date": "2026-10-23",
+      "fetched_at": "2026-10-23T01:09:15.763917Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -175,8 +179,8 @@
       "name": "哈哈一笑",
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
-      "snapshot_date": "2026-10-22",
-      "fetched_at": "2026-10-22T06:06:54.283343Z",
+      "snapshot_date": "2026-10-23",
+      "fetched_at": "2026-10-23T01:09:15.763917Z",
       "members": [
         {
           "id": "62ecc749ba78a812dfbead6d",
@@ -247,12 +251,12 @@
           "name": "与世无争#30844"
         },
         {
-          "id": "678bd7492825800bc64dc323",
-          "name": "富可敌国的掌柜#83265"
-        },
-        {
           "id": "6a6798b7da603a577bf7026f",
           "name": "Luca#48534"
+        },
+        {
+          "id": "678bd7492825800bc64dc323",
+          "name": "富可敌国的掌柜#83265"
         },
         {
           "id": "6266409dba771812f21d0e01",
@@ -265,8 +269,8 @@
       "name": "希尔锐斯",
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
-      "snapshot_date": "2026-10-22",
-      "fetched_at": "2026-10-22T06:06:54.283343Z",
+      "snapshot_date": "2026-10-23",
+      "fetched_at": "2026-10-23T01:09:15.763917Z",
       "members": [
         {
           "id": "5e4029d4068d3a11713667de",
@@ -309,16 +313,16 @@
           "name": "不起名不行吗#10837"
         },
         {
+          "id": "677df27352cc2c42cd1d1b72",
+          "name": "怩秋之梦#21574"
+        },
+        {
           "id": "5e26bb7cc927fa1eaf2d7099",
           "name": "月亮之上#86402"
         },
         {
           "id": "6805fc5573e08ceb9c99e7f7",
           "name": "雾青丝#39731"
-        },
-        {
-          "id": "6a70c835a0a958eef2d84146",
-          "name": "凯尔希#65839"
         },
         {
           "id": "651013a9ff4424f0e6dec75e",
@@ -351,8 +355,8 @@
       "name": "白金瀚",
       "guild_id": "5f52ba6156ca5512986bd497",
       "guild_url": "https://www.titansdb.com/guilds/5f52ba6156ca5512986bd497",
-      "snapshot_date": "2026-10-22",
-      "fetched_at": "2026-10-22T06:06:54.283343Z",
+      "snapshot_date": "2026-10-23",
+      "fetched_at": "2026-10-23T01:09:15.763917Z",
       "members": [
         {
           "id": "65020028fdf2f830289239ba",
