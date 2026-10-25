@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24T05:52:57Z",
+  "generated_at": "2026-10-25T01:09:21Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
       "name": "糖果派",
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
-      "snapshot_date": "2026-10-24",
-      "fetched_at": "2026-10-24T05:52:51.147720Z",
+      "snapshot_date": "2026-10-25",
+      "fetched_at": "2026-10-25T01:09:14.215323Z",
       "members": [
         {
           "id": "67d5bb413385dfdc68a03fa5",
@@ -71,6 +71,10 @@
           "name": "阿尔茨海默症大王#23089"
         },
         {
+          "id": "68a584d818c83706dc91c585",
+          "name": "**Serendip**#91871"
+        },
+        {
           "id": "606cfed064a6c9132ddeb510",
           "name": "秦飘渺#76568"
         },
@@ -93,8 +97,8 @@
       "name": "hustle",
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
-      "snapshot_date": "2026-10-24",
-      "fetched_at": "2026-10-24T05:52:51.147720Z",
+      "snapshot_date": "2026-10-25",
+      "fetched_at": "2026-10-25T01:09:14.215323Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -111,10 +115,6 @@
         {
           "id": "60aba1939cd7b5132f3047dc",
           "name": "星痕锁碎#67115"
-        },
-        {
-          "id": "629dd0a685c2db12dcaaa906",
-          "name": "- 夜船听雪 -#41539"
         },
         {
           "id": "6110b8a9c82266132f80a053",
@@ -179,8 +179,8 @@
       "name": "哈哈一笑",
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
-      "snapshot_date": "2026-10-24",
-      "fetched_at": "2026-10-24T05:52:51.147720Z",
+      "snapshot_date": "2026-10-25",
+      "fetched_at": "2026-10-25T01:09:14.215323Z",
       "members": [
         {
           "id": "62ecc749ba78a812dfbead6d",
@@ -201,10 +201,6 @@
         {
           "id": "641708302b26fb1307c13759",
           "name": "大自然的恩赐#72909"
-        },
-        {
-          "id": "65d57855d5512807febfe668",
-          "name": "苹果醋的orange#34414"
         },
         {
           "id": "5f80146dc089f11324f94c98",
@@ -257,6 +253,14 @@
         {
           "id": "6266409dba771812f21d0e01",
           "name": "大西西#34289"
+        },
+        {
+          "id": "634f65c1c83c7012e5c2de13",
+          "name": "YuXin#50867"
+        },
+        {
+          "id": "629dd0a685c2db12dcaaa906",
+          "name": "- 夜船听雪 -#41539"
         }
       ]
     },
@@ -265,8 +269,8 @@
       "name": "希尔锐斯",
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
-      "snapshot_date": "2026-10-24",
-      "fetched_at": "2026-10-24T05:52:51.147720Z",
+      "snapshot_date": "2026-10-25",
+      "fetched_at": "2026-10-25T01:09:14.215323Z",
       "members": [
         {
           "id": "5e4029d4068d3a11713667de",
@@ -355,8 +359,8 @@
       "name": "白金瀚",
       "guild_id": "5f52ba6156ca5512986bd497",
       "guild_url": "https://www.titansdb.com/guilds/5f52ba6156ca5512986bd497",
-      "snapshot_date": "2026-10-24",
-      "fetched_at": "2026-10-24T05:52:51.147720Z",
+      "snapshot_date": "2026-10-25",
+      "fetched_at": "2026-10-25T01:09:14.215323Z",
       "members": [
         {
           "id": "65020028fdf2f830289239ba",
