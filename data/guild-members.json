@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T06:07:39Z",
+  "generated_at": "2026-10-26T01:09:23Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
       "name": "糖果派",
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
-      "snapshot_date": "2026-10-25",
-      "fetched_at": "2026-10-25T06:07:31.604966Z",
+      "snapshot_date": "2026-10-26",
+      "fetched_at": "2026-10-26T01:09:15.376066Z",
       "members": [
         {
           "id": "67d5bb413385dfdc68a03fa5",
@@ -71,10 +71,6 @@
           "name": "阿尔茨海默症大王#23089"
         },
         {
-          "id": "68a584d818c83706dc91c585",
-          "name": "**Serendip**#91871"
-        },
-        {
           "id": "606cfed064a6c9132ddeb510",
           "name": "秦飘渺#76568"
         },
@@ -97,8 +93,8 @@
       "name": "hustle",
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
-      "snapshot_date": "2026-10-25",
-      "fetched_at": "2026-10-25T06:07:31.604966Z",
+      "snapshot_date": "2026-10-26",
+      "fetched_at": "2026-10-26T01:09:15.376066Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -179,8 +175,8 @@
       "name": "哈哈一笑",
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
-      "snapshot_date": "2026-10-25",
-      "fetched_at": "2026-10-25T06:07:31.604966Z",
+      "snapshot_date": "2026-10-26",
+      "fetched_at": "2026-10-26T01:09:15.376066Z",
       "members": [
         {
           "id": "62ecc749ba78a812dfbead6d",
@@ -197,10 +193,6 @@
         {
           "id": "615803328299201331afbc15",
           "name": "玄 君#14309"
-        },
-        {
-          "id": "641708302b26fb1307c13759",
-          "name": "大自然的恩赐#72909"
         },
         {
           "id": "5f80146dc089f11324f94c98",
@@ -239,12 +231,12 @@
           "name": "某C#95469"
         },
         {
-          "id": "67e66128f0698da36bae02bf",
-          "name": "与世无争#30844"
-        },
-        {
           "id": "6a6798b7da603a577bf7026f",
           "name": "Luca#48534"
+        },
+        {
+          "id": "67e66128f0698da36bae02bf",
+          "name": "与世无争#30844"
         },
         {
           "id": "678bd7492825800bc64dc323",
@@ -261,6 +253,10 @@
         {
           "id": "629dd0a685c2db12dcaaa906",
           "name": "- 夜船听雪 -#41539"
+        },
+        {
+          "id": "68a584d818c83706dc91c585",
+          "name": "**Serendip**#91871"
         }
       ]
     },
@@ -269,12 +265,16 @@
       "name": "希尔锐斯",
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
-      "snapshot_date": "2026-10-25",
-      "fetched_at": "2026-10-25T06:07:31.604966Z",
+      "snapshot_date": "2026-10-26",
+      "fetched_at": "2026-10-26T01:09:15.376066Z",
       "members": [
         {
           "id": "5e4029d4068d3a11713667de",
           "name": "天凉好个秋#33444"
+        },
+        {
+          "id": "677df27352cc2c42cd1d1b72",
+          "name": "怩秋之梦#21574"
         },
         {
           "id": "61386713df8032132a79fccb",
@@ -313,10 +313,6 @@
           "name": "不起名不行吗#10837"
         },
         {
-          "id": "677df27352cc2c42cd1d1b72",
-          "name": "怩秋之梦#21574"
-        },
-        {
           "id": "5e26bb7cc927fa1eaf2d7099",
           "name": "月亮之上#86402"
         },
@@ -329,12 +325,12 @@
           "name": "帝国元首阿道夫#84057"
         },
         {
-          "id": "60e8cdee887f801334abcd88",
-          "name": "小熊猫#88711"
-        },
-        {
           "id": "6a7f42d85eebdd68365ba045",
           "name": "绿色鲨鱼#21882"
+        },
+        {
+          "id": "60e8cdee887f801334abcd88",
+          "name": "小熊猫#88711"
         },
         {
           "id": "6a50d9450be066f8a2868c89",
@@ -359,8 +355,8 @@
       "name": "白金瀚",
       "guild_id": "5f52ba6156ca5512986bd497",
       "guild_url": "https://www.titansdb.com/guilds/5f52ba6156ca5512986bd497",
-      "snapshot_date": "2026-10-25",
-      "fetched_at": "2026-10-25T06:07:31.604966Z",
+      "snapshot_date": "2026-10-26",
+      "fetched_at": "2026-10-26T01:09:15.376066Z",
       "members": [
         {
           "id": "65020028fdf2f830289239ba",
