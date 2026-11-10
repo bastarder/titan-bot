@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09T07:58:03Z",
+  "generated_at": "2026-11-10T01:09:19Z",
   "guilds": {
     "tangguopai": {
       "slug": "tangguopai",
       "name": "糖果派",
       "guild_id": "60bb3bd6b7b3871333bbde3c",
       "guild_url": "https://www.titansdb.com/guilds/60bb3bd6b7b3871333bbde3c",
-      "snapshot_date": "2026-11-09",
-      "fetched_at": "2026-11-09T07:57:56.982920Z",
+      "snapshot_date": "2026-11-10",
+      "fetched_at": "2026-11-10T01:09:13.460622Z",
       "members": [
         {
           "id": "67d5bb413385dfdc68a03fa5",
@@ -97,8 +97,8 @@
       "name": "hustle",
       "guild_id": "6776515e39261e91c1ab067a",
       "guild_url": "https://www.titansdb.com/guilds/6776515e39261e91c1ab067a",
-      "snapshot_date": "2026-11-09",
-      "fetched_at": "2026-11-09T07:57:56.982920Z",
+      "snapshot_date": "2026-11-10",
+      "fetched_at": "2026-11-10T01:09:13.460622Z",
       "members": [
         {
           "id": "67700a7565449b0e8a0d3e99",
@@ -111,10 +111,6 @@
         {
           "id": "676aba5f7ef1dd907019aafd",
           "name": "雨季墨叶#79559"
-        },
-        {
-          "id": "60aba1939cd7b5132f3047dc",
-          "name": "星痕锁碎#67115"
         },
         {
           "id": "6110b8a9c82266132f80a053",
@@ -177,6 +173,10 @@
           "name": "鵺鵼呀↗#93571"
         },
         {
+          "id": "63ae6b5c6b9afa12f871052a",
+          "name": "断鬼#86004"
+        },
+        {
           "id": "6ad632fc67fa9dda394bf3e3",
           "name": "小丢羔子#9b5c2e9c"
         }
@@ -187,8 +187,8 @@
       "name": "哈哈一笑",
       "guild_id": "5e2dc5cb5334081178683bf5",
       "guild_url": "https://www.titansdb.com/guilds/5e2dc5cb5334081178683bf5",
-      "snapshot_date": "2026-11-09",
-      "fetched_at": "2026-11-09T07:57:56.982920Z",
+      "snapshot_date": "2026-11-10",
+      "fetched_at": "2026-11-10T01:09:13.460622Z",
       "members": [
         {
           "id": "62ecc749ba78a812dfbead6d",
@@ -199,16 +199,16 @@
           "name": "叫我肝帝#60464"
         },
         {
-          "id": "633ffb752e699912f2645264",
-          "name": "Mark#72245"
-        },
-        {
           "id": "615803328299201331afbc15",
           "name": "玄 君#14309"
         },
         {
           "id": "634f65c1c83c7012e5c2de13",
           "name": "YuXin#50867"
+        },
+        {
+          "id": "692a94f43217c40dd0ea4fc4",
+          "name": "坂本直人#60387"
         },
         {
           "id": "5f80146dc089f11324f94c98",
@@ -231,8 +231,16 @@
           "name": "重生後請叫我大屌哥#28042"
         },
         {
+          "id": "68a584d818c83706dc91c585",
+          "name": "**Serendip**#91871"
+        },
+        {
           "id": "631860b44d16a713016b8c7e",
           "name": "果汁郎CC冻#16219"
+        },
+        {
+          "id": "5e50f23c8acd25121aebc27b",
+          "name": "南宫龙少#50274"
         },
         {
           "id": "6a6798b7da603a577bf7026f",
@@ -251,24 +259,16 @@
           "name": "富可敌国的掌柜#83265"
         },
         {
+          "id": "5e4cca0d5f11db116e2277fa",
+          "name": "空之物语#94703"
+        },
+        {
           "id": "6266409dba771812f21d0e01",
           "name": "大西西#34289"
         },
         {
           "id": "629dd0a685c2db12dcaaa906",
           "name": "- 夜船听雪 -#41539"
-        },
-        {
-          "id": "68a584d818c83706dc91c585",
-          "name": "**Serendip**#91871"
-        },
-        {
-          "id": "5e50f23c8acd25121aebc27b",
-          "name": "南宫龙少#50274"
-        },
-        {
-          "id": "5e4cca0d5f11db116e2277fa",
-          "name": "空之物语#94703"
         }
       ]
     },
@@ -277,8 +277,8 @@
       "name": "希尔锐斯",
       "guild_id": "6421160c7836d519149fa8c9",
       "guild_url": "https://www.titansdb.com/guilds/6421160c7836d519149fa8c9",
-      "snapshot_date": "2026-11-09",
-      "fetched_at": "2026-11-09T07:57:56.982920Z",
+      "snapshot_date": "2026-11-10",
+      "fetched_at": "2026-11-10T01:09:13.460622Z",
       "members": [
         {
           "id": "5e4029d4068d3a11713667de",
@@ -367,8 +367,8 @@
       "name": "白金瀚",
       "guild_id": "5f52ba6156ca5512986bd497",
       "guild_url": "https://www.titansdb.com/guilds/5f52ba6156ca5512986bd497",
-      "snapshot_date": "2026-11-09",
-      "fetched_at": "2026-11-09T07:57:56.982920Z",
+      "snapshot_date": "2026-11-10",
+      "fetched_at": "2026-11-10T01:09:13.460622Z",
       "members": [
         {
           "id": "65020028fdf2f830289239ba",
